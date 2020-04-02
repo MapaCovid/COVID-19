@@ -1,17 +1,17 @@
-,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_totales,recuperados_nuevos,recuperados_totales
-0,15,Arica y Parinacota,0,3,0,0,0,0
-1,1,Tarapaca,0,5,0,0,0,0
-2,2,Antofagasta,4,25,0,0,0,0
-3,3,Atacama,0,1,0,0,0,0
-4,4,Coquimbo,1,15,0,0,0,0
-5,5,Vaparaiso,22,71,0,0,0,0
-6,13,Metropolitana,146,1084,0,3,0,0
-7,6,Ohiggins,4,20,0,0,0,0
-8,7,Maule,5,37,0,0,0,0
-9,16,Nuble,28,172,0,0,0,0
-10,8,Biobio,16,151,0,2,0,0
-11,9,Araucania,34,177,1,1,0,0
-12,14,LosRios,5,27,0,0,0,0
-13,10,LosLagos,30,93,0,0,0,0
-14,11,Aysen,0,2,0,0,0,0
-15,12,Magallanes,4,26,0,0,0,0
+id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_totales,recuperados_nuevos,recuperados_totales
+15,Arica y Parinacota,0,3,0,0,0,0
+1,Tarapaca,0,5,0,0,0,0
+2,Antofagasta,4,25,0,0,0,0
+3,Atacama,0,1,0,0,0,0
+4,Coquimbo,1,15,0,0,0,0
+5,Vaparaiso,22,71,0,0,0,0
+13,Metropolitana,146,1084,0,3,0,0
+6,Ohiggins,4,20,0,0,0,0
+7,Maule,5,37,0,0,0,0
+16,Nuble,28,172,0,0,0,0
+8,Biobio,16,151,0,2,0,0
+9,Araucania,34,177,1,1,0,0
+14,LosRios,5,27,0,0,0,0
+10,LosLagos,30,93,0,0,0,0
+11,Aysen,0,2,0,0,0,0
+12,Magallanes,4,26,0,0,0,0

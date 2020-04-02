@@ -56,5 +56,8 @@ for fecha in rango_fechas_inverso(fecha_inicial-timedelta(1), fecha_final):
     informeHoy['fallecidos_nuevos']=(informeHoy.fallecidos_totales-informeAyer.fallecidos_totales)
     
     #actualizamos el CSV de Hoy
-    informeHoy.to_csv(path+stringHoy+formato_archivo)
+    informeHoy=informeHoy[['id_reg', 'nombre_reg', 'casos_nuevos', 'casos_totales',
+       'fallecidos_nuevos', 'fallecidos_totales', 'recuperados_nuevos',
+       'recuperados_totales']]
+    informeHoy.to_csv(path+stringHoy+formato_archivo, index=False)
     
