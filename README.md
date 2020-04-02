@@ -1,4 +1,5 @@
 # El Repositorio COVID-19 Chile
+# Necesitamos más entusiastas! Contáctanos!
 Somos entusiastas creando este repositorio para tener toda la información relativa al COVID-19 en Chile!
 
 ## ¿Cómo se estrucura?
