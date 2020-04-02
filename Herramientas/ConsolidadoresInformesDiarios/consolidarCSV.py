@@ -38,10 +38,8 @@ for i in allfiles:
         #Creamos el consolidado usando la fecha mas antigua
         df_consolidado=df_con_fecha.copy()
         
-        print('primero')
     else:
         #para todo el resto los unimos abajo
-        print('segundo')
         df_consolidado=df_consolidado.append(df_con_fecha)
         
     primero=False
@@ -90,20 +88,23 @@ for i in allfiles:
     # de 4 casos)
     
     df['casos_totales']=df.casos_totales.replace('-',0)
+    df['casos_totales']=df.casos_totales.fillna(0)
     df['casos_totales']=df.casos_totales.astype(int)
+    df['tasa']=df.tasa.fillna(0)
+    df['tasa']=df.tasa.astype(float)
+    df['poblacion']=df.poblacion.fillna(0)
     
     ##Ahora corregimos los datos de los casos totales.
     df['casos_totales']=(df.tasa*df.poblacion/100000).round(0).astype(int)
     
     if primero:
         #Creamos el consolidado usando la fecha mas antigua
-        df_consolidado=df_con_fecha.copy()
+        df_consolidado=df.copy()
         
         print('primero')
     else:
         #para todo el resto los unimos abajo
-        print('segundo')
-        df_consolidado=df_consolidado.append(df_con_fecha)
+        df_consolidado=df_consolidado.append(df)
         
     primero=False
 

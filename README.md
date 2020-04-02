@@ -19,3 +19,6 @@ Somos entusiastas creando este repositorio para tener toda la información relat
 	* recuperados_nuevos: (Por ahora no lo estamos usando)
 	* recuperados_totales: (Por ahora no lo estamos usando)
 
+## ¿Cómo puedo aportar?
+No es necesario saber git, puedes aportar trabajando con google docs, o subiendo nuevos informes! Escríbeme un mensaje al whatsapp +
+
