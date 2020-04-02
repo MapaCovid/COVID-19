@@ -2,6 +2,16 @@
 # Necesitamos más entusiastas! Contáctanos!
 Somos entusiastas creando este repositorio para tener toda la información relativa al COVID-19 en Chile!
 
+## ¿Cómo puedo aportar?
+Hay mucha información todavía que se puede incluír en este repositorio. Y muchas formas de analizar la información y sacar observaciones o conclusiones. Para eso necesitamos ayuda!
+Puedes desde ya clonar este git y proponer cambios! Pero si no 
+Si tienes dudas cómo aportar, métete al grupo de Whatsapp https://chat.whatsapp.com/CUBbQK40HTTBmFoLszaG5S
+También puedes escribirnos en:
+* Instagram instagram.com/yachay.data
+* Twitter https://twitter.com/YachayD
+* Facebook https://www.facebook.com/yachay.data/
+
+
 ## ¿Cómo se estrucura?
 
 * Raiz (./COVID-19)  - Estarán los datos en Series de Tiempos.
