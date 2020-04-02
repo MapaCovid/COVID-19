@@ -1,0 +1,1 @@
+Aquí, para cada informe PDF del minsal, se ponen los datos en CSV
