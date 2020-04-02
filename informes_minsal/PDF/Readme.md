@@ -7,3 +7,5 @@ A continuación, tenemos 3 categorías de informes del MINSAL
 
 *  /Informes-Departamento-Epidimiologia: Son los informes más detallados. En especial están detallados por comuna. Hasta ahora, los han liberado cada 2 días. Disponibles en https://www.gob.cl/coronavirus/cifrasoficiales/ y https://www.minsal.cl/segundo-informe-epidemiologico-covid-19/
 
+* /Reportes-Coronavirus-Resumidos: Un nuevo formato estrenado el 2 de Abril 2020. Reporte resumido. Sacado de https://www.gob.cl/coronavirus/cifrasoficiales/ 
+
