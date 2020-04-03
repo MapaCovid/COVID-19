@@ -22,12 +22,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-03,4,Coquimbo,0,0,0,0,0,0
 2020-03-03,5,Vaparaiso,0,0,0,0,0,0
 2020-03-03,13,Metropolitana,0,0,0,0,0,0
-2020-03-03,6,Ohiggins,0,0,0,0,0,0
+2020-03-03,6,OHiggins,0,0,0,0,0,0
 2020-03-03,7,Maule,1,1,0,0,0,0
 2020-03-03,16,Nuble,0,0,0,0,0,0
 2020-03-03,8,Biobio,0,0,0,0,0,0
 2020-03-03,9,Araucania,0,0,0,0,0,0
-2020-03-03,14,LosRios,0,0,0,0,0,0
+2020-03-03,14,Los Rios,0,0,0,0,0,0
 2020-03-03,10,LosLagos,0,0,0,0,0,0
 2020-03-03,11,Aysen,0,0,0,0,0,0
 2020-03-03,12,Magallanes,0,0,0,0,0,0
@@ -38,12 +38,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-04,4,Coquimbo,0,0,0,0,0,0
 2020-03-04,5,Vaparaiso,0,0,0,0,0,0
 2020-03-04,13,Metropolitana,1,1,0,0,0,0
-2020-03-04,6,Ohiggins,0,0,0,0,0,0
+2020-03-04,6,OHiggins,0,0,0,0,0,0
 2020-03-04,7,Maule,1,2,0,0,0,0
 2020-03-04,16,Nuble,0,0,0,0,0,0
 2020-03-04,8,Biobio,0,0,0,0,0,0
 2020-03-04,9,Araucania,0,0,0,0,0,0
-2020-03-04,14,LosRios,0,0,0,0,0,0
+2020-03-04,14,Los Rios,0,0,0,0,0,0
 2020-03-04,10,LosLagos,0,0,0,0,0,0
 2020-03-04,11,Aysen,0,0,0,0,0,0
 2020-03-04,12,Magallanes,0,0,0,0,0,0
@@ -54,12 +54,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-05,4,Coquimbo,0,0,0,0,0,0
 2020-03-05,5,Vaparaiso,0,0,0,0,0,0
 2020-03-05,13,Metropolitana,1,2,0,0,0,0
-2020-03-05,6,Ohiggins,0,0,0,0,0,0
+2020-03-05,6,OHiggins,0,0,0,0,0,0
 2020-03-05,7,Maule,0,2,0,0,0,0
 2020-03-05,16,Nuble,0,0,0,0,0,0
 2020-03-05,8,Biobio,0,0,0,0,0,0
 2020-03-05,9,Araucania,0,0,0,0,0,0
-2020-03-05,14,LosRios,0,0,0,0,0,0
+2020-03-05,14,Los Rios,0,0,0,0,0,0
 2020-03-05,10,LosLagos,0,0,0,0,0,0
 2020-03-05,11,Aysen,0,0,0,0,0,0
 2020-03-05,12,Magallanes,0,0,0,0,0,0
@@ -70,12 +70,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-06,4,Coquimbo,0,0,0,0,0,0
 2020-03-06,5,Vaparaiso,0,0,0,0,0,0
 2020-03-06,13,Metropolitana,1,3,0,0,0,0
-2020-03-06,6,Ohiggins,0,0,0,0,0,0
+2020-03-06,6,OHiggins,0,0,0,0,0,0
 2020-03-06,7,Maule,0,2,0,0,0,0
 2020-03-06,16,Nuble,0,0,0,0,0,0
 2020-03-06,8,Biobio,0,0,0,0,0,0
 2020-03-06,9,Araucania,0,0,0,0,0,0
-2020-03-06,14,LosRios,0,0,0,0,0,0
+2020-03-06,14,Los Rios,0,0,0,0,0,0
 2020-03-06,10,LosLagos,0,0,0,0,0,0
 2020-03-06,11,Aysen,0,0,0,0,0,0
 2020-03-06,12,Magallanes,0,0,0,0,0,0
@@ -86,12 +86,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-07,4,Coquimbo,0,0,0,0,0,0
 2020-03-07,5,Vaparaiso,0,0,0,0,0,0
 2020-03-07,13,Metropolitana,1,4,0,0,0,0
-2020-03-07,6,Ohiggins,0,0,0,0,0,0
+2020-03-07,6,OHiggins,0,0,0,0,0,0
 2020-03-07,7,Maule,0,2,0,0,0,0
 2020-03-07,16,Nuble,0,0,0,0,0,0
 2020-03-07,8,Biobio,0,0,0,0,0,0
 2020-03-07,9,Araucania,0,0,0,0,0,0
-2020-03-07,14,LosRios,0,0,0,0,0,0
+2020-03-07,14,Los Rios,0,0,0,0,0,0
 2020-03-07,10,LosLagos,1,1,0,0,0,0
 2020-03-07,11,Aysen,0,0,0,0,0,0
 2020-03-07,12,Magallanes,0,0,0,0,0,0
@@ -102,12 +102,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-08,4,Coquimbo,0,0,0,0,0,0
 2020-03-08,5,Vaparaiso,0,0,0,0,0,0
 2020-03-08,13,Metropolitana,2,6,0,0,0,0
-2020-03-08,6,Ohiggins,0,0,0,0,0,0
+2020-03-08,6,OHiggins,0,0,0,0,0,0
 2020-03-08,7,Maule,1,3,0,0,0,0
 2020-03-08,16,Nuble,0,0,0,0,0,0
 2020-03-08,8,Biobio,0,0,0,0,0,0
 2020-03-08,9,Araucania,0,0,0,0,0,0
-2020-03-08,14,LosRios,0,0,0,0,0,0
+2020-03-08,14,Los Rios,0,0,0,0,0,0
 2020-03-08,10,LosLagos,0,1,0,0,0,0
 2020-03-08,11,Aysen,0,0,0,0,0,0
 2020-03-08,12,Magallanes,0,0,0,0,0,0
@@ -118,12 +118,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-09,4,Coquimbo,0,0,0,0,0,0
 2020-03-09,5,Vaparaiso,0,0,0,0,0,0
 2020-03-09,13,Metropolitana,1,7,0,0,0,0
-2020-03-09,6,Ohiggins,0,0,0,0,0,0
+2020-03-09,6,OHiggins,0,0,0,0,0,0
 2020-03-09,7,Maule,1,4,0,0,0,0
 2020-03-09,16,Nuble,0,0,0,0,0,0
 2020-03-09,8,Biobio,1,1,0,0,0,0
 2020-03-09,9,Araucania,0,0,0,0,0,0
-2020-03-09,14,LosRios,0,0,0,0,0,0
+2020-03-09,14,Los Rios,0,0,0,0,0,0
 2020-03-09,10,LosLagos,0,1,0,0,0,0
 2020-03-09,11,Aysen,0,0,0,0,0,0
 2020-03-09,12,Magallanes,0,0,0,0,0,0
@@ -134,12 +134,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-10,4,Coquimbo,0,0,0,0,0,0
 2020-03-10,5,Vaparaiso,0,0,0,0,0,0
 2020-03-10,13,Metropolitana,3,10,0,0,0,0
-2020-03-10,6,Ohiggins,0,0,0,0,0,0
+2020-03-10,6,OHiggins,0,0,0,0,0,0
 2020-03-10,7,Maule,1,5,0,0,0,0
 2020-03-10,16,Nuble,0,0,0,0,0,0
 2020-03-10,8,Biobio,0,1,0,0,0,0
 2020-03-10,9,Araucania,0,0,0,0,0,0
-2020-03-10,14,LosRios,0,0,0,0,0,0
+2020-03-10,14,Los Rios,0,0,0,0,0,0
 2020-03-10,10,LosLagos,0,1,0,0,0,0
 2020-03-10,11,Aysen,0,0,0,0,0,0
 2020-03-10,12,Magallanes,0,0,0,0,0,0
@@ -150,12 +150,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-11,4,Coquimbo,0,0,0,0,0,0
 2020-03-11,5,Vaparaiso,0,0,0,0,0,0
 2020-03-11,13,Metropolitana,4,14,0,0,0,0
-2020-03-11,6,Ohiggins,0,0,0,0,0,0
+2020-03-11,6,OHiggins,0,0,0,0,0,0
 2020-03-11,7,Maule,2,7,0,0,0,0
 2020-03-11,16,Nuble,0,0,0,0,0,0
 2020-03-11,8,Biobio,0,1,0,0,0,0
 2020-03-11,9,Araucania,0,0,0,0,0,0
-2020-03-11,14,LosRios,0,0,0,0,0,0
+2020-03-11,14,Los Rios,0,0,0,0,0,0
 2020-03-11,10,LosLagos,0,1,0,0,0,0
 2020-03-11,11,Aysen,0,0,0,0,0,0
 2020-03-11,12,Magallanes,0,0,0,0,0,0
@@ -166,12 +166,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-12,4,Coquimbo,0,0,0,0,0,0
 2020-03-12,5,Vaparaiso,0,0,0,0,0,0
 2020-03-12,13,Metropolitana,9,23,0,0,0,0
-2020-03-12,6,Ohiggins,0,0,0,0,0,0
+2020-03-12,6,OHiggins,0,0,0,0,0,0
 2020-03-12,7,Maule,0,7,0,0,0,0
 2020-03-12,16,Nuble,1,1,0,0,0,0
 2020-03-12,8,Biobio,0,1,0,0,0,0
 2020-03-12,9,Araucania,0,0,0,0,0,0
-2020-03-12,14,LosRios,0,0,0,0,0,0
+2020-03-12,14,Los Rios,0,0,0,0,0,0
 2020-03-12,10,LosLagos,0,1,0,0,0,0
 2020-03-12,11,Aysen,0,0,0,0,0,0
 2020-03-12,12,Magallanes,0,0,0,0,0,0
@@ -182,12 +182,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-13,4,Coquimbo,0,0,0,0,0,0
 2020-03-13,5,Vaparaiso,0,0,0,0,0,0
 2020-03-13,13,Metropolitana,6,29,0,0,0,0
-2020-03-13,6,Ohiggins,0,0,0,0,0,0
+2020-03-13,6,OHiggins,0,0,0,0,0,0
 2020-03-13,7,Maule,1,8,0,0,0,0
 2020-03-13,16,Nuble,1,2,0,0,0,0
 2020-03-13,8,Biobio,2,3,0,0,0,0
 2020-03-13,9,Araucania,0,0,0,0,0,0
-2020-03-13,14,LosRios,0,0,0,0,0,0
+2020-03-13,14,Los Rios,0,0,0,0,0,0
 2020-03-13,10,LosLagos,0,1,0,0,0,0
 2020-03-13,11,Aysen,0,0,0,0,0,0
 2020-03-13,12,Magallanes,0,0,0,0,0,0
@@ -198,12 +198,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-14,4,Coquimbo,0,0,0,0,0,0
 2020-03-14,5,Vaparaiso,0,0,0,0,0,0
 2020-03-14,13,Metropolitana,11,40,0,0,0,0
-2020-03-14,6,Ohiggins,0,0,0,0,0,0
+2020-03-14,6,OHiggins,0,0,0,0,0,0
 2020-03-14,7,Maule,1,9,0,0,0,0
 2020-03-14,16,Nuble,2,4,0,0,0,0
 2020-03-14,8,Biobio,0,3,0,0,0,0
 2020-03-14,9,Araucania,0,0,0,0,0,0
-2020-03-14,14,LosRios,0,0,0,0,0,0
+2020-03-14,14,Los Rios,0,0,0,0,0,0
 2020-03-14,10,LosLagos,0,1,0,0,0,0
 2020-03-14,11,Aysen,1,1,0,0,0,0
 2020-03-14,12,Magallanes,0,0,0,0,0,0
@@ -214,12 +214,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-15,4,Coquimbo,0,0,0,0,0,0
 2020-03-15,5,Vaparaiso,0,0,0,0,0,0
 2020-03-15,13,Metropolitana,14,54,0,0,0,0
-2020-03-15,6,Ohiggins,0,0,0,0,0,0
+2020-03-15,6,OHiggins,0,0,0,0,0,0
 2020-03-15,7,Maule,0,9,0,0,0,0
 2020-03-15,16,Nuble,0,4,0,0,0,0
 2020-03-15,8,Biobio,0,3,0,0,0,0
 2020-03-15,9,Araucania,0,0,0,0,0,0
-2020-03-15,14,LosRios,0,0,0,0,0,0
+2020-03-15,14,Los Rios,0,0,0,0,0,0
 2020-03-15,10,LosLagos,0,1,0,0,0,0
 2020-03-15,11,Aysen,0,1,0,0,0,0
 2020-03-15,12,Magallanes,0,0,0,0,0,0
@@ -230,12 +230,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-16,4,Coquimbo,0,0,0,0,0,0
 2020-03-16,5,Vaparaiso,1,1,0,0,0,0
 2020-03-16,13,Metropolitana,69,123,0,0,0,0
-2020-03-16,6,Ohiggins,0,0,0,0,0,0
+2020-03-16,6,OHiggins,0,0,0,0,0,0
 2020-03-16,7,Maule,0,9,0,0,0,0
 2020-03-16,16,Nuble,8,12,0,0,0,0
 2020-03-16,8,Biobio,1,4,0,0,0,0
 2020-03-16,9,Araucania,1,1,0,0,0,0
-2020-03-16,14,LosRios,1,1,0,0,0,0
+2020-03-16,14,Los Rios,1,1,0,0,0,0
 2020-03-16,10,LosLagos,0,1,0,0,0,0
 2020-03-16,11,Aysen,0,1,0,0,0,0
 2020-03-16,12,Magallanes,0,0,0,0,0,0
@@ -246,12 +246,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-17,4,Coquimbo,0,0,0,0,0,0
 2020-03-17,5,Vaparaiso,0,1,0,0,0,0
 2020-03-17,13,Metropolitana,29,152,0,0,0,0
-2020-03-17,6,Ohiggins,0,0,0,0,0,0
+2020-03-17,6,OHiggins,0,0,0,0,0,0
 2020-03-17,7,Maule,0,9,0,0,0,0
 2020-03-17,16,Nuble,14,26,0,0,0,0
 2020-03-17,8,Biobio,0,4,0,0,0,0
 2020-03-17,9,Araucania,0,1,0,0,0,0
-2020-03-17,14,LosRios,0,1,0,0,0,0
+2020-03-17,14,Los Rios,0,1,0,0,0,0
 2020-03-17,10,LosLagos,0,1,0,0,0,0
 2020-03-17,11,Aysen,0,1,0,0,0,0
 2020-03-17,12,Magallanes,2,2,0,0,0,0
@@ -262,12 +262,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-18,4,Coquimbo,0,0,0,0,0,0
 2020-03-18,5,Vaparaiso,0,1,0,0,0,0
 2020-03-18,13,Metropolitana,22,174,0,0,0,0
-2020-03-18,6,Ohiggins,0,0,0,0,0,0
+2020-03-18,6,OHiggins,0,0,0,0,0,0
 2020-03-18,7,Maule,2,11,0,0,0,0
 2020-03-18,16,Nuble,0,26,0,0,0,0
 2020-03-18,8,Biobio,3,7,0,0,0,0
 2020-03-18,9,Araucania,3,4,0,0,0,0
-2020-03-18,14,LosRios,0,1,0,0,0,0
+2020-03-18,14,Los Rios,0,1,0,0,0,0
 2020-03-18,10,LosLagos,7,8,0,0,0,0
 2020-03-18,11,Aysen,0,1,0,0,0,0
 2020-03-18,12,Magallanes,0,2,0,0,0,0
@@ -278,12 +278,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-19,4,Coquimbo,2,2,0,0,0,0
 2020-03-19,5,Vaparaiso,3,4,0,0,0,0
 2020-03-19,13,Metropolitana,73,247,0,0,0,0
-2020-03-19,6,Ohiggins,2,2,0,0,0,0
+2020-03-19,6,OHiggins,2,2,0,0,0,0
 2020-03-19,7,Maule,3,14,0,0,0,0
 2020-03-19,16,Nuble,2,28,0,0,0,0
 2020-03-19,8,Biobio,7,14,0,0,0,0
 2020-03-19,9,Araucania,3,7,0,0,0,0
-2020-03-19,14,LosRios,0,1,0,0,0,0
+2020-03-19,14,Los Rios,0,1,0,0,0,0
 2020-03-19,10,LosLagos,8,16,0,0,0,0
 2020-03-19,11,Aysen,0,1,0,0,0,0
 2020-03-19,12,Magallanes,0,2,0,0,0,0
@@ -294,12 +294,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-20,4,Coquimbo,1,3,0,0,0,0
 2020-03-20,5,Vaparaiso,1,5,0,0,0,0
 2020-03-20,13,Metropolitana,57,304,0,0,0,0
-2020-03-20,6,Ohiggins,4,6,0,0,0,0
+2020-03-20,6,OHiggins,4,6,0,0,0,0
 2020-03-20,7,Maule,0,14,0,0,0,0
 2020-03-20,16,Nuble,16,44,0,0,0,0
 2020-03-20,8,Biobio,5,19,0,0,0,0
 2020-03-20,9,Araucania,2,9,0,0,0,0
-2020-03-20,14,LosRios,0,1,0,0,0,0
+2020-03-20,14,Los Rios,0,1,0,0,0,0
 2020-03-20,10,LosLagos,2,18,0,0,0,0
 2020-03-20,11,Aysen,0,1,0,0,0,0
 2020-03-20,12,Magallanes,0,2,0,0,0,0
@@ -310,12 +310,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-21,4,Coquimbo,0,3,0,0,0,0
 2020-03-21,5,Vaparaiso,8,13,0,0,0,0
 2020-03-21,13,Metropolitana,55,359,0,0,0,0
-2020-03-21,6,Ohiggins,1,7,0,0,0,0
+2020-03-21,6,OHiggins,1,7,0,0,0,0
 2020-03-21,7,Maule,1,15,0,0,0,0
 2020-03-21,16,Nuble,14,58,0,0,0,0
 2020-03-21,8,Biobio,11,30,0,0,0,0
 2020-03-21,9,Araucania,6,15,0,0,0,0
-2020-03-21,14,LosRios,0,1,0,0,0,0
+2020-03-21,14,Los Rios,0,1,0,0,0,0
 2020-03-21,10,LosLagos,2,20,0,0,0,0
 2020-03-21,11,Aysen,0,1,0,0,0,0
 2020-03-21,12,Magallanes,1,3,0,0,0,0
@@ -326,12 +326,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-22,4,Coquimbo,2,5,0,0,0,0
 2020-03-22,5,Vaparaiso,3,16,0,0,0,0
 2020-03-22,13,Metropolitana,50,409,0,0,0,0
-2020-03-22,6,Ohiggins,1,8,0,0,0,0
+2020-03-22,6,OHiggins,1,8,0,0,0,0
 2020-03-22,7,Maule,10,25,0,0,0,0
 2020-03-22,16,Nuble,6,64,0,0,0,0
 2020-03-22,8,Biobio,5,35,0,0,0,0
 2020-03-22,9,Araucania,12,27,0,0,0,0
-2020-03-22,14,LosRios,0,1,0,0,0,0
+2020-03-22,14,Los Rios,0,1,0,0,0,0
 2020-03-22,10,LosLagos,3,23,0,0,0,0
 2020-03-22,11,Aysen,0,1,0,0,0,0
 2020-03-22,12,Magallanes,1,4,0,0,0,0
@@ -342,12 +342,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-23,4,Coquimbo,1,6,0,0,0,0
 2020-03-23,5,Vaparaiso,3,19,0,0,0,0
 2020-03-23,13,Metropolitana,50,459,0,0,0,0
-2020-03-23,6,Ohiggins,0,8,0,0,0,0
+2020-03-23,6,OHiggins,0,8,0,0,0,0
 2020-03-23,7,Maule,3,28,0,0,0,0
 2020-03-23,16,Nuble,17,81,0,0,0,0
 2020-03-23,8,Biobio,11,46,0,0,0,0
 2020-03-23,9,Araucania,13,40,0,0,0,0
-2020-03-23,14,LosRios,3,4,0,0,0,0
+2020-03-23,14,Los Rios,3,4,0,0,0,0
 2020-03-23,10,LosLagos,10,33,0,0,0,0
 2020-03-23,11,Aysen,0,1,0,0,0,0
 2020-03-23,12,Magallanes,2,6,0,0,0,0
@@ -358,12 +358,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-24,4,Coquimbo,5,11,0,0,0,0
 2020-03-24,5,Vaparaiso,6,25,0,0,0,0
 2020-03-24,13,Metropolitana,81,540,0,0,0,0
-2020-03-24,6,Ohiggins,1,9,0,0,0,0
+2020-03-24,6,OHiggins,1,9,0,0,0,0
 2020-03-24,7,Maule,1,29,0,0,0,0
 2020-03-24,16,Nuble,24,105,0,0,0,0
 2020-03-24,8,Biobio,27,73,0,0,0,0
 2020-03-24,9,Araucania,19,59,0,0,0,0
-2020-03-24,14,LosRios,2,6,0,0,0,0
+2020-03-24,14,Los Rios,2,6,0,0,0,0
 2020-03-24,10,LosLagos,3,36,0,0,0,0
 2020-03-24,11,Aysen,0,1,0,0,0,0
 2020-03-24,12,Magallanes,2,8,0,0,0,0
@@ -374,12 +374,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-25,4,Coquimbo,1,12,0,0,0,0
 2020-03-25,5,Vaparaiso,7,32,0,0,0,0
 2020-03-25,13,Metropolitana,142,682,2,2,0,0
-2020-03-25,6,Ohiggins,2,11,0,0,0,0
+2020-03-25,6,OHiggins,2,11,0,0,0,0
 2020-03-25,7,Maule,1,30,0,0,0,0
 2020-03-25,16,Nuble,6,111,0,0,0,0
 2020-03-25,8,Biobio,22,95,1,1,0,0
 2020-03-25,9,Araucania,15,74,0,0,0,0
-2020-03-25,14,LosRios,5,11,0,0,0,0
+2020-03-25,14,Los Rios,5,11,0,0,0,0
 2020-03-25,10,LosLagos,8,44,0,0,0,0
 2020-03-25,11,Aysen,0,1,0,0,0,0
 2020-03-25,12,Magallanes,5,13,0,0,0,0
@@ -390,12 +390,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-26,4,Coquimbo,1,13,0,0,0,0
 2020-03-26,5,Vaparaiso,12,44,0,0,0,0
 2020-03-26,13,Metropolitana,64,746,1,3,0,0
-2020-03-26,6,Ohiggins,3,14,0,0,0,0
+2020-03-26,6,OHiggins,3,14,0,0,0,0
 2020-03-26,7,Maule,1,31,0,0,0,0
 2020-03-26,16,Nuble,3,114,0,0,0,0
 2020-03-26,8,Biobio,14,109,0,1,0,0
 2020-03-26,9,Araucania,37,111,0,0,0,0
-2020-03-26,14,LosRios,3,14,0,0,0,0
+2020-03-26,14,Los Rios,3,14,0,0,0,0
 2020-03-26,10,LosLagos,16,60,0,0,0,0
 2020-03-26,11,Aysen,1,2,0,0,0,0
 2020-03-26,12,Magallanes,6,19,0,0,0,0
@@ -406,12 +406,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-27,4,Coquimbo,1,14,0,0,0,0
 2020-03-27,5,Vaparaiso,5,49,0,0,0,0
 2020-03-27,13,Metropolitana,192,938,0,3,0,0
-2020-03-27,6,Ohiggins,2,16,0,0,0,0
+2020-03-27,6,OHiggins,2,16,0,0,0,0
 2020-03-27,7,Maule,1,32,0,0,0,0
 2020-03-27,16,Nuble,30,144,0,0,0,0
 2020-03-27,8,Biobio,26,135,1,2,0,0
 2020-03-27,9,Araucania,32,143,0,0,0,0
-2020-03-27,14,LosRios,8,22,0,0,0,0
+2020-03-27,14,Los Rios,8,22,0,0,0,0
 2020-03-27,10,LosLagos,3,63,0,0,0,0
 2020-03-27,11,Aysen,0,2,0,0,0,0
 2020-03-27,12,Magallanes,3,22,0,0,0,0
@@ -422,12 +422,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-28,4,Coquimbo,1,15,0,0,0,0
 2020-03-28,5,Vaparaiso,22,71,0,0,0,0
 2020-03-28,13,Metropolitana,146,1084,0,3,0,0
-2020-03-28,6,Ohiggins,4,20,0,0,0,0
+2020-03-28,6,OHiggins,4,20,0,0,0,0
 2020-03-28,7,Maule,5,37,0,0,0,0
 2020-03-28,16,Nuble,28,172,0,0,0,0
 2020-03-28,8,Biobio,16,151,0,2,0,0
 2020-03-28,9,Araucania,34,177,1,1,0,0
-2020-03-28,14,LosRios,5,27,0,0,0,0
+2020-03-28,14,Los Rios,5,27,0,0,0,0
 2020-03-28,10,LosLagos,30,93,0,0,0,0
 2020-03-28,11,Aysen,0,2,0,0,0,0
 2020-03-28,12,Magallanes,4,26,0,0,0,0
@@ -438,12 +438,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-29,4,Coquimbo,3,18,0,0,0,0
 2020-03-29,5,Vaparaiso,9,80,0,0,0,0
 2020-03-29,13,Metropolitana,83,1167,0,3,0,0
-2020-03-29,6,Ohiggins,1,21,0,0,0,0
+2020-03-29,6,OHiggins,1,21,0,0,0,0
 2020-03-29,7,Maule,5,42,0,0,0,0
 2020-03-29,16,Nuble,25,197,0,0,0,0
 2020-03-29,8,Biobio,34,185,0,2,0,0
 2020-03-29,9,Araucania,28,205,1,2,0,0
-2020-03-29,14,LosRios,13,40,0,0,0,0
+2020-03-29,14,Los Rios,13,40,0,0,0,0
 2020-03-29,10,LosLagos,11,104,0,0,0,0
 2020-03-29,11,Aysen,0,2,0,0,0,0
 2020-03-29,12,Magallanes,13,39,0,0,0,0
@@ -454,12 +454,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-30,4,Coquimbo,9,27,0,0,0,0
 2020-03-30,5,Vaparaiso,28,108,0,0,0,0
 2020-03-30,13,Metropolitana,128,1295,0,3,0,0
-2020-03-30,6,Ohiggins,0,21,0,0,0,0
+2020-03-30,6,OHiggins,0,21,0,0,0,0
 2020-03-30,7,Maule,12,54,1,1,0,0
 2020-03-30,16,Nuble,32,229,0,0,0,0
 2020-03-30,8,Biobio,16,201,0,2,0,0
 2020-03-30,9,Araucania,42,247,0,2,0,0
-2020-03-30,14,LosRios,7,47,0,0,0,0
+2020-03-30,14,Los Rios,7,47,0,0,0,0
 2020-03-30,10,LosLagos,24,128,0,0,0,0
 2020-03-30,11,Aysen,0,2,0,0,0,0
 2020-03-30,12,Magallanes,0,39,0,0,0,0
@@ -470,12 +470,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-03-31,4,Coquimbo,1,28,0,0,0,0
 2020-03-31,5,Vaparaiso,7,115,1,1,0,0
 2020-03-31,13,Metropolitana,125,1420,1,4,0,0
-2020-03-31,6,Ohiggins,2,23,0,0,0,0
+2020-03-31,6,OHiggins,2,23,0,0,0,0
 2020-03-31,7,Maule,8,62,0,1,0,0
 2020-03-31,16,Nuble,16,245,0,0,0,0
 2020-03-31,8,Biobio,15,216,0,2,0,0
 2020-03-31,9,Araucania,55,302,2,4,0,0
-2020-03-31,14,LosRios,11,58,0,0,0,0
+2020-03-31,14,Los Rios,11,58,0,0,0,0
 2020-03-31,10,LosLagos,23,151,0,0,0,0
 2020-03-31,11,Aysen,0,2,0,0,0,0
 2020-03-31,12,Magallanes,24,63,0,0,0,0
@@ -486,12 +486,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-04-01,4,Coquimbo,2,30,0,0,0,0
 2020-04-01,5,Vaparaiso,21,136,0,1,0,0
 2020-04-01,13,Metropolitana,101,1521,1,5,0,0
-2020-04-01,6,Ohiggins,3,26,0,0,0,0
+2020-04-01,6,OHiggins,3,26,0,0,0,0
 2020-04-01,7,Maule,9,71,0,1,0,0
 2020-04-01,16,Nuble,14,259,0,0,0,0
 2020-04-01,8,Biobio,24,240,0,2,0,0
 2020-04-01,9,Araucania,41,343,2,6,0,0
-2020-04-01,14,LosRios,6,64,1,1,0,0
+2020-04-01,14,Los Rios,6,64,1,1,0,0
 2020-04-01,10,LosLagos,30,181,0,0,0,0
 2020-04-01,11,Aysen,1,3,0,0,0,0
 2020-04-01,12,Magallanes,36,99,0,0,0,0
@@ -502,12 +502,12 @@ fecha,id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_
 2020-04-02,4,Coquimbo,4,34,0,0,0,0
 2020-04-02,5,Vaparaiso,20,156,0,1,0,0
 2020-04-02,13,Metropolitana,115,1636,1,6,0,0
-2020-04-02,6,Ohiggins,6,32,0,0,0,0
+2020-04-02,6,OHiggins,6,32,0,0,0,0
 2020-04-02,7,Maule,11,82,0,1,0,0
 2020-04-02,16,Nuble,82,341,0,0,0,0
 2020-04-02,8,Biobio,35,275,0,2,0,0
 2020-04-02,9,Araucania,46,389,1,7,0,0
-2020-04-02,14,LosRios,4,68,0,1,0,0
+2020-04-02,14,Los Rios,4,68,0,1,0,0
 2020-04-02,10,LosLagos,22,203,0,0,0,0
 2020-04-02,11,Aysen,2,5,0,0,0,0
 2020-04-02,12,Magallanes,15,114,0,0,0,0
