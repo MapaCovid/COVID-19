@@ -46,7 +46,29 @@ for i in allfiles:
 
 ### guardamos el archivo
         
-df_consolidado.to_csv(pathExport+'COVID19_Chile_Region.CSV', index=False)
+df_consolidado.to_csv(pathExport+'Consolidado_COVID19_Chile_Regiones.CSV', index=False)
+
+
+##########
+# Ahora que tenemos el consolidado por Regiones, las vamos a pivotear para sacar
+# informes para cada uno de los datos.
+
+
+
+##casos_nuevos
+exportColumns=['casos_nuevos',
+               'casos_totales',
+               'fallecidos_nuevos',
+               'fallecidos_totales',
+               'recuperados_nuevos',
+               'recuperados_totales']
+for columna in exportColumns:
+    pivot_casos_totales= df_consolidado.pivot_table(index=['id_reg','nombre_reg'],
+         columns='fecha',
+         values=columna)
+    pivot_casos_totales.to_csv(pathExport+'COVID19_Chile_Regiones-'+columna+'.CSV')
+
+
 
 
 
@@ -110,4 +132,21 @@ for i in allfiles:
 
 ### guardamos el archivo
         
-df_consolidado.to_csv(pathExport+'COVID19_Chile_Comunas.CSV', index=False)
+df_consolidado.to_csv(pathExport+'Consolidado_COVID19_Chile_Comunas.CSV', index=False)
+
+
+
+##casos_nuevos
+exportColumns=['casos_totales',
+               'tasa']
+for columna in exportColumns:
+    pivot_casos_totales= df_consolidado.pivot_table(index=['id_region', 'nombre_region', 'id_comuna', 'nombre_comuna'],
+         columns='fecha',
+         values=columna)
+    pivot_casos_totales.to_csv(pathExport+'COVID19_Chile_Comunas-'+columna+'.CSV')
+
+
+
+
+
+
