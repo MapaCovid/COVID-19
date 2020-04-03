@@ -1,3 +1,350 @@
-,,,
-fecha,,,
-id_region,nombre_region,id_comuna,nombre_comuna
+id_region,nombre_region,id_comuna,nombre_comuna,2020-03-30,2020-04-01
+1,Tarapaca,0.0,Alto Hospicio,0.0,0.8
+1,Tarapaca,0.0,Camiña,0.0,0.0
+1,Tarapaca,0.0,Colchane,0.0,0.0
+1,Tarapaca,0.0,Huara,0.0,0.0
+1,Tarapaca,0.0,Iquique,2.2,2.2
+1,Tarapaca,0.0,Pica,0.0,0.0
+1,Tarapaca,0.0,Pozo Almonte,0.0,0.0
+2,Antofagasta,0.0,Antofagasta,6.8,7.5
+2,Antofagasta,0.0,Calama,1.6,1.6
+2,Antofagasta,0.0,María Elena,0.0,0.0
+2,Antofagasta,0.0,Mejillones,0.0,0.0
+2,Antofagasta,0.0,Ollagüe,0.0,0.0
+2,Antofagasta,0.0,San Pedro de Atacama,9.6,19.2
+2,Antofagasta,0.0,Sierra Gorda,0.0,0.0
+2,Antofagasta,0.0,Taltal,0.0,0.0
+2,Antofagasta,0.0,Tocopilla,7.1,7.1
+3,Atacama,0.0,Alto del Carmen,0.0,0.0
+3,Atacama,0.0,Caldera,0.0,0.0
+3,Atacama,0.0,Chañaral,0.0,0.0
+3,Atacama,0.0,Copiapó,0.6,1.2
+3,Atacama,0.0,Diego de Almagro,7.0,7.0
+3,Atacama,0.0,Freirina,0.0,0.0
+3,Atacama,0.0,Huasco,0.0,0.0
+3,Atacama,0.0,Tierra Amarilla,0.0,0.0
+3,Atacama,0.0,Vallenar,0.0,0.0
+4,Coquimbo,0.0,Andacollo,0.0,0.0
+4,Coquimbo,0.0,Canela,0.0,0.0
+4,Coquimbo,0.0,Combarbalá,0.0,0.0
+4,Coquimbo,0.0,Coquimbo,6.6,7.4
+4,Coquimbo,0.0,Illapel,0.0,0.0
+4,Coquimbo,0.0,La Higuera,0.0,0.0
+4,Coquimbo,0.0,La Serena,0.8,1.2
+4,Coquimbo,0.0,Los Vilos,4.3,4.3
+4,Coquimbo,0.0,Monte Patria,0.0,0.0
+4,Coquimbo,0.0,Ovalle,3.3,3.3
+4,Coquimbo,0.0,Paiguano,0.0,0.0
+4,Coquimbo,0.0,Punitaqui,0.0,0.0
+4,Coquimbo,0.0,Río Hurtado,22.9,22.9
+4,Coquimbo,0.0,Salamanca,6.9,6.9
+4,Coquimbo,0.0,Vicuña,0.0,0.0
+5,Valparaiso,0.0,Algarrobo,46.1,46.1
+5,Valparaiso,0.0,Cabildo,0.0,0.0
+5,Valparaiso,0.0,Calera,11.2,11.2
+5,Valparaiso,0.0,Calle Larga,0.0,0.0
+5,Valparaiso,0.0,Cartagena,0.0,0.0
+5,Valparaiso,0.0,Casablanca,3.4,3.4
+5,Valparaiso,0.0,Catemu,0.0,0.0
+5,Valparaiso,0.0,Concón,2.2,2.2
+5,Valparaiso,0.0,El Quisco,0.0,0.0
+5,Valparaiso,0.0,El Tabo,7.0,7.0
+5,Valparaiso,0.0,Hijuelas,0.0,0.0
+5,Valparaiso,0.0,Isla de Pascua,12.1,60.4
+5,Valparaiso,0.0,Juan Fernández,0.0,0.0
+5,Valparaiso,0.0,La Cruz,0.0,3.9
+5,Valparaiso,0.0,La Ligua,5.3,5.3
+5,Valparaiso,0.0,Limache,4.0,6.0
+5,Valparaiso,0.0,Llaillay,0.0,0.0
+5,Valparaiso,0.0,Los Andes,2.9,4.4
+5,Valparaiso,0.0,Nogales,0.0,0.0
+5,Valparaiso,0.0,Olmué,0.0,0.0
+5,Valparaiso,0.0,Panquehue,0.0,0.0
+5,Valparaiso,0.0,Papudo,0.0,0.0
+5,Valparaiso,0.0,Petorca,0.0,9.5
+5,Valparaiso,0.0,Puchuncaví,0.0,0.0
+5,Valparaiso,0.0,Putaendo,5.7,5.7
+5,Valparaiso,0.0,Quillota,6.1,7.2
+5,Valparaiso,0.0,Quilpué,6.6,6.0
+5,Valparaiso,0.0,Quintero,8.3,8.3
+5,Valparaiso,0.0,Rinconada,0.0,0.0
+5,Valparaiso,0.0,San Antonio,2.1,4.1
+5,Valparaiso,0.0,San Esteban,0.0,0.0
+5,Valparaiso,0.0,San Felipe,3.6,3.6
+5,Valparaiso,0.0,Santa María,0.0,12.2
+5,Valparaiso,0.0,Santo Domingo,16.8,25.1
+5,Valparaiso,0.0,Valparaíso,5.1,8.2
+5,Valparaiso,0.0,Villa Alemana,4.3,5.7
+5,Valparaiso,0.0,Viña del Mar,8.0,10.5
+5,Valparaiso,0.0,Zapallar,0.0,0.0
+6,OHiggins,0.0,Chimbarongo,0.0,5.3
+6,OHiggins,0.0,Chépica,0.0,0.0
+6,OHiggins,0.0,Codegua,0.0,0.0
+6,OHiggins,0.0,Coinco,0.0,0.0
+6,OHiggins,0.0,Coltauco,0.0,0.0
+6,OHiggins,0.0,Doñihue,0.0,0.0
+6,OHiggins,0.0,Graneros,0.0,0.0
+6,OHiggins,0.0,La Estrella,0.0,0.0
+6,OHiggins,0.0,Las Cabras,0.0,0.0
+6,OHiggins,0.0,Litueche,0.0,0.0
+6,OHiggins,0.0,Lolol,0.0,0.0
+6,OHiggins,0.0,Machalí,5.0,10.0
+6,OHiggins,0.0,Malloa,0.0,0.0
+6,OHiggins,0.0,Marchihue,0.0,0.0
+6,OHiggins,0.0,Mostazal,0.0,0.0
+6,OHiggins,0.0,Nancagua,0.0,0.0
+6,OHiggins,0.0,Navidad,0.0,0.0
+6,OHiggins,0.0,Olivar,0.0,6.8
+6,OHiggins,0.0,Palmilla,0.0,0.0
+6,OHiggins,0.0,Paredones,0.0,0.0
+6,OHiggins,0.0,Peralillo,0.0,0.0
+6,OHiggins,0.0,Peumo,0.0,0.0
+6,OHiggins,0.0,Pichidegua,0.0,0.0
+6,OHiggins,0.0,Pichilemu,0.0,0.0
+6,OHiggins,0.0,Placilla,0.0,10.9
+6,OHiggins,0.0,Pumanque,0.0,0.0
+6,OHiggins,0.0,Quinta de Tilcoco,7.2,14.4
+6,OHiggins,0.0,Rancagua,2.6,2.6
+6,OHiggins,0.0,Rengo,1.6,1.6
+6,OHiggins,0.0,Requínoa,6.6,3.3
+6,OHiggins,0.0,San Fernando,2.5,5.1
+6,OHiggins,0.0,San Vicente,0.0,2.0
+6,OHiggins,0.0,Santa Cruz,0.0,0.0
+7,Maule,0.0,Cauquenes,2.3,2.3
+7,Maule,0.0,Chanco,0.0,0.0
+7,Maule,0.0,Colbún,4.4,17.7
+7,Maule,0.0,Constitución,0.0,2.0
+7,Maule,0.0,Curepto,0.0,0.0
+7,Maule,0.0,Curicó,3.7,4.9
+7,Maule,0.0,Empedrado,0.0,0.0
+7,Maule,0.0,Hualañé,0.0,0.0
+7,Maule,0.0,Licantén,0.0,0.0
+7,Maule,0.0,Linares,4.0,5.9
+7,Maule,0.0,Longaví,3.0,3.0
+7,Maule,0.0,Maule,3.3,3.3
+7,Maule,0.0,Molina,4.0,6.0
+7,Maule,0.0,Parral,9.0,6.7
+7,Maule,0.0,Pelarco,0.0,0.0
+7,Maule,0.0,Pelluhue,12.4,12.4
+7,Maule,0.0,Pencahue,0.0,0.0
+7,Maule,0.0,Rauco,0.0,0.0
+7,Maule,0.0,Retiro,0.0,0.0
+7,Maule,0.0,Romeral,6.2,12.4
+7,Maule,0.0,Río Claro,6.8,6.8
+7,Maule,0.0,Sagrada Familia,0.0,0.0
+7,Maule,0.0,San Clemente,0.0,0.0
+7,Maule,0.0,San Javier,0.0,2.0
+7,Maule,0.0,San Rafael,0.0,0.0
+7,Maule,0.0,Talca,14.4,15.6
+7,Maule,0.0,Teno,0.0,0.0
+7,Maule,0.0,Vichuquén,0.0,0.0
+7,Maule,0.0,Villa Alegre,0.0,0.0
+7,Maule,0.0,Yerbas Buenas,0.0,0.0
+8,Biobio,0.0,Alto Biobío,14.8,0.0
+8,Biobio,0.0,Antuco,0.0,0.0
+8,Biobio,0.0,Arauco,5.2,12.9
+8,Biobio,0.0,Cabrero,0.0,0.0
+8,Biobio,0.0,Cañete,0.0,0.0
+8,Biobio,0.0,Chiguayante,6.6,19.7
+8,Biobio,0.0,Concepción,11.8,19.7
+8,Biobio,0.0,Contulmo,0.0,0.0
+8,Biobio,0.0,Coronel,0.0,8.7
+8,Biobio,0.0,Curanilahue,0.0,3.0
+8,Biobio,0.0,Florida,0.0,0.0
+8,Biobio,0.0,Hualpén,1.0,40.1
+8,Biobio,0.0,Hualqui,7.6,11.4
+8,Biobio,0.0,Laja,4.2,8.4
+8,Biobio,0.0,Lebu,0.0,0.0
+8,Biobio,0.0,Los Álamos,0.0,0.0
+8,Biobio,0.0,Los Ángeles,5.0,6.9
+8,Biobio,0.0,Lota,0.0,0.0
+8,Biobio,0.0,Mulchén,6.4,16.1
+8,Biobio,0.0,Nacimiento,3.6,7.2
+8,Biobio,0.0,Negrete,0.0,0.0
+8,Biobio,0.0,Penco,0.0,2.0
+8,Biobio,0.0,Por determinar,,0.0
+8,Biobio,0.0,Quilaco,0.0,0.0
+8,Biobio,0.0,Quilleco,0.0,0.0
+8,Biobio,0.0,San Pedro de la Paz,12.3,34.3
+8,Biobio,0.0,San Rosendo,0.0,0.0
+8,Biobio,0.0,Santa Bárbara,6.9,13.7
+8,Biobio,0.0,Santa Juana,0.0,0.0
+8,Biobio,0.0,Talcahuano,1.3,14.5
+8,Biobio,0.0,Tirúa,0.0,0.0
+8,Biobio,0.0,Tomé,6.8,10.2
+8,Biobio,0.0,Tucapel,0.0,0.0
+8,Biobio,0.0,Yumbel,22.6,22.6
+9,Araucania,0.0,Angol,12.5,23.2
+9,Araucania,0.0,Carahue,3.9,7.8
+9,Araucania,0.0,Cholchol,8.1,16.2
+9,Araucania,0.0,Collipulli,0.0,0.0
+9,Araucania,0.0,Cunco,0.0,0.0
+9,Araucania,0.0,Curacautín,0.0,0.0
+9,Araucania,0.0,Curarrehue,12.8,25.6
+9,Araucania,0.0,Ercilla,0.0,0.0
+9,Araucania,0.0,Freire,7.9,7.9
+9,Araucania,0.0,Galvarino,7.9,7.9
+9,Araucania,0.0,Gorbea,26.4,39.6
+9,Araucania,0.0,Lautaro,4.9,19.6
+9,Araucania,0.0,Loncoche,8.1,8.1
+9,Araucania,0.0,Lonquimay,0.0,0.0
+9,Araucania,0.0,Los Sauces,0.0,0.0
+9,Araucania,0.0,Lumaco,0.0,0.0
+9,Araucania,0.0,Melipeuco,0.0,0.0
+9,Araucania,0.0,Nueva Imperial,0.0,5.9
+9,Araucania,0.0,Padre Las Casas,11.0,17.1
+9,Araucania,0.0,Perquenco,13.8,13.8
+9,Araucania,0.0,Pitrufquén,15.3,23.0
+9,Araucania,0.0,Por determinar,,0.0
+9,Araucania,0.0,Pucón,10.1,10.1
+9,Araucania,0.0,Purén,0.0,8.2
+9,Araucania,0.0,Renaico,0.0,0.0
+9,Araucania,0.0,Saavedra,0.0,0.0
+9,Araucania,0.0,Temuco,50.8,74.3
+9,Araucania,0.0,Teodoro Schmidt,0.0,25.3
+9,Araucania,0.0,Toltén,9.9,29.8
+9,Araucania,0.0,Traiguén,0.0,0.0
+9,Araucania,0.0,Victoria,14.1,19.7
+9,Araucania,0.0,Vilcún,13.0,16.3
+9,Araucania,0.0,Villarrica,1.7,6.8
+10,Los Lagos,0.0,Ancud,0.0,0.0
+10,Los Lagos,0.0,Calbuco,10.9,13.6
+10,Los Lagos,0.0,Castro,2.1,2.1
+10,Los Lagos,0.0,Chaitén,0.0,19.9
+10,Los Lagos,0.0,Chonchi,0.0,0.0
+10,Los Lagos,0.0,Cochamó,0.0,0.0
+10,Los Lagos,0.0,Curaco de Vélez,0.0,0.0
+10,Los Lagos,0.0,Dalcahue,0.0,0.0
+10,Los Lagos,0.0,Fresia,0.0,0.0
+10,Los Lagos,0.0,Frutillar,0.0,0.0
+10,Los Lagos,0.0,Futaleufú,0.0,0.0
+10,Los Lagos,0.0,Hualaihué,10.5,31.5
+10,Los Lagos,0.0,Llanquihue,0.0,0.0
+10,Los Lagos,0.0,Los Muermos,5.6,5.6
+10,Los Lagos,0.0,Maullín,0.0,0.0
+10,Los Lagos,0.0,Osorno,38.1,69.2
+10,Los Lagos,0.0,Palena,0.0,0.0
+10,Los Lagos,0.0,Puerto Montt,12.6,16.3
+10,Los Lagos,0.0,Puerto Octay,10.9,10.9
+10,Los Lagos,0.0,Puerto Varas,2.1,2.1
+10,Los Lagos,0.0,Puqueldón,0.0,0.0
+10,Los Lagos,0.0,Purranque,0.0,4.7
+10,Los Lagos,0.0,Puyehue,8.5,8.5
+10,Los Lagos,0.0,Queilén,0.0,0.0
+10,Los Lagos,0.0,Quellón,0.0,0.0
+10,Los Lagos,0.0,Quemchi,0.0,0.0
+10,Los Lagos,0.0,Quinchao,12.1,12.1
+10,Los Lagos,0.0,Río Negro,0.0,0.0
+10,Los Lagos,0.0,San Juan de la Costa,0.0,0.0
+10,Los Lagos,0.0,San Pablo,9.5,9.5
+11,Aisen,0.0,Aisén,4.0,4.0
+11,Aisen,0.0,Chile Chico,0.0,0.0
+11,Aisen,0.0,Cisnes,0.0,0.0
+11,Aisen,0.0,Cochrane,0.0,0.0
+11,Aisen,0.0,Coyhaique,3.3,3.3
+11,Aisen,0.0,Guaitecas,0.0,0.0
+11,Aisen,0.0,Lago Verde,0.0,0.0
+11,Aisen,0.0,O'Higgins,0.0,0.0
+11,Aisen,0.0,Río Ibáñez,0.0,0.0
+11,Aisen,0.0,Tortel,0.0,0.0
+12,Magallanes y la Antartica Chilena,0.0,Antártica,0.0,0.0
+12,Magallanes y la Antartica Chilena,0.0,Cabo de Hornos,252.1,302.6
+12,Magallanes y la Antartica Chilena,0.0,Laguna Blanca,0.0,0.0
+12,Magallanes y la Antartica Chilena,0.0,Natales,4.2,16.8
+12,Magallanes y la Antartica Chilena,0.0,Porvenir,0.0,27.3
+12,Magallanes y la Antartica Chilena,0.0,Primavera,0.0,0.0
+12,Magallanes y la Antartica Chilena,0.0,Punta Arenas,20.4,61.3
+12,Magallanes y la Antartica Chilena,0.0,Río Verde,0.0,0.0
+12,Magallanes y la Antartica Chilena,0.0,San Gregorio,0.0,0.0
+12,Magallanes y la Antartica Chilena,0.0,Timaukel,0.0,0.0
+12,Magallanes y la Antartica Chilena,0.0,Torres del Paine,0.0,0.0
+13,Metropolitana,0.0,Alhué,0.0,0.0
+13,Metropolitana,0.0,Buin,6.4,7.3
+13,Metropolitana,0.0,Calera de Tango,21.0,24.5
+13,Metropolitana,0.0,Cerrillos,3.4,4.5
+13,Metropolitana,0.0,Cerro Navia,13.3,14.7
+13,Metropolitana,0.0,Colina,17.7,21.6
+13,Metropolitana,0.0,Conchalí,10.1,12.9
+13,Metropolitana,0.0,Curacaví,13.7,13.7
+13,Metropolitana,0.0,El Bosque,10.5,16.3
+13,Metropolitana,0.0,El Monte,2.5,2.5
+13,Metropolitana,0.0,Estación Central,7.7,10.6
+13,Metropolitana,0.0,Huechuraba,15.1,16.9
+13,Metropolitana,0.0,Independencia,10.6,12.0
+13,Metropolitana,0.0,Isla de Maipo,0.0,2.5
+13,Metropolitana,0.0,La Cisterna,10.0,11.9
+13,Metropolitana,0.0,La Florida,10.7,14.4
+13,Metropolitana,0.0,La Granja,4.1,6.5
+13,Metropolitana,0.0,La Pintana,1.1,5.3
+13,Metropolitana,0.0,La Reina,23.9,25.9
+13,Metropolitana,0.0,Lampa,7.9,7.9
+13,Metropolitana,0.0,Las Condes,54.7,62.9
+13,Metropolitana,0.0,Lo Barnechea,54.8,62.9
+13,Metropolitana,0.0,Lo Espejo,3.9,6.7
+13,Metropolitana,0.0,Lo Prado,13.4,17.2
+13,Metropolitana,0.0,Macul,7.4,11.1
+13,Metropolitana,0.0,Maipú,7.4,9.5
+13,Metropolitana,0.0,María Pinto,0.0,0.0
+13,Metropolitana,0.0,Melipilla,4.2,5.6
+13,Metropolitana,0.0,Padre Hurtado,13.5,14.8
+13,Metropolitana,0.0,Paine,3.6,3.6
+13,Metropolitana,0.0,Pedro Aguirre Cerda,6.5,12.1
+13,Metropolitana,0.0,Peñaflor,9.9,12.9
+13,Metropolitana,0.0,Peñalolén,11.6,17.2
+13,Metropolitana,0.0,Pirque,0.0,6.6
+13,Metropolitana,0.0,Por determinar,,0.0
+13,Metropolitana,0.0,Providencia,52.0,55.2
+13,Metropolitana,0.0,Pudahuel,6.7,9.9
+13,Metropolitana,0.0,Puente Alto,7.0,9.0
+13,Metropolitana,0.0,Quilicura,6.7,11.4
+13,Metropolitana,0.0,Quinta Normal,15.4,18.3
+13,Metropolitana,0.0,Recoleta,8.9,12.1
+13,Metropolitana,0.0,Renca,5.6,8.7
+13,Metropolitana,0.0,San Bernardo,9.6,12.2
+13,Metropolitana,0.0,San Joaquín,12.6,23.2
+13,Metropolitana,0.0,San José de Maipo,10.7,10.7
+13,Metropolitana,0.0,San Miguel,18.8,24.0
+13,Metropolitana,0.0,San Pedro,0.0,0.0
+13,Metropolitana,0.0,San Ramón,1.2,6.9
+13,Metropolitana,0.0,Santiago,25.2,31.0
+13,Metropolitana,0.0,Talagante,3.7,6.1
+13,Metropolitana,0.0,Tiltil,9.3,9.3
+13,Metropolitana,0.0,Vitacura,85.8,93.0
+13,Metropolitana,0.0,Ñuñoa,26.8,33.6
+14,Los Rios,0.0,Corral,0.0,0.0
+14,Los Rios,0.0,Futrono,0.0,13.1
+14,Los Rios,0.0,La Unión,2.5,22.8
+14,Los Rios,0.0,Lago Ranco,0.0,9.7
+14,Los Rios,0.0,Lanco,0.0,5.7
+14,Los Rios,0.0,Los Lagos,0.0,0.0
+14,Los Rios,0.0,Mariquina,0.0,8.6
+14,Los Rios,0.0,Máfil,13.5,13.5
+14,Los Rios,0.0,Paillaco,0.0,4.8
+14,Los Rios,0.0,Panguipulli,0.0,0.0
+14,Los Rios,0.0,Río Bueno,6.1,6.1
+14,Los Rios,0.0,Valdivia,6.8,25.5
+15,Arica y Parinacota,0.0,Arica,2.4,2.4
+15,Arica y Parinacota,0.0,Camarones,0.0,0.0
+15,Arica y Parinacota,0.0,General Lagos,0.0,0.0
+15,Arica y Parinacota,0.0,Putre,0.0,0.0
+16,Nuble,0.0,Bulnes,53.1,79.6
+16,Nuble,0.0,Chillán,57.4,87.1
+16,Nuble,0.0,Chillán Viejo,38.4,65.0
+16,Nuble,0.0,Cobquecura,0.0,0.0
+16,Nuble,0.0,Coelemu,0.0,5.9
+16,Nuble,0.0,Coihueco,10.6,10.6
+16,Nuble,0.0,El Carmen,8.1,16.2
+16,Nuble,0.0,Ninhue,0.0,0.0
+16,Nuble,0.0,Pemuco,0.0,0.0
+16,Nuble,0.0,Pinto,8.4,16.8
+16,Nuble,0.0,Portezuelo,0.0,0.0
+16,Nuble,0.0,Quillón,21.3,37.3
+16,Nuble,0.0,Quirihue,0.0,0.0
+16,Nuble,0.0,Ránquil,0.0,16.0
+16,Nuble,0.0,San Carlos,14.2,23.1
+16,Nuble,0.0,San Fabián,64.5,107.4
+16,Nuble,0.0,San Ignacio,6.0,6.0
+16,Nuble,0.0,San Nicolás,8.2,16.4
+16,Nuble,0.0,Treguaco,0.0,0.0
+16,Nuble,0.0,Yungay,5.4,37.6
+16,Nuble,0.0,Ñiquén,0.0,0.0
