@@ -6,12 +6,12 @@ id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_totale
 4,Coquimbo,2,30,0,0,0,0
 5,Vaparaiso,21,136,0,1,0,0
 13,Metropolitana,101,1521,1,5,0,0
-6,Ohiggins,3,26,0,0,0,0
+6,OHiggins,3,26,0,0,0,0
 7,Maule,9,71,0,1,0,0
 16,Nuble,14,259,0,0,0,0
 8,Biobio,24,240,0,2,0,0
 9,Araucania,41,343,2,6,0,0
-14,LosRios,6,64,1,1,0,0
+14,Los Rios,6,64,1,1,0,0
 10,LosLagos,30,181,0,0,0,0
 11,Aysen,1,3,0,0,0,0
 12,Magallanes,36,99,0,0,0,0
