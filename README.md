@@ -5,6 +5,10 @@ Para cada comuna y región, y para cada día: nuevos casos, casos totales, nuevo
 ## ¡Necesitamos ayuda! - ¿Cómo puedo aportar?
 Hay mucha información todavía que se puede incluír en este repositorio. Y muchas formas de analizar la información y sacar observaciones o conclusiones. ¡Para eso necesitamos ayuda!
 
+Los temas en los cuales estamos trabajando los estamos poniendo en Issues
+https://github.com/YachayData/COVID-19/issues
+Puedes comentar libremente!
+
 Puedes desde ya clonar este git y proponer cambios! Pero no tienes que saber programar para ayudar, basta con tener nuevas ideas, aportar con nuevas fuentes, saber leer informes y transcribirlos en un GoogleDocs / Google Drive o un Excel.
 
 Si tienes dudas cómo aportar, métete al grupo de Whatsapp https://chat.whatsapp.com/CUBbQK40HTTBmFoLszaG5S
