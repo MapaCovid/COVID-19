@@ -1,0 +1,350 @@
+id_region,nombre_region,id_comuna,nombre_comuna,poblacion,casos_totales,tasa
+1,Tarapaca,,Alto Hospicio,129999,-,0.8
+1,Tarapaca,,Camiña,1375,-,0
+1,Tarapaca,,Colchane,1583,-,0
+1,Tarapaca,,Huara,3000,-,0
+1,Tarapaca,,Iquique,223463,9,2.2
+1,Tarapaca,,Pica,5958,-,0
+1,Tarapaca,,Pozo Almonte,17395,-,0
+2,Antofagasta,,Antofagasta,425725,32,7.5
+2,Antofagasta,,Calama,190336,-,1.6
+2,Antofagasta,,María Elena,6814,-,0
+2,Antofagasta,,Mejillones,14776,-,0
+2,Antofagasta,,Ollagüe,287,-,0
+2,Antofagasta,,San Pedro de Atacama,10434,-,19.2
+2,Antofagasta,,Sierra Gorda,1746,-,0
+2,Antofagasta,,Taltal,13657,-,0
+2,Antofagasta,,Tocopilla,28079,-,7.1
+3,Atacama,,Alto del Carmen,5729,-,0
+3,Atacama,,Caldera,19426,-,0
+3,Atacama,,Chañaral,13164,-,0
+3,Atacama,,Copiapó,171766,-,1.2
+3,Atacama,,Diego de Almagro,14358,-,7
+3,Atacama,,Freirina,7681,-,0
+3,Atacama,,Huasco,11264,-,0
+3,Atacama,,Tierra Amarilla,14312,-,0
+3,Atacama,,Vallenar,57009,-,0
+4,Coquimbo,,Andacollo,11791,-,0
+4,Coquimbo,,Canela,9546,-,0
+4,Coquimbo,,Combarbalá,13884,-,0
+4,Coquimbo,,Coquimbo,256735,19,7.4
+4,Coquimbo,,Illapel,32801,-,0
+4,Coquimbo,,La Higuera,4450,-,0
+4,Coquimbo,,La Serena,249656,-,1.2
+4,Coquimbo,,Los Vilos,23374,-,4.3
+4,Coquimbo,,Monte Patria,32527,-,0
+4,Coquimbo,,Ovalle,121269,4,3.3
+4,Coquimbo,,Paiguano,4675,-,0
+4,Coquimbo,,Punitaqui,12165,-,0
+4,Coquimbo,,Río Hurtado,4372,-,22.9
+4,Coquimbo,,Salamanca,29110,-,6.9
+4,Coquimbo,,Vicuña,29741,-,0
+5,Valparaiso,,Algarrobo,15174,7,46.1
+5,Valparaiso,,Cabildo,20663,-,0
+5,Valparaiso,,Calera,53591,6,11.2
+5,Valparaiso,,Calle Larga,16482,-,0
+5,Valparaiso,,Cartagena,25357,-,0
+5,Valparaiso,,Casablanca,29170,-,3.4
+5,Valparaiso,,Catemu,15213,-,0
+5,Valparaiso,,Concón,45889,-,2.2
+5,Valparaiso,,El Quisco,17742,-,0
+5,Valparaiso,,El Tabo,14338,-,7
+5,Valparaiso,,Hijuelas,19099,-,0
+5,Valparaiso,,Isla de Pascua,8277,5,60.4
+5,Valparaiso,,Juan Fernández,1033,-,0
+5,Valparaiso,,La Cruz,25321,-,3.9
+5,Valparaiso,,La Ligua,37739,-,5.3
+5,Valparaiso,,Limache,49931,-,6
+5,Valparaiso,,Llaillay,26533,-,0
+5,Valparaiso,,Los Andes,68093,-,4.4
+5,Valparaiso,,Nogales,23490,-,0
+5,Valparaiso,,Olmué,19266,-,0
+5,Valparaiso,,Panquehue,7633,-,0
+5,Valparaiso,,Papudo,6201,-,0
+5,Valparaiso,,Petorca,10558,-,9.5
+5,Valparaiso,,Puchuncaví,20071,-,0
+5,Valparaiso,,Putaendo,17645,-,5.7
+5,Valparaiso,,Quillota,97572,7,7.2
+5,Valparaiso,,Quilpué,167085,10,6
+5,Valparaiso,,Quintero,36135,-,8.3
+5,Valparaiso,,Rinconada,11263,-,0
+5,Valparaiso,,San Antonio,96761,4,4.1
+5,Valparaiso,,San Esteban,20643,-,0
+5,Valparaiso,,San Felipe,83494,-,3.6
+5,Valparaiso,,Santa María,16367,-,12.2
+5,Valparaiso,,Santo Domingo,11934,-,25.1
+5,Valparaiso,,Valparaíso,315732,26,8.2
+5,Valparaiso,,Villa Alemana,139310,8,5.7
+5,Valparaiso,,Viña del Mar,361371,38,10.5
+5,Valparaiso,,Zapallar,7994,0,0
+6,OHiggins,,Chépica,15925,-,0
+6,OHiggins,,Chimbarongo,37696,-,5.3
+6,OHiggins,,Codegua,14096,-,0
+6,OHiggins,,Coinco,7831,-,0
+6,OHiggins,,Coltauco,21263,-,0
+6,OHiggins,,Doñihue,22700,-,0
+6,OHiggins,,Graneros,36504,-,0
+6,OHiggins,,La Estrella,3114,-,0
+6,OHiggins,,Las Cabras,26749,-,0
+6,OHiggins,,Litueche,6765,-,0
+6,OHiggins,,Lolol,7289,-,0
+6,OHiggins,,Machalí,59913,6,10
+6,OHiggins,,Malloa,14163,-,0
+6,OHiggins,,Marchihue,7632,-,0
+6,OHiggins,,Mostazal,27462,-,0
+6,OHiggins,,Nancagua,19141,-,0
+6,OHiggins,,Navidad,6904,-,0
+6,OHiggins,,Olivar,14624,-,6.8
+6,OHiggins,,Palmilla,13299,-,0
+6,OHiggins,,Paredones,6349,-,0
+6,OHiggins,,Peralillo,11848,-,0
+6,OHiggins,,Peumo,14952,-,0
+6,OHiggins,,Pichidegua,20743,-,0
+6,OHiggins,,Pichilemu,17882,-,0
+6,OHiggins,,Placilla,9164,-,10.9
+6,OHiggins,,Pumanque,3531,-,0
+6,OHiggins,,Quinta de Tilcoco,13877,-,14.4
+6,OHiggins,,Rancagua,265211,7,2.6
+6,OHiggins,,Rengo,63710,-,1.6
+6,OHiggins,,Requínoa,30371,-,3.3
+6,OHiggins,,San Fernando,78642,4,5.1
+6,OHiggins,,San Vicente,50617,-,2
+6,OHiggins,,Santa Cruz,41096,0,0
+7,Maule,,Cauquenes,44143,-,2.3
+7,Maule,,Chanco,9331,-,0
+7,Maule,,Colbún,22565,4,17.7
+7,Maule,,Constitución,50348,-,2
+7,Maule,,Curepto,9426,-,0
+7,Maule,,Curicó,163626,8,4.9
+7,Maule,,Empedrado,4206,-,0
+7,Maule,,Hualañé,10222,-,0
+7,Maule,,Licantén,6989,-,0
+7,Maule,,Linares,101073,6,5.9
+7,Maule,,Longaví,32810,-,3
+7,Maule,,Maule,60000,-,3.3
+7,Maule,,Molina,49800,-,6
+7,Maule,,Parral,44544,-,6.7
+7,Maule,,Pelarco,9083,-,0
+7,Maule,,Pelluhue,8092,-,12.4
+7,Maule,,Pencahue,8601,-,0
+7,Maule,,Rauco,11248,-,0
+7,Maule,,Retiro,21071,-,0
+7,Maule,,Río Claro,14753,-,6.8
+7,Maule,,Romeral,16170,-,12.4
+7,Maule,,Sagrada Familia,19469,-,0
+7,Maule,,San Clemente,46292,-,0
+7,Maule,,San Javier,49451,-,2
+7,Maule,,San Rafael,9959,-,0
+7,Maule,,Talca,236724,37,15.6
+7,Maule,,Teno,30850,-,0
+7,Maule,,Vichuquén,4381,-,0
+7,Maule,,Villa Alegre,17512,-,0
+7,Maule,,Yerbas Buenas,19200,-,0
+8,Biobio,,Alto Biobío,6775,-,0
+8,Biobio,,Antuco,4306,-,0
+8,Biobio,,Arauco,38679,5,12.9
+8,Biobio,,Cabrero,30725,-,0
+8,Biobio,,Cañete,37003,-,0
+8,Biobio,,Chiguayante,91180,18,19.7
+8,Biobio,,Concepción,238092,47,19.7
+8,Biobio,,Contulmo,6330,-,0
+8,Biobio,,Coronel,125829,11,8.7
+8,Biobio,,Curanilahue,33892,-,3
+8,Biobio,,Florida,11841,-,0
+8,Biobio,,Hualpén,97273,39,40.1
+8,Biobio,,Hualqui,26201,-,11.4
+8,Biobio,,Laja,23873,-,8.4
+8,Biobio,,Lebu,27100,-,0
+8,Biobio,,Los Álamos,22524,-,0
+8,Biobio,,Los Ángeles,218515,15,6.9
+8,Biobio,,Lota,45750,-,0
+8,Biobio,,Mulchén,31041,5,16.1
+8,Biobio,,Nacimiento,27944,-,7.2
+8,Biobio,,Negrete,10429,-,0
+8,Biobio,,Penco,49865,-,2
+8,Biobio,,Quilaco,4179,-,0
+8,Biobio,,Quilleco,10032,-,0
+8,Biobio,,San Pedro de la Paz,145906,50,34.3
+8,Biobio,,San Rosendo,3611,-,0
+8,Biobio,,Santa Bárbara,14592,-,13.7
+8,Biobio,,Santa Juana,14779,-,0
+8,Biobio,,Talcahuano,158345,23,14.5
+8,Biobio,,Tirúa,11019,-,0
+8,Biobio,,Tomé,58729,6,10.2
+8,Biobio,,Tucapel,15205,-,0
+8,Biobio,,Yumbel,22132,5,22.6
+8,Biobio,,Por determinar,,5,
+9,Araucania,,Angol,56058,13,23.2
+9,Araucania,,Carahue,25486,-,7.8
+9,Araucania,,Cholchol,12341,-,16.2
+9,Araucania,,Collipulli,26148,-,0
+9,Araucania,,Cunco,18055,-,0
+9,Araucania,,Curacautín,18178,-,0
+9,Araucania,,Curarrehue,7802,-,25.6
+9,Araucania,,Ercilla,8458,-,0
+9,Araucania,,Freire,25446,-,7.9
+9,Araucania,,Galvarino,12633,-,7.9
+9,Araucania,,Gorbea,15148,6,39.6
+9,Araucania,,Lautaro,40746,8,19.6
+9,Araucania,,Loncoche,24739,-,8.1
+9,Araucania,,Lonquimay,11049,-,0
+9,Araucania,,Los Sauces,7517,-,0
+9,Araucania,,Lumaco,10050,-,0
+9,Araucania,,Melipeuco,6265,-,0
+9,Araucania,,Nueva Imperial,33777,-,5.9
+9,Araucania,,Padre Las Casas,82110,14,17.1
+9,Araucania,,Perquenco,7223,-,13.8
+9,Araucania,,Pitrufquén,26096,6,23
+9,Araucania,,Pucón,29782,-,10.1
+9,Araucania,,Purén,12188,-,8.2
+9,Araucania,,Renaico,10833,-,0
+9,Araucania,,Saavedra,12793,-,0
+9,Araucania,,Temuco,302931,225,74.3
+9,Araucania,,Teodoro Schmidt,15786,4,25.3
+9,Araucania,,Toltén,10055,-,29.8
+9,Araucania,,Traiguén,19314,-,0
+9,Araucania,,Victoria,35467,7,19.7
+9,Araucania,,Vilcún,30766,5,16.3
+9,Araucania,,Villarrica,59103,4,6.8
+9,Araucania,,Por determinar,,30,
+10,Los Lagos,,Ancud,42458,-,0
+10,Los Lagos,,Calbuco,36744,5,13.6
+10,Los Lagos,,Castro,47607,-,2.1
+10,Los Lagos,,Chaitén,5020,-,19.9
+10,Los Lagos,,Chonchi,16013,-,0
+10,Los Lagos,,Cochamó,4006,-,0
+10,Los Lagos,,Curaco de Vélez,4066,-,0
+10,Los Lagos,,Dalcahue,15069,-,0
+10,Los Lagos,,Fresia,12656,-,0
+10,Los Lagos,,Frutillar,20223,-,0
+10,Los Lagos,,Futaleufú,2806,-,0
+10,Los Lagos,,Hualaihué,9525,-,31.5
+10,Los Lagos,,Llanquihue,18621,-,0
+10,Los Lagos,,Los Muermos,17817,-,5.6
+10,Los Lagos,,Maullín,14894,-,0
+10,Los Lagos,,Osorno,173410,120,69.2
+10,Los Lagos,,Palena,1827,-,0
+10,Los Lagos,,Puerto Montt,269398,44,16.3
+10,Los Lagos,,Puerto Octay,9192,-,10.9
+10,Los Lagos,,Puerto Varas,48620,-,2.1
+10,Los Lagos,,Puqueldón,4201,-,0
+10,Los Lagos,,Purranque,21080,-,4.7
+10,Los Lagos,,Puyehue,11787,-,8.5
+10,Los Lagos,,Queilén,5543,-,0
+10,Los Lagos,,Quellón,29309,-,0
+10,Los Lagos,,Quemchi,8783,-,0
+10,Los Lagos,,Quinchao,8298,-,12.1
+10,Los Lagos,,Río Negro,14275,-,0
+10,Los Lagos,,San Juan de la Costa,7639,-,0
+10,Los Lagos,,San Pablo,10553,-,9.5
+11,Aisen,,Aisén,25002,-,4
+11,Aisen,,Chile Chico,5121,-,0
+11,Aisen,,Cisnes,5828,-,0
+11,Aisen,,Cochrane,3685,-,0
+11,Aisen,,Coyhaique,61210,-,3.3
+11,Aisen,,Guaitecas,1599,-,0
+11,Aisen,,Lago Verde,920,-,0
+11,Aisen,,O'Higgins,661,-,0
+11,Aisen,,Río Ibáñez,2699,-,0
+11,Aisen,,Tortel,572,-,0
+12,Magallanes y la Antartica Chilena,,Antártica,137,-,0
+12,Magallanes y la Antartica Chilena,,Cabo de Hornos,1983,6,302.6
+12,Magallanes y la Antartica Chilena,,Laguna Blanca,264,-,0
+12,Magallanes y la Antartica Chilena,,Natales,23782,4,16.8
+12,Magallanes y la Antartica Chilena,,Porvenir,7323,-,27.3
+12,Magallanes y la Antartica Chilena,,Primavera,694,-,0
+12,Magallanes y la Antartica Chilena,,Punta Arenas,141984,87,61.3
+12,Magallanes y la Antartica Chilena,,Río Verde,211,-,0
+12,Magallanes y la Antartica Chilena,,San Gregorio,681,-,0
+12,Magallanes y la Antartica Chilena,,Timaukel,282,-,0
+12,Magallanes y la Antartica Chilena,,Torres del Paine,1021,-,0
+13,Metropolitana,,Alhué,7405,-,0
+13,Metropolitana,,Buin,109641,8,7.3
+13,Metropolitana,,Calera de Tango,28525,7,24.5
+13,Metropolitana,,Cerrillos,88956,4,4.5
+13,Metropolitana,,Cerro Navia,142465,21,14.7
+13,Metropolitana,,Colina,180353,39,21.6
+13,Metropolitana,,Conchalí,139195,18,12.9
+13,Metropolitana,,Curacaví,36430,5,13.7
+13,Metropolitana,,El Bosque,172000,28,16.3
+13,Metropolitana,,El Monte,40014,-,2.5
+13,Metropolitana,,Estación Central,206792,22,10.6
+13,Metropolitana,,Huechuraba,112528,19,16.9
+13,Metropolitana,,Independencia,142065,17,12
+13,Metropolitana,,Isla de Maipo,40171,-,2.5
+13,Metropolitana,,La Cisterna,100434,12,11.9
+13,Metropolitana,,La Florida,402433,58,14.4
+13,Metropolitana,,La Granja,122557,8,6.5
+13,Metropolitana,,La Pintana,189335,10,5.3
+13,Metropolitana,,La Reina,100252,26,25.9
+13,Metropolitana,,Lampa,126898,10,7.9
+13,Metropolitana,,Las Condes,330759,208,62.9
+13,Metropolitana,,Lo Barnechea,124076,78,62.9
+13,Metropolitana,,Lo Espejo,103865,7,6.7
+13,Metropolitana,,Lo Prado,104403,18,17.2
+13,Metropolitana,,Macul,134635,15,11.1
+13,Metropolitana,,Maipú,578605,55,9.5
+13,Metropolitana,,María Pinto,14926,-,0
+13,Metropolitana,,Melipilla,141612,8,5.6
+13,Metropolitana,,Ñuñoa,250192,84,33.6
+13,Metropolitana,,Padre Hurtado,74188,11,14.8
+13,Metropolitana,,Paine,82766,-,3.6
+13,Metropolitana,,Pedro Aguirre Cerda,107803,13,12.1
+13,Metropolitana,,Peñaflor,101058,13,12.9
+13,Metropolitana,,Peñalolén,266798,46,17.2
+13,Metropolitana,,Pirque,30433,-,6.6
+13,Metropolitana,,Providencia,157749,87,55.2
+13,Metropolitana,,Pudahuel,253139,25,9.9
+13,Metropolitana,,Puente Alto,645909,58,9
+13,Metropolitana,,Quilicura,254694,29,11.4
+13,Metropolitana,,Quinta Normal,136368,25,18.3
+13,Metropolitana,,Recoleta,190075,23,12.1
+13,Metropolitana,,Renca,160847,14,8.7
+13,Metropolitana,,San Bernardo,334836,41,12.2
+13,Metropolitana,,San Joaquín,103485,24,23.2
+13,Metropolitana,,San José de Maipo,18644,-,10.7
+13,Metropolitana,,San Miguel,133059,32,24
+13,Metropolitana,,San Pedro,11953,-,0
+13,Metropolitana,,San Ramón,86510,6,6.9
+13,Metropolitana,,Santiago,503147,156,31
+13,Metropolitana,,Talagante,81838,5,6.1
+13,Metropolitana,,Tiltil,21477,-,9.3
+13,Metropolitana,,Vitacura,96774,90,93
+13,Metropolitana,,Por determinar,,27,
+14,Los Rios,,Corral,5447,-,0
+14,Los Rios,,Futrono,15261,-,13.1
+14,Los Rios,,La Unión,39538,9,22.8
+14,Los Rios,,Lago Ranco,10292,-,9.7
+14,Los Rios,,Lanco,17652,-,5.7
+14,Los Rios,,Los Lagos,20518,-,0
+14,Los Rios,,Máfil,7389,-,13.5
+14,Los Rios,,Mariquina,23250,-,8.6
+14,Los Rios,,Paillaco,20798,-,4.8
+14,Los Rios,,Panguipulli,35991,-,0
+14,Los Rios,,Río Bueno,32925,-,6.1
+14,Los Rios,,Valdivia,176774,45,25.5
+15,Arica y Parinacota,,Arica,247552,6,2.4
+15,Arica y Parinacota,,Camarones,1233,-,0
+15,Arica y Parinacota,,General Lagos,810,-,0
+15,Arica y Parinacota,,Putre,2515,-,0
+16,Nuble,,Bulnes,22607,18,79.6
+16,Nuble,,Chillán,198624,173,87.1
+16,Nuble,,Chillán Viejo,33827,22,65
+16,Nuble,,Cobquecura,5275,-,0
+16,Nuble,,Coelemu,16845,-,5.9
+16,Nuble,,Coihueco,28375,-,10.6
+16,Nuble,,El Carmen,12334,-,16.2
+16,Nuble,,Ninhue,5414,-,0
+16,Nuble,,Ñiquén,11567,-,0
+16,Nuble,,Pemuco,8639,-,0
+16,Nuble,,Pinto,11880,-,16.8
+16,Nuble,,Portezuelo,4940,-,0
+16,Nuble,,Quillón,18777,7,37.3
+16,Nuble,,Quirihue,12192,-,0
+16,Nuble,,Ránquil,6261,-,16
+16,Nuble,,San Carlos,56252,13,23.1
+16,Nuble,,San Fabián,4654,5,107.4
+16,Nuble,,San Ignacio,16624,-,6
+16,Nuble,,San Nicolás,12172,-,16.4
+16,Nuble,,Treguaco,5696,-,0
+16,Nuble,,Yungay,18596,7,37.6
