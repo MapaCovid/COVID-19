@@ -130,20 +130,21 @@ for i in allfiles:
         
     primero=False
 
+
 ### guardamos el archivo
         
 df_consolidado.to_csv(pathExport+'Consolidado_COVID19_Chile_Comunas.CSV', index=False)
 
-
+df_consolidado['id_comuna']=df_consolidado.id_comuna.fillna(0)
 
 ##casos_nuevos
 exportColumns=['casos_totales',
                'tasa']
 for columna in exportColumns:
-    pivot_casos_totales= df_consolidado.pivot_table(index=['id_region', 'nombre_region', 'id_comuna', 'nombre_comuna'],
+    pivot= df_consolidado.pivot_table(index=['id_region', 'nombre_region', 'id_comuna', 'nombre_comuna'],
          columns='fecha',
          values=columna)
-    pivot_casos_totales.to_csv(pathExport+'COVID19_Chile_Comunas-'+columna+'.CSV')
+    pivot.to_csv(pathExport+'COVID19_Chile_Comunas-'+columna+'.CSV')
 
 
 
