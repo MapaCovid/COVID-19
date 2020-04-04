@@ -20,7 +20,7 @@ import datetime
 from datetime import timedelta, date
 
 #Directorio de los informes diarios en CSV que queremos arreglar
-path='../../informes_minsal/informes_diarios_CSV/'
+path='../../informes_minsal/informes_diarios_Region_CSV/'
 formato_archivo='-InformeDiarioRegion-COVID19.csv'
 
 ###
