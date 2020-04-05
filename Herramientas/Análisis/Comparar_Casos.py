@@ -60,7 +60,7 @@ sp = sp[sp >= 1]
 us = us[us >= 1]
 
 
-# Plot 
+# Plot .L;.,M,.MM
 fig = plt.figure(figsize=(8,8))
 
 ti = np.arange(11)
