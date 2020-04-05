@@ -26,6 +26,15 @@ body {
   box-shadow: 2px 2px 2px lightgrey;
 }
 
+.pretty_pie_container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
 .bare_container {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -137,7 +146,4 @@ body {
   flex-direction: column;
 }
 
-#pie_graph > div > div > svg:nth-child(3) > g.infolayer > g.legend {
-  pointer-events: all;
-  transform: translate(30px, 349px);
-}
+
