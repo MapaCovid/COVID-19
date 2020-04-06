@@ -65,7 +65,7 @@ for fecha in rango_fechas_inverso(fecha_inicial-timedelta(1), fecha_final):
     informeHoy = pd.read_csv(path+stringHoy+formato_archivo)
     informeHoy = informeHoy.replace('LosRios','Los Rios')
     informeHoy = informeHoy.replace('Ohiggins','OHiggins')
-    informeHoy = informeHoy.replace('Los Lagos','Los Lagos')
+    informeHoy = informeHoy.replace('LosLagos','Los Lagos')
     informeHoy = informeHoy.replace('Vaparaiso','Valparaiso')
     
     informeHoy.to_csv(path+stringHoy+formato_archivo, index=False)
