@@ -4,7 +4,7 @@ id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_totale
 2,Antofagasta,4,25,0,0,0,0
 3,Atacama,0,1,0,0,0,0
 4,Coquimbo,1,15,0,0,0,0
-5,Vaparaiso,22,71,0,0,0,0
+5,Valparaiso,22,71,0,0,0,0
 13,Metropolitana,146,1084,0,3,0,0
 6,OHiggins,4,20,0,0,0,0
 7,Maule,5,37,0,0,0,0

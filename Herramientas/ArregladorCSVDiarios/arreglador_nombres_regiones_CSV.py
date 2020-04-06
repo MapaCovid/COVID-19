@@ -52,7 +52,7 @@ def rango_fechas_inverso(start_date, end_date):
 
 
 fecha_inicial=pd.to_datetime('2020-03-02')
-fecha_final=pd.to_datetime('2020-04-03')
+fecha_final=pd.to_datetime('2020-04-06')
         
 for fecha in rango_fechas_inverso(fecha_inicial-timedelta(1), fecha_final):
     #Fecha Hoy en string: fecha.strftime("%Y-%m-%d")
@@ -66,7 +66,7 @@ for fecha in rango_fechas_inverso(fecha_inicial-timedelta(1), fecha_final):
     informeHoy = informeHoy.replace('LosRios','Los Rios')
     informeHoy = informeHoy.replace('Ohiggins','OHiggins')
     informeHoy = informeHoy.replace('Los Lagos','Los Lagos')
-    
+    informeHoy = informeHoy.replace('Vaparaiso','Valparaiso')
     
     informeHoy.to_csv(path+stringHoy+formato_archivo, index=False)
     
