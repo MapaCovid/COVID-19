@@ -51,7 +51,7 @@ def rango_fechas_inverso(start_date, end_date):
         yield fecha_final - timedelta(n)
 
 
-fecha_inicial=pd.to_datetime('2020-03-02')
+fecha_inicial=pd.to_datetime('2020-03-01')
 fecha_final=pd.to_datetime('2020-04-06')
         
 for fecha in rango_fechas_inverso(fecha_inicial-timedelta(1), fecha_final):
