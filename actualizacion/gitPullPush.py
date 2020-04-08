@@ -10,8 +10,8 @@ from variables import pathRepo
 repo = Repo(pathRepo)  
 #mensajeCommit='creación script gitPullPush'
 def gitPull():
-    repo.git.pull('origin', 'master')
+    print(repo.git.pull('origin', 'master'))
 def gitPush(mensajeCommit):
-    repo.git.add('.')        
-    repo.index.commit(mensajeCommit)
-    repo.git.push('origin', 'master')
+    print(repo.git.add('.'))        
+    print(repo.index.commit(mensajeCommit))
+    print(repo.git.push('origin', 'master'))
