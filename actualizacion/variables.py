@@ -19,3 +19,5 @@ nombreInformeConsolidadoRegiones='Consolidado_COVID19_Chile_Regiones.CSV'
 nombreInformesRegiones='COVID19_Chile_Regiones-'
 nombreInformeConsolidadoComunas='Consolidado_COVID19_Chile_Comunas.CSV'
 nombreInformesComunas='COVID19_Chile_Comunas-'
+
+pathRepo='../'
