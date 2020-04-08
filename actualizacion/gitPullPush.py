@@ -12,6 +12,6 @@ repo = Repo(pathRepo)
 def gitPull():
     repo.git.pull('origin', 'master')
 def gitPush(mensajeCommit):
-    repo.git.add(update=True)        
+    repo.git.add('.')        
     repo.index.commit(mensajeCommit)
     repo.git.push('origin', 'master')
