@@ -14,3 +14,4 @@ if extraerDatosRegiones():
     print('Tenemos nuevos datos, vamos a consolidar.')
     consolidarCSV()
     
+    

@@ -11,10 +11,8 @@ from variables import pathInformesRegiones,\
     nombreInformeConsolidadoComunas,\
     nombreInformesComunas
     
-print('de')
 
 def consolidarCSV():
-    print('de')
     
      ##Primero consolidamos los regionales
     
@@ -131,7 +129,6 @@ def consolidarCSV():
             #Creamos el consolidado usando la fecha mas antigua
             df_consolidado=df.copy()
             
-            print('primero')
         else:
             #para todo el resto los unimos abajo
             df_consolidado=df_consolidado.append(df)

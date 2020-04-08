@@ -91,90 +91,97 @@ def extraerDatosRegiones():
         columnas=["id_reg","nombre_reg","casos_nuevos","casos_totales","porcentaje","fallecidos_totales"]
         #lo escribo así porque después usaremos las columnas
         newData = [columnas]
-        
+        #print(currentTbody)
         # Bucle pricipal que navega a través del sitio e utlizar regex para buscar la info que nos corresponde
         valueTest = 0
+       # print('largo del tbody children')
+       # print(len(list(currentTbody.children)))
         for currentTr in list(currentTbody.children):
+        #    print('loop 1')
             #Se salta los primeros cinco que son vacios y los impares continene info de las regiones
             if valueTest > 5 and valueTest % 2 != 0:
+         #       print('loop 2')
                 stringTr = str(currentTr)
                 arrayTags = stringTr.split("\n")
                 #La nueva region que vamos a agregarle la info
                 newRegion = []
                 
                 for regString in arrayTags:    
+          #          print('loop 3')
                     #Encuentra <>()<> subgrupos de un tag así
                     pattern = re.search(r'<[\w\s=":%;-]*>([A-Za-z0-9_éá’íÑ\.\s]*)%?<.*',regString)
                     if pattern is not None:
-                        
+           #             print('loop 4')                        
                         #Normalizamos el texto utilizando la funcion de arriba
                         newValue = normalizeText(pattern.group(1))
                         #Si no tiene valor salimos
                         if(newValue == ""):
                             break
                         else:        
+            #                print('loop 5')
                             #Si existe la region en nuestro dic, utilizamos el id y le hacemos un append a la region
                             if(newValue in thisRegionDic):
+             #                   print('loop 6')
                                 newRegion.append(thisRegionDic[newValue])
                             #Le hacemos un append del valor que sacamos
                             newRegion.append(newValue)
                 #Sacamos solo los que tienen valores, y ya tenemos todas las regiones
                 if(len(newRegion) != 0):
-                    #Esta linea elminina un espacio que se grababa demás
+                    #Esta linea elminina un espacio que se grababa de más
                     newRegion[4] = newRegion[4][0]
                     newData.append(newRegion)
-                    #print(newRegion)
+              #      print(newRegion)
             valueTest +=1
+            #print('este es el newdata ')
+           # print(newData)
             
-            
-            import pandas as pd
-            
-            informeHoy= pd.DataFrame(newData, columns=columnas)
-            print(informeHoy)
-            #tenemos un pandas, pero la primera fila la tenemos que sacar
-            informeHoy=informeHoy[informeHoy.index>0]
-            #pero para también usar el informe de ayer, tenemos que tener los mismos indices
-            #asi que vamos a reindexar sin cambiar el orden de lo demás
-            informeHoy=informeHoy.reset_index(drop=True)
-            
-            #Lo que sigue con pandas es relativamente simple
-            #Primero sacamos el espacio en O Higgins
-            informeHoy=informeHoy.replace('O Higgins', 'OHiggins')
-            #le sacamos los puntos
-            informeHoy=informeHoy.replace('\.','',regex=True)
-            #convertimos a enteros los datos que nos interesan
-            informeHoy.casos_nuevos=informeHoy.casos_nuevos.astype(int)
-            informeHoy.casos_totales=informeHoy.casos_totales.astype(int)
-            informeHoy.fallecidos_totales=informeHoy.fallecidos_totales.astype(int)
-            
-            #Fecha segun pagina 
-            #extraemos los fallecidos de ayer
-            
-            from datetime import timedelta
-            fechaHoy=pd.to_datetime(fechaHoyString)
-            #le resto un día y tengo objeto fecha de ayer
-            fechaAyer=fechaHoy-timedelta(1)
-            fechaAyerString=fechaAyer.strftime("%Y-%m-%d")
-            fechaAyerString
-            
-            #path='../informes_minsal/informes_diarios_Region_CSV/'
-            #formato_archivo='-InformeDiarioRegion-COVID19.csv'
-            informeAyer= pd.read_csv(path+fechaAyerString+formato_archivo)
-            
-            informeHoy['fallecidos_nuevos']=informeHoy.fallecidos_totales-informeAyer.fallecidos_totales
-            
-            #seleccionamos las columnas según el formato
-            informeHoy['recuperados_nuevos']=0
-            informeHoy['recuperados_totales']= 0
-            informeHoy=informeHoy[['id_reg', 'nombre_reg', 'casos_nuevos', 'casos_totales','fallecidos_nuevos', 'fallecidos_totales','recuperados_nuevos','recuperados_totales']]
-            
-            #ya estamos listos para guardarlos.
-            # usamos fechaHoyString
-            # no queremos que guarde el index 0, 1, 2  index=False
-            informeHoy.to_csv(path+fechaHoyString+formato_archivo,  index=False)
-            print(informeHoy.casos_totales)
-            return True
-            
-            
+        import pandas as pd
         
-extraerDatosRegiones()
+        informeHoy= pd.DataFrame(newData, columns=columnas)
+        
+        #tenemos un pandas, pero la primera fila la tenemos que sacar
+        informeHoy=informeHoy[informeHoy.index>0]
+        #pero para también usar el informe de ayer, tenemos que tener los mismos indices
+        #asi que vamos a reindexar sin cambiar el orden de lo demás
+        informeHoy=informeHoy.reset_index(drop=True)
+        
+        #Lo que sigue con pandas es relativamente simple
+        #Primero sacamos el espacio en O Higgins
+        informeHoy=informeHoy.replace('O Higgins', 'OHiggins')
+        #le sacamos los puntos
+        informeHoy=informeHoy.replace('\.','',regex=True)
+        #convertimos a enteros los datos que nos interesan
+        informeHoy.casos_nuevos=informeHoy.casos_nuevos.astype(int)
+        informeHoy.casos_totales=informeHoy.casos_totales.astype(int)
+        #print(informeHoy.casos_totales)
+        informeHoy.fallecidos_totales=informeHoy.fallecidos_totales.astype(int)
+        
+        #Fecha segun pagina 
+        #extraemos los fallecidos de ayer
+        
+        from datetime import timedelta
+        fechaHoy=pd.to_datetime(fechaHoyString)
+        #le resto un día y tengo objeto fecha de ayer
+        fechaAyer=fechaHoy-timedelta(1)
+        fechaAyerString=fechaAyer.strftime("%Y-%m-%d")
+        fechaAyerString
+        
+        #path='../informes_minsal/informes_diarios_Region_CSV/'
+        #formato_archivo='-InformeDiarioRegion-COVID19.csv'
+        informeAyer= pd.read_csv(path+fechaAyerString+formato_archivo)
+        
+        informeHoy['fallecidos_nuevos']=informeHoy.fallecidos_totales-informeAyer.fallecidos_totales
+        
+        #seleccionamos las columnas según el formato
+        informeHoy['recuperados_nuevos']=0
+        informeHoy['recuperados_totales']= 0
+        informeHoy=informeHoy[['id_reg', 'nombre_reg', 'casos_nuevos', 'casos_totales','fallecidos_nuevos', 'fallecidos_totales','recuperados_nuevos','recuperados_totales']]
+        
+        #ya estamos listos para guardarlos.
+        # usamos fechaHoyString
+        # no queremos que guarde el index 0, 1, 2  index=False
+        informeHoy.to_csv(path+fechaHoyString+formato_archivo,  index=False)
+        print('Hemos finalizado')
+        print('Casos totales en Chile al '+fechaHoyString+' :'+informeHoy.casos_totales.sum().astype(str))
+        return True
+            
