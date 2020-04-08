@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr  6 00:15:19 2020
-
-@author: esteban
+Este script se ha realizado gracias al aporte de https://github.com/jcrucesdeveloper
+Y las posteriores contribuciones de https://github.com/estebaniglesias
 """
 #función que entrega el día del útlimo informe Regional disponible en el minsal
 from fechaHoy import getDay
