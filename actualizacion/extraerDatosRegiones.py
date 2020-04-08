@@ -166,7 +166,7 @@ def extraerDatosRegiones():
             #seleccionamos las columnas según el formato
             informeHoy['recuperados_nuevos']=0
             informeHoy['recuperados_totales']= 0
-            informeHoy=informeHoy[['id_reg', 'nombre_reg', 'casos_nuevos', 'casos_totales','fallecidos_totales', 'fallecidos_nuevos','recuperados_nuevos','recuperados_totales']]
+            informeHoy=informeHoy[['id_reg', 'nombre_reg', 'casos_nuevos', 'casos_totales','fallecidos_nuevos', 'fallecidos_totales','recuperados_nuevos','recuperados_totales']]
             
             #ya estamos listos para guardarlos.
             # usamos fechaHoyString

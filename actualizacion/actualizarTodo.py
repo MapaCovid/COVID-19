@@ -12,5 +12,5 @@ if extraerDatosRegiones():
     # la función extraerDatoRegiones devuelve True si extrajo algo
     # devuelve False si ya estábamos actualizados
     print('Tenemos nuevos datos, vamos a consolidar.')
-    #consolidarCSV()
+    consolidarCSV()
     
