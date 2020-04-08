@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 ## Script para correr cuando haya actualización de los informes diarios en CSV
 
 import pandas as pd
