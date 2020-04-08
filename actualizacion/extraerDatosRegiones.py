@@ -30,7 +30,7 @@ def extraerDatosRegiones():
     
     if os.path.isfile(path+fechaHoyString+formato_archivo):
         print('No hay actualización, los por Comuna datos ya estaban actualizados')
-        return False
+        return (False,'')
         ##Los datos del sitio web ya están en CSV's
     else:
         #Los datos no están. Vamos a sacarlos.
@@ -182,5 +182,5 @@ def extraerDatosRegiones():
         informeHoy.to_csv(path+fechaHoyString+formato_archivo,  index=False)
         print('Hemos finalizado')
         print('Casos totales en Chile al '+fechaHoyString+' :'+informeHoy.casos_totales.sum().astype(str))
-        return True
+        return (True,fechaHoyString)
             
