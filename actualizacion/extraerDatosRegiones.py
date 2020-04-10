@@ -96,14 +96,17 @@ def extraerDatosRegiones():
        # print('largo del tbody children')
        # print(len(list(currentTbody.children)))
         for currentTr in list(currentTbody.children):
-        #    print('loop 1')
+            #print('tr')
+            #print(currentTr)
             #Se salta los primeros cinco que son vacios y los impares continene info de las regiones
             if valueTest > 5 and valueTest % 2 != 0:
          #       print('loop 2')
+                #print(currentTr) 
                 stringTr = str(currentTr)
                 arrayTags = stringTr.split("\n")
                 #La nueva region que vamos a agregarle la info
                 newRegion = []
+                
                 
                 for regString in arrayTags:    
           #          print('loop 3')
@@ -113,26 +116,26 @@ def extraerDatosRegiones():
            #             print('loop 4')                        
                         #Normalizamos el texto utilizando la funcion de arriba
                         newValue = normalizeText(pattern.group(1))
+                        #print('..................')
+                        #print(newValue)
                         #Si no tiene valor salimos
                         if(newValue == ""):
                             break
                         else:        
-            #                print('loop 5')
                             #Si existe la region en nuestro dic, utilizamos el id y le hacemos un append a la region
                             if(newValue in thisRegionDic):
-             #                   print('loop 6')
                                 newRegion.append(thisRegionDic[newValue])
                             #Le hacemos un append del valor que sacamos
                             newRegion.append(newValue)
-                #Sacamos solo los que tienen valores, y ya tenemos todas las regiones
+                    #Sacamos solo los que tienen valores, y ya tenemos todas las regiones
+                
                 if(len(newRegion) != 0):
                     #Esta linea elminina un espacio que se grababa de más
-                    newRegion[4] = newRegion[4][0]
+                    #Esto se saca el 10 de Abril del 2020 porque el Minsal sacó el espacio que se grababa de más
+                    #newRegion[4] = newRegion[4][0]
+                    
                     newData.append(newRegion)
-              #      print(newRegion)
-            valueTest +=1
-            #print('este es el newdata ')
-           # print(newData)
+                valueTest +=1
             
         import pandas as pd
         
