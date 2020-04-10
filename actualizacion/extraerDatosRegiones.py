@@ -87,7 +87,7 @@ def extraerDatosRegiones():
         
         #New data es la matriz que guardara todo
         #Por ahora quedará así porque estas son las columnas que tiene el minsal
-        columnas=["id_reg","nombre_reg","casos_nuevos","casos_totales","porcentaje","fallecidos_totales"]
+        columnas=["id_reg","nombre_reg","casos_nuevos","casos_totales","fallecidos_totales"]
         #lo escribo así porque después usaremos las columnas
         newData = [columnas]
         #print(currentTbody)
@@ -101,7 +101,7 @@ def extraerDatosRegiones():
             #Se salta los primeros cinco que son vacios y los impares continene info de las regiones
             if valueTest > 5 and valueTest % 2 != 0:
          #       print('loop 2')
-                #print(currentTr) 
+               # print(currentTr) 
                 stringTr = str(currentTr)
                 arrayTags = stringTr.split("\n")
                 #La nueva region que vamos a agregarle la info
@@ -116,8 +116,8 @@ def extraerDatosRegiones():
            #             print('loop 4')                        
                         #Normalizamos el texto utilizando la funcion de arriba
                         newValue = normalizeText(pattern.group(1))
-                        #print('..................')
-                        #print(newValue)
+                       # print('..................')
+                       # print(newValue)
                         #Si no tiene valor salimos
                         if(newValue == ""):
                             break
@@ -135,7 +135,7 @@ def extraerDatosRegiones():
                     #newRegion[4] = newRegion[4][0]
                     
                     newData.append(newRegion)
-                valueTest +=1
+            valueTest +=1
             
         import pandas as pd
         
