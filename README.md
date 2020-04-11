@@ -1,6 +1,8 @@
 # El Repositorio COVID-19 Chile
 **¿Qué?:** Somos un grupo de voluntarios. Queremos ser la plataforma de mayor cantidad de datos y herramientas de análisis de datos relativas al COVID-19 en Chile.
+
 **¿Para qué?:** Para tener los recursos necesarios para poder mostrar claramente lo que está pasando, y poder correr modelos matemáticos y epidimiológicos. Todo con el objetivo de frenar el avance del coronavirus en Chile.
+
 **¿Cómo puedo aportar?:** No necesitas ningún conocimiento previo, sólo motivación! Lee más abajo
 
 # Los Datos
