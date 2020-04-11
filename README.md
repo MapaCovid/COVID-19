@@ -1,5 +1,18 @@
 # El Repositorio COVID-19 Chile
-# Ahora los datos regionales actualizados automáticamente!
+Queremos ser la plataforma de mayor cantidad de datos y herramientas de análisis de datos relativas al COVID-19 en Chile.
+
+# ¿Qué datos tenemos actualmente?
+- Datos a nivel **regional y nacional**:
+	- [Consolidado_COVID19_Chile_Regiones.CSV](https://github.com/YachayData/COVID-19/blob/master/Consolidado_COVID19_Chile_Regiones.CSV) - Por cada día desde el 02 de Marzo: casos nuevos y totales, fallecidos nuevos y totales. Para nivel país, recuperados nuevos y recuperados totales.
+- Datos a nivel **comunal**:
+	- [Consolidado_COVID19_Chile_Comunas.CSV](https://github.com/YachayData/COVID-19/blob/master/Consolidado_COVID19_Chile_Comunas.CSV) - Por cada día desde el 02 de Marzo: casos nuevos y totales.
+
+Estos datos se encuentran en diversos formatos útiles para distintas aplicaciones. Para más información, [sobre cómo se estructuran los datos disponibles, revisa la documentación aquí ](https://github.com/YachayData/COVID-19/blob/master/SobreLosDatos.md)
+
+# ¿Qué información queremos incluír?
+
+
+Ahora los datos regionales actualizados automáticamente!
 En este repositorio se encuentran se encuentran todos los datos disponibles relativos al COVID-19 en Chile, así como también las fuentes utilizadas (informes del minsal, colegio médico, etc...)
 Para cada comuna y región, y para cada día: nuevos casos, casos totales, nuevos fallecidos, fallecidos totales, nuevos recuperados, recuperados totales. Estamos trabajando para incluír la información demográfica y medidas (fechas de las cuarentenas, cordones sanitarios y otros eventos que puedan permitir hacer análisis de las medidas tomadas por la autoridad.
 
