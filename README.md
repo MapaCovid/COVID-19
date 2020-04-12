@@ -3,7 +3,7 @@
 
 **¿Para qué?:** Para tener los recursos necesarios para poder mostrar claramente lo que está pasando, y poder correr modelos matemáticos y epidimiológicos. Todo con el objetivo de frenar el avance del coronavirus en Chile.
 
-**¿Cómo puedo aportar?:** No necesitas ningún conocimiento previo, sólo motivación! Pero si sabes programar o quieres correr modelos, bienvenido! Lee más abajo en la sección [¿Cómo puedo aportar?](#como-puedo-aportar)
+**¿Cómo puedo aportar?:** No necesitas ningún conocimiento previo, sólo motivación! Pero si sabes programar o quieres correr modelos, bienvenido eres también! Lee más abajo en la sección [¿Cómo puedo aportar?](#cómo-puedo-aportar)
 
 # Los Datos
 ## ¿Qué datos tienen actualmente?
@@ -34,18 +34,22 @@ No necesitas saber programar para poder aportar. Algunas formas de ayudar son:
 
 - **Buscando fuentes** de los nuevos datos a incluír. Si tienes ideas de dónde se podrían obtener los datos, coméntalo en la sección correspondiénte!
 
-- **Programando** la automatización de la extracción de los datos. O **manteniendo** los códigos ya escrito. Para esto, por favor [revisa la documentación sobre la extracción de datos en /extraccion](https://github.com/YachayData/COVID-19/tree/master/actualizacion)
+- **Programando** la automatización de la extracción de los datos. O **manteniendo** los códigos ya escrito.  Para esto, por favor [revisa la documentación sobre la extracción de datos en /extraccion](https://github.com/YachayData/COVID-19/tree/master/actualizacion)
 
-- **Creando nuevas herramientas de visualización de los datos** (Ver siguiente sección)
+- **Creando nuevas herramientas de análisis**. Par eso, revisa la [documentación en la sección de herramientas de análisis /herramientas](https://github.com/YachayData/COVID-19/tree/master/herramientas)
 
-# Visualización de los datos.
-mapacovid.cl
+- **Creando nuevas herramientas de visualización de los datos** Par eso, revisa la [sección de Herramientas de Visualización más abajo en este documento](#herramientas-de-visualización)
 
+# Fuentes
+
+* /informes_minsal - Informes del Ministerio de Salud, tanto en PDF como en CSV
+
+# Herramientas de visualización
+[www.mapacovid.cl](www.mapacovid.cl)
 
 ### Fuentes y Herramientas
 
 * * /Herramientas  - Estarán los scripts creados para analizar los datos, o para construir las Series de Tiempos a partir de los informes CSV que están en /informes_minsal
-* /informes_minsal - Informes del Ministerio de Salud, tanto en PDF como en CSV
 
 
 	
