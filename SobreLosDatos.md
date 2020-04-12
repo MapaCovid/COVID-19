@@ -1,7 +1,3 @@
-# Información sobre los datos.
-
-
-
 # ¿Cómo se estrucura la información?
 ## La información consolidada.
 * Consolidado_COVID19_Chile_Regiones.CSV Series de Tiempos por Regiones con:
