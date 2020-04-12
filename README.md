@@ -17,7 +17,7 @@ Además, tenemos diversos formatos útiles para distintas aplicaciones. Para má
 ## ¿Qué nueva información queremos incluír?
 Hay mucha más información disponible que nos gustaría incluír. A continuación, encontrarás una lista de la nueva información a incluír, con sus enlaces a los hilos de discusión.
 
-- [Datos de camas UCI](https://github.com/jorgeperezrojas/covid19-data/blob/master/csv/pacientes_en_uci.csv)
+- [Datos de camas UCI](https://github.com/YachayData/COVID-19/issues/11)
 - [Datos de cuarentena por comuna y por fecha](https://github.com/YachayData/COVID-19/issues/3)
 - [Número de tests realizados por fecha](https://github.com/YachayData/COVID-19/issues/2)
 - [Contaminación](https://github.com/YachayData/COVID-19/issues/8)
