@@ -21,57 +21,25 @@ Hay mucha más información disponible que nos gustaría incluír. A continuaci�
 - [Datos de cuarentena por comuna y por fecha](https://github.com/YachayData/COVID-19/issues/3)
 - [Número de tests realizados por fecha](https://github.com/YachayData/COVID-19/issues/2)
 - [Contaminación](https://github.com/YachayData/COVID-19/issues/8)
-- [Información demográfica]()
+- Información demográfica.
+- Fechas y lugares de medidas como cuarentenas.
 
 # ¿Cómo puedo aportar?
-Esta es una plataforma para que todas y todos puedan aportar! **Sin importar 
+Esta es una plataforma para que todas y todos puedan aportar!
+Para mejor coordinación [únete a nuestro grupo de Whatsapp aquí](https://chat.whatsapp.com/CUBbQK40HTTBmFoLszaG5S)
 
+No necesitas saber programar para poder aportar. Algunas formas de ayudar son:
 
-Para algunas, hemos logrado automatizar el proceso de extracción de estos datos. Pero es algo que requiere trabajo hacer. Para otro tipo de información, todavía se tienen que extraer "a mano", y para otros, todavía necesitamos ayuda para encontrar las fuentes. Para todo eso, **se necesita tu ayuda!**. 
+- **Aportando ideas** de nuevos datos para incluír o análisis para realizar: Para esto, **crea un nuevo tema** en la [Sección de Issues](https://github.com/YachayData/COVID-19/issues). O si no, simplemente coméntala en el grupo de Whatsapp.
 
+- **Buscando fuentes** de los nuevos datos a incluír. Si tienes ideas de dónde se podrían obtener los datos, coméntalo en la sección correspondiénte!
 
-Estamos trabajando para incluír la información demográfica y medidas (fechas de las cuarentenas, cordones sanitarios y otros eventos que puedan permitir hacer análisis de las medidas tomadas por la autoridad.
+- **Programando** la automatización de la extracción de los datos. O **manteniendo** los códigos ya escrito. Para esto, por favor [revisa la documentación sobre la extracción de datos en /extraccion](https://github.com/YachayData/COVID-19/tree/master/actualizacion)
 
-## ¡Necesitamos ayuda! - ¿Cómo puedo aportar?
-Hay mucha información todavía que se puede incluír en este repositorio. Y muchas formas de analizar la información y sacar observaciones o conclusiones. ¡Para eso necesitamos ayuda!
+- ** Creando nuevas herramientas de visualización de los datos** (Ver siguiente sección)
 
-Los temas en los cuales estamos trabajando los estamos poniendo en Issues
-https://github.com/YachayData/COVID-19/issues
-Puedes comentar libremente!
-
-Puedes desde ya clonar este git y proponer cambios! Pero no tienes que saber programar para ayudar, basta con tener nuevas ideas, aportar con nuevas fuentes, saber leer informes y transcribirlos en un GoogleDocs / Google Drive o un Excel.
-
-Si tienes dudas cómo aportar, métete al grupo de Whatsapp https://chat.whatsapp.com/CUBbQK40HTTBmFoLszaG5S
-También puedes escribirnos en:
-* Instagram instagram.com/yachay.data
-* Twitter https://twitter.com/YachayD
-* Facebook https://www.facebook.com/yachay.data/
-
-
-## ¿Cómo se estrucura la información?
-
-### La información consolidada:
-* Consolidado_COVID19_Chile_Regiones.CSV Series de Tiempos por Regiones con:
-	* fecha: formato YYYY-MM-DD
-	* id_reg: ID de la Región (número de la región, siguiendo metodología antigua)
-	* nombre_region: Nombre de la Región, sin tildes ni Ñ
-	* casos_nuevos: Número de nuevos casos confirmados del día
-	* casos_totales: Casos confirmados acumulados a la fecha
-	* fallecidos_nuevos: Número de fallecidos del día
-	* fallecidos_totales: Fallecidos acumulados a la fecha
-	* recuperados_nuevos: (Por ahora no lo estamos usando)
-	* recuperados_totales: (Por ahora no lo estamos usando)
-
-* Consolidado_COVID19_Chile_Comunas.CSV. Series de Tiempos por Comunas con:
-	* fecha: formato YYYY-MM-DD
-	* id_reg: ID de la Región (número de la región, siguiendo metodología antigua)
-	* nombre_region: Nombre de la Región, sin tildes ni Ñ
-	* id_comuna:
-	* nombre_comuna:
-	* casos_nuevos: Número de nuevos casos confirmados del día
-	* casos_totales: Casos confirmados acumulados a la fecha
-	
-Si te interesa sólo un dato, puedes encontrar la matriz pivoteada para ese dato específico, indexada por región/comuna y fecha, donde los datos (ej. casos totales) se encontrarán en una columna por cada fecha. 
+# Visualización de los datos.
+mapacovid.cl
 
 
 ### Fuentes y Herramientas
