@@ -36,7 +36,7 @@ No necesitas saber programar para poder aportar. Algunas formas de ayudar son:
 
 - **Programando** la automatización de la extracción de los datos. O **manteniendo** los códigos ya escrito. Para esto, por favor [revisa la documentación sobre la extracción de datos en /extraccion](https://github.com/YachayData/COVID-19/tree/master/actualizacion)
 
-- ** Creando nuevas herramientas de visualización de los datos** (Ver siguiente sección)
+- **Creando nuevas herramientas de visualización de los datos** (Ver siguiente sección)
 
 # Visualización de los datos.
 mapacovid.cl
