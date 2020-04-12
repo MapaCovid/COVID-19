@@ -3,7 +3,7 @@
 
 **¿Para qué?:** Para tener los recursos necesarios para poder mostrar claramente lo que está pasando, y poder correr modelos matemáticos y epidimiológicos. Todo con el objetivo de frenar el avance del coronavirus en Chile.
 
-**¿Cómo puedo aportar?:** No necesitas ningún conocimiento previo, sólo motivación! Lee más abajo
+**¿Cómo puedo aportar?:** No necesitas ningún conocimiento previo, sólo motivación! Pero si sabes programar o quieres correr modelos, bienvenido! Lee más abajo en la sección [¿Cómo puedo aportar?](#como-puedo-aportar)
 
 # Los Datos
 ## ¿Qué datos tienen actualmente?
