@@ -3,7 +3,7 @@
 
 **¿Para qué?:** Para tener los recursos necesarios para poder mostrar claramente lo que está pasando, y poder correr modelos matemáticos y epidimiológicos. Todo con el objetivo de frenar el avance del coronavirus en Chile.
 
-**¿Cómo puedo aportar?:** No necesitas ningún conocimiento previo, sólo motivación! Pero si sabes programar o quieres correr modelos, bienvenido eres también! Lee más abajo en la sección [¿Cómo puedo aportar?](#cómo-puedo-aportar)
+**¿Cómo puedo aportar?:** No necesitas ningún conocimiento previo, sólo motivación! Pero si sabes programar o quieres correr modelos, bienvenido eres también! **Existen  muchas formas de aportar** Lee más abajo en la sección [¿Cómo puedo aportar?](#cómo-puedo-aportar)
 
 # Los Datos
 ## ¿Qué datos tienen actualmente?
@@ -32,25 +32,26 @@ No necesitas saber programar para poder aportar. Algunas formas de ayudar son:
 
 - **Aportando ideas** de nuevos datos para incluír o análisis para realizar: Para esto, **crea un nuevo tema** en la [Sección de Issues](https://github.com/YachayData/COVID-19/issues). O si no, simplemente coméntala en el grupo de Whatsapp.
 
-- **Buscando fuentes** de los nuevos datos a incluír. Si tienes ideas de dónde se podrían obtener los datos, coméntalo en la sección correspondiénte!
+- **Buscando fuentes** de los nuevos datos a incluír. Si tienes ideas de dónde se podrían obtener los datos, coméntalo en la [sección correspondiénte](https://github.com/YachayData/COVID-19/issues)!
 
-- **Programando** la automatización de la extracción de los datos. O **manteniendo** los códigos ya escrito.  Para esto, por favor [revisa la documentación sobre la extracción de datos en /extraccion](https://github.com/YachayData/COVID-19/tree/master/actualizacion)
+- **Programando** la automatización de la extracción de los datos. O ya sea **manteniendo** los códigos ya escritos.  Para esto, por favor [revisa la documentación sobre la extracción de datos en /actualizacion](https://github.com/YachayData/COVID-19/tree/master/actualizacion)
 
-- **Creando nuevas herramientas de análisis**. Par eso, revisa la [documentación en la sección de herramientas de análisis /herramientas](https://github.com/YachayData/COVID-19/tree/master/herramientas)
+- **Creando nuevas herramientas de análisis**. A partir de los datos se pueden observar muchísimas cosas! Para eso, revisa la [documentación en la sección de herramientas de análisis /herramientas](https://github.com/YachayData/COVID-19/tree/master/herramientas).
 
 - **Creando nuevas herramientas de visualización de los datos** Par eso, revisa la [sección de Herramientas de Visualización más abajo en este documento](#herramientas-de-visualización)
 
 # Fuentes
-
-* /informes_minsal - Informes del Ministerio de Salud, tanto en PDF como en CSV
+Todas las fuentes utilizadas en este repositorio están **indicadas y respaldadas** en la carpeta `/fuentes`. Luego, los datos son transcritos a la carpeta `/datos`. Para más información sobre las fuentes, [revisa la documentación de sobre las fuentes](https://github.com/YachayData/COVID-19/tree/master/fuentes). 
 
 # Herramientas de visualización
-[www.mapacovid.cl](www.mapacovid.cl)
+Los datos son más fáciles de comprender si uno los visualiza! A continuación una lista de las herramientas de visualización Web que utilizan los datos de este repositorio:
 
-### Fuentes y Herramientas
+- [www.mapacovid.cl](www.mapacovid.cl): Mapa de Visualización creado por [YachayData](https://github.com/YachayData/) usando el código de [Yi Liu](https://github.com/stevenliuyi/covid19/)
+- [Dashboard de Rudy](https://github.com/YachayData/COVID-19/tree/master/herramientas/Visualization): Panel de visualización de datos desarrollado por [Rudy](https://github.com/rudyn2)
 
-* * /Herramientas  - Estarán los scripts creados para analizar los datos, o para construir las Series de Tiempos a partir de los informes CSV que están en /informes_minsal
+Si creas la tuya, no dudes en subirla a este repositorio en la carpeta `/herramientas/visualizacion` haciendo un pull request. O si tienes otro repositorio, crea un Issue avisando para que la incorporemos a esta lista!
 
-
+# Análisis de Datos.
+Para la mayoría de los análisis, hay que mezclar distintos tipos de información, hacer cálculos, correr modelos. Este repositorio no se limita a los datos, si no que también incorpora herramientas de análisis de datos Open Source. Estas se encuentran en la carpeta `/herramientas`. Para más información visita la [documentación en la sección de herramientas de análisis en la carpeta /herramientas](https://github.com/YachayData/COVID-19/tree/master/herramientas).
 	
 
