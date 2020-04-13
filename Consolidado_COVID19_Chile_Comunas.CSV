@@ -1,353 +1,4 @@
 fecha,id_region,nombre_region,id_comuna,nombre_comuna,poblacion,casos_totales,tasa
-2020-04-01,1,Tarapaca,,Alto Hospicio,129999.0,1,0.8
-2020-04-01,1,Tarapaca,,Camiña,1375.0,0,0.0
-2020-04-01,1,Tarapaca,,Colchane,1583.0,0,0.0
-2020-04-01,1,Tarapaca,,Huara,3000.0,0,0.0
-2020-04-01,1,Tarapaca,,Iquique,223463.0,5,2.2
-2020-04-01,1,Tarapaca,,Pica,5958.0,0,0.0
-2020-04-01,1,Tarapaca,,Pozo Almonte,17395.0,0,0.0
-2020-04-01,2,Antofagasta,,Antofagasta,425725.0,32,7.5
-2020-04-01,2,Antofagasta,,Calama,190336.0,3,1.6
-2020-04-01,2,Antofagasta,,María Elena,6814.0,0,0.0
-2020-04-01,2,Antofagasta,,Mejillones,14776.0,0,0.0
-2020-04-01,2,Antofagasta,,Ollagüe,287.0,0,0.0
-2020-04-01,2,Antofagasta,,San Pedro de Atacama,10434.0,2,19.2
-2020-04-01,2,Antofagasta,,Sierra Gorda,1746.0,0,0.0
-2020-04-01,2,Antofagasta,,Taltal,13657.0,0,0.0
-2020-04-01,2,Antofagasta,,Tocopilla,28079.0,2,7.1
-2020-04-01,3,Atacama,,Alto del Carmen,5729.0,0,0.0
-2020-04-01,3,Atacama,,Caldera,19426.0,0,0.0
-2020-04-01,3,Atacama,,Chañaral,13164.0,0,0.0
-2020-04-01,3,Atacama,,Copiapó,171766.0,2,1.2
-2020-04-01,3,Atacama,,Diego de Almagro,14358.0,1,7.0
-2020-04-01,3,Atacama,,Freirina,7681.0,0,0.0
-2020-04-01,3,Atacama,,Huasco,11264.0,0,0.0
-2020-04-01,3,Atacama,,Tierra Amarilla,14312.0,0,0.0
-2020-04-01,3,Atacama,,Vallenar,57009.0,0,0.0
-2020-04-01,4,Coquimbo,,Andacollo,11791.0,0,0.0
-2020-04-01,4,Coquimbo,,Canela,9546.0,0,0.0
-2020-04-01,4,Coquimbo,,Combarbalá,13884.0,0,0.0
-2020-04-01,4,Coquimbo,,Coquimbo,256735.0,19,7.4
-2020-04-01,4,Coquimbo,,Illapel,32801.0,0,0.0
-2020-04-01,4,Coquimbo,,La Higuera,4450.0,0,0.0
-2020-04-01,4,Coquimbo,,La Serena,249656.0,3,1.2
-2020-04-01,4,Coquimbo,,Los Vilos,23374.0,1,4.3
-2020-04-01,4,Coquimbo,,Monte Patria,32527.0,0,0.0
-2020-04-01,4,Coquimbo,,Ovalle,121269.0,4,3.3
-2020-04-01,4,Coquimbo,,Paiguano,4675.0,0,0.0
-2020-04-01,4,Coquimbo,,Punitaqui,12165.0,0,0.0
-2020-04-01,4,Coquimbo,,Río Hurtado,4372.0,1,22.9
-2020-04-01,4,Coquimbo,,Salamanca,29110.0,2,6.9
-2020-04-01,4,Coquimbo,,Vicuña,29741.0,0,0.0
-2020-04-01,5,Valparaiso,,Algarrobo,15174.0,7,46.1
-2020-04-01,5,Valparaiso,,Cabildo,20663.0,0,0.0
-2020-04-01,5,Valparaiso,,Calera,53591.0,6,11.2
-2020-04-01,5,Valparaiso,,Calle Larga,16482.0,0,0.0
-2020-04-01,5,Valparaiso,,Cartagena,25357.0,0,0.0
-2020-04-01,5,Valparaiso,,Casablanca,29170.0,1,3.4
-2020-04-01,5,Valparaiso,,Catemu,15213.0,0,0.0
-2020-04-01,5,Valparaiso,,Concón,45889.0,1,2.2
-2020-04-01,5,Valparaiso,,El Quisco,17742.0,0,0.0
-2020-04-01,5,Valparaiso,,El Tabo,14338.0,1,7.0
-2020-04-01,5,Valparaiso,,Hijuelas,19099.0,0,0.0
-2020-04-01,5,Valparaiso,,Isla de Pascua,8277.0,5,60.4
-2020-04-01,5,Valparaiso,,Juan Fernández,1033.0,0,0.0
-2020-04-01,5,Valparaiso,,La Cruz,25321.0,1,3.9
-2020-04-01,5,Valparaiso,,La Ligua,37739.0,2,5.3
-2020-04-01,5,Valparaiso,,Limache,49931.0,3,6.0
-2020-04-01,5,Valparaiso,,Llaillay,26533.0,0,0.0
-2020-04-01,5,Valparaiso,,Los Andes,68093.0,3,4.4
-2020-04-01,5,Valparaiso,,Nogales,23490.0,0,0.0
-2020-04-01,5,Valparaiso,,Olmué,19266.0,0,0.0
-2020-04-01,5,Valparaiso,,Panquehue,7633.0,0,0.0
-2020-04-01,5,Valparaiso,,Papudo,6201.0,0,0.0
-2020-04-01,5,Valparaiso,,Petorca,10558.0,1,9.5
-2020-04-01,5,Valparaiso,,Puchuncaví,20071.0,0,0.0
-2020-04-01,5,Valparaiso,,Putaendo,17645.0,1,5.7
-2020-04-01,5,Valparaiso,,Quillota,97572.0,7,7.2
-2020-04-01,5,Valparaiso,,Quilpué,167085.0,10,6.0
-2020-04-01,5,Valparaiso,,Quintero,36135.0,3,8.3
-2020-04-01,5,Valparaiso,,Rinconada,11263.0,0,0.0
-2020-04-01,5,Valparaiso,,San Antonio,96761.0,4,4.1
-2020-04-01,5,Valparaiso,,San Esteban,20643.0,0,0.0
-2020-04-01,5,Valparaiso,,San Felipe,83494.0,3,3.6
-2020-04-01,5,Valparaiso,,Santa María,16367.0,2,12.2
-2020-04-01,5,Valparaiso,,Santo Domingo,11934.0,3,25.1
-2020-04-01,5,Valparaiso,,Valparaíso,315732.0,26,8.2
-2020-04-01,5,Valparaiso,,Villa Alemana,139310.0,8,5.7
-2020-04-01,5,Valparaiso,,Viña del Mar,361371.0,38,10.5
-2020-04-01,5,Valparaiso,,Zapallar,7994.0,0,0.0
-2020-04-01,6,OHiggins,,Chépica,15925.0,0,0.0
-2020-04-01,6,OHiggins,,Chimbarongo,37696.0,2,5.3
-2020-04-01,6,OHiggins,,Codegua,14096.0,0,0.0
-2020-04-01,6,OHiggins,,Coinco,7831.0,0,0.0
-2020-04-01,6,OHiggins,,Coltauco,21263.0,0,0.0
-2020-04-01,6,OHiggins,,Doñihue,22700.0,0,0.0
-2020-04-01,6,OHiggins,,Graneros,36504.0,0,0.0
-2020-04-01,6,OHiggins,,La Estrella,3114.0,0,0.0
-2020-04-01,6,OHiggins,,Las Cabras,26749.0,0,0.0
-2020-04-01,6,OHiggins,,Litueche,6765.0,0,0.0
-2020-04-01,6,OHiggins,,Lolol,7289.0,0,0.0
-2020-04-01,6,OHiggins,,Machalí,59913.0,6,10.0
-2020-04-01,6,OHiggins,,Malloa,14163.0,0,0.0
-2020-04-01,6,OHiggins,,Marchihue,7632.0,0,0.0
-2020-04-01,6,OHiggins,,Mostazal,27462.0,0,0.0
-2020-04-01,6,OHiggins,,Nancagua,19141.0,0,0.0
-2020-04-01,6,OHiggins,,Navidad,6904.0,0,0.0
-2020-04-01,6,OHiggins,,Olivar,14624.0,1,6.8
-2020-04-01,6,OHiggins,,Palmilla,13299.0,0,0.0
-2020-04-01,6,OHiggins,,Paredones,6349.0,0,0.0
-2020-04-01,6,OHiggins,,Peralillo,11848.0,0,0.0
-2020-04-01,6,OHiggins,,Peumo,14952.0,0,0.0
-2020-04-01,6,OHiggins,,Pichidegua,20743.0,0,0.0
-2020-04-01,6,OHiggins,,Pichilemu,17882.0,0,0.0
-2020-04-01,6,OHiggins,,Placilla,9164.0,1,10.9
-2020-04-01,6,OHiggins,,Pumanque,3531.0,0,0.0
-2020-04-01,6,OHiggins,,Quinta de Tilcoco,13877.0,2,14.4
-2020-04-01,6,OHiggins,,Rancagua,265211.0,7,2.6
-2020-04-01,6,OHiggins,,Rengo,63710.0,1,1.6
-2020-04-01,6,OHiggins,,Requínoa,30371.0,1,3.3
-2020-04-01,6,OHiggins,,San Fernando,78642.0,4,5.1
-2020-04-01,6,OHiggins,,San Vicente,50617.0,1,2.0
-2020-04-01,6,OHiggins,,Santa Cruz,41096.0,0,0.0
-2020-04-01,7,Maule,,Cauquenes,44143.0,1,2.3
-2020-04-01,7,Maule,,Chanco,9331.0,0,0.0
-2020-04-01,7,Maule,,Colbún,22565.0,4,17.7
-2020-04-01,7,Maule,,Constitución,50348.0,1,2.0
-2020-04-01,7,Maule,,Curepto,9426.0,0,0.0
-2020-04-01,7,Maule,,Curicó,163626.0,8,4.9
-2020-04-01,7,Maule,,Empedrado,4206.0,0,0.0
-2020-04-01,7,Maule,,Hualañé,10222.0,0,0.0
-2020-04-01,7,Maule,,Licantén,6989.0,0,0.0
-2020-04-01,7,Maule,,Linares,101073.0,6,5.9
-2020-04-01,7,Maule,,Longaví,32810.0,1,3.0
-2020-04-01,7,Maule,,Maule,60000.0,2,3.3
-2020-04-01,7,Maule,,Molina,49800.0,3,6.0
-2020-04-01,7,Maule,,Parral,44544.0,3,6.7
-2020-04-01,7,Maule,,Pelarco,9083.0,0,0.0
-2020-04-01,7,Maule,,Pelluhue,8092.0,1,12.4
-2020-04-01,7,Maule,,Pencahue,8601.0,0,0.0
-2020-04-01,7,Maule,,Rauco,11248.0,0,0.0
-2020-04-01,7,Maule,,Retiro,21071.0,0,0.0
-2020-04-01,7,Maule,,Río Claro,14753.0,1,6.8
-2020-04-01,7,Maule,,Romeral,16170.0,2,12.4
-2020-04-01,7,Maule,,Sagrada Familia,19469.0,0,0.0
-2020-04-01,7,Maule,,San Clemente,46292.0,0,0.0
-2020-04-01,7,Maule,,San Javier,49451.0,1,2.0
-2020-04-01,7,Maule,,San Rafael,9959.0,0,0.0
-2020-04-01,7,Maule,,Talca,236724.0,37,15.6
-2020-04-01,7,Maule,,Teno,30850.0,0,0.0
-2020-04-01,7,Maule,,Vichuquén,4381.0,0,0.0
-2020-04-01,7,Maule,,Villa Alegre,17512.0,0,0.0
-2020-04-01,7,Maule,,Yerbas Buenas,19200.0,0,0.0
-2020-04-01,8,Biobio,,Alto Biobío,6775.0,0,0.0
-2020-04-01,8,Biobio,,Antuco,4306.0,0,0.0
-2020-04-01,8,Biobio,,Arauco,38679.0,5,12.9
-2020-04-01,8,Biobio,,Cabrero,30725.0,0,0.0
-2020-04-01,8,Biobio,,Cañete,37003.0,0,0.0
-2020-04-01,8,Biobio,,Chiguayante,91180.0,18,19.7
-2020-04-01,8,Biobio,,Concepción,238092.0,47,19.7
-2020-04-01,8,Biobio,,Contulmo,6330.0,0,0.0
-2020-04-01,8,Biobio,,Coronel,125829.0,11,8.7
-2020-04-01,8,Biobio,,Curanilahue,33892.0,1,3.0
-2020-04-01,8,Biobio,,Florida,11841.0,0,0.0
-2020-04-01,8,Biobio,,Hualpén,97273.0,39,40.1
-2020-04-01,8,Biobio,,Hualqui,26201.0,3,11.4
-2020-04-01,8,Biobio,,Laja,23873.0,2,8.4
-2020-04-01,8,Biobio,,Lebu,27100.0,0,0.0
-2020-04-01,8,Biobio,,Los Álamos,22524.0,0,0.0
-2020-04-01,8,Biobio,,Los Ángeles,218515.0,15,6.9
-2020-04-01,8,Biobio,,Lota,45750.0,0,0.0
-2020-04-01,8,Biobio,,Mulchén,31041.0,5,16.1
-2020-04-01,8,Biobio,,Nacimiento,27944.0,2,7.2
-2020-04-01,8,Biobio,,Negrete,10429.0,0,0.0
-2020-04-01,8,Biobio,,Penco,49865.0,1,2.0
-2020-04-01,8,Biobio,,Quilaco,4179.0,0,0.0
-2020-04-01,8,Biobio,,Quilleco,10032.0,0,0.0
-2020-04-01,8,Biobio,,San Pedro de la Paz,145906.0,50,34.3
-2020-04-01,8,Biobio,,San Rosendo,3611.0,0,0.0
-2020-04-01,8,Biobio,,Santa Bárbara,14592.0,2,13.7
-2020-04-01,8,Biobio,,Santa Juana,14779.0,0,0.0
-2020-04-01,8,Biobio,,Talcahuano,158345.0,23,14.5
-2020-04-01,8,Biobio,,Tirúa,11019.0,0,0.0
-2020-04-01,8,Biobio,,Tomé,58729.0,6,10.2
-2020-04-01,8,Biobio,,Tucapel,15205.0,0,0.0
-2020-04-01,8,Biobio,,Yumbel,22132.0,5,22.6
-2020-04-01,8,Biobio,,Por determinar,0.0,0,0.0
-2020-04-01,9,Araucania,,Angol,56058.0,13,23.2
-2020-04-01,9,Araucania,,Carahue,25486.0,2,7.8
-2020-04-01,9,Araucania,,Cholchol,12341.0,2,16.2
-2020-04-01,9,Araucania,,Collipulli,26148.0,0,0.0
-2020-04-01,9,Araucania,,Cunco,18055.0,0,0.0
-2020-04-01,9,Araucania,,Curacautín,18178.0,0,0.0
-2020-04-01,9,Araucania,,Curarrehue,7802.0,2,25.6
-2020-04-01,9,Araucania,,Ercilla,8458.0,0,0.0
-2020-04-01,9,Araucania,,Freire,25446.0,2,7.9
-2020-04-01,9,Araucania,,Galvarino,12633.0,1,7.9
-2020-04-01,9,Araucania,,Gorbea,15148.0,6,39.6
-2020-04-01,9,Araucania,,Lautaro,40746.0,8,19.6
-2020-04-01,9,Araucania,,Loncoche,24739.0,2,8.1
-2020-04-01,9,Araucania,,Lonquimay,11049.0,0,0.0
-2020-04-01,9,Araucania,,Los Sauces,7517.0,0,0.0
-2020-04-01,9,Araucania,,Lumaco,10050.0,0,0.0
-2020-04-01,9,Araucania,,Melipeuco,6265.0,0,0.0
-2020-04-01,9,Araucania,,Nueva Imperial,33777.0,2,5.9
-2020-04-01,9,Araucania,,Padre Las Casas,82110.0,14,17.1
-2020-04-01,9,Araucania,,Perquenco,7223.0,1,13.8
-2020-04-01,9,Araucania,,Pitrufquén,26096.0,6,23.0
-2020-04-01,9,Araucania,,Pucón,29782.0,3,10.1
-2020-04-01,9,Araucania,,Purén,12188.0,1,8.2
-2020-04-01,9,Araucania,,Renaico,10833.0,0,0.0
-2020-04-01,9,Araucania,,Saavedra,12793.0,0,0.0
-2020-04-01,9,Araucania,,Temuco,302931.0,225,74.3
-2020-04-01,9,Araucania,,Teodoro Schmidt,15786.0,4,25.3
-2020-04-01,9,Araucania,,Toltén,10055.0,3,29.8
-2020-04-01,9,Araucania,,Traiguén,19314.0,0,0.0
-2020-04-01,9,Araucania,,Victoria,35467.0,7,19.7
-2020-04-01,9,Araucania,,Vilcún,30766.0,5,16.3
-2020-04-01,9,Araucania,,Villarrica,59103.0,4,6.8
-2020-04-01,9,Araucania,,Por determinar,0.0,0,0.0
-2020-04-01,10,Los Lagos,,Ancud,42458.0,0,0.0
-2020-04-01,10,Los Lagos,,Calbuco,36744.0,5,13.6
-2020-04-01,10,Los Lagos,,Castro,47607.0,1,2.1
-2020-04-01,10,Los Lagos,,Chaitén,5020.0,1,19.9
-2020-04-01,10,Los Lagos,,Chonchi,16013.0,0,0.0
-2020-04-01,10,Los Lagos,,Cochamó,4006.0,0,0.0
-2020-04-01,10,Los Lagos,,Curaco de Vélez,4066.0,0,0.0
-2020-04-01,10,Los Lagos,,Dalcahue,15069.0,0,0.0
-2020-04-01,10,Los Lagos,,Fresia,12656.0,0,0.0
-2020-04-01,10,Los Lagos,,Frutillar,20223.0,0,0.0
-2020-04-01,10,Los Lagos,,Futaleufú,2806.0,0,0.0
-2020-04-01,10,Los Lagos,,Hualaihué,9525.0,3,31.5
-2020-04-01,10,Los Lagos,,Llanquihue,18621.0,0,0.0
-2020-04-01,10,Los Lagos,,Los Muermos,17817.0,1,5.6
-2020-04-01,10,Los Lagos,,Maullín,14894.0,0,0.0
-2020-04-01,10,Los Lagos,,Osorno,173410.0,120,69.2
-2020-04-01,10,Los Lagos,,Palena,1827.0,0,0.0
-2020-04-01,10,Los Lagos,,Puerto Montt,269398.0,44,16.3
-2020-04-01,10,Los Lagos,,Puerto Octay,9192.0,1,10.9
-2020-04-01,10,Los Lagos,,Puerto Varas,48620.0,1,2.1
-2020-04-01,10,Los Lagos,,Puqueldón,4201.0,0,0.0
-2020-04-01,10,Los Lagos,,Purranque,21080.0,1,4.7
-2020-04-01,10,Los Lagos,,Puyehue,11787.0,1,8.5
-2020-04-01,10,Los Lagos,,Queilén,5543.0,0,0.0
-2020-04-01,10,Los Lagos,,Quellón,29309.0,0,0.0
-2020-04-01,10,Los Lagos,,Quemchi,8783.0,0,0.0
-2020-04-01,10,Los Lagos,,Quinchao,8298.0,1,12.1
-2020-04-01,10,Los Lagos,,Río Negro,14275.0,0,0.0
-2020-04-01,10,Los Lagos,,San Juan de la Costa,7639.0,0,0.0
-2020-04-01,10,Los Lagos,,San Pablo,10553.0,1,9.5
-2020-04-01,11,Aisen,,Aisén,25002.0,1,4.0
-2020-04-01,11,Aisen,,Chile Chico,5121.0,0,0.0
-2020-04-01,11,Aisen,,Cisnes,5828.0,0,0.0
-2020-04-01,11,Aisen,,Cochrane,3685.0,0,0.0
-2020-04-01,11,Aisen,,Coyhaique,61210.0,2,3.3
-2020-04-01,11,Aisen,,Guaitecas,1599.0,0,0.0
-2020-04-01,11,Aisen,,Lago Verde,920.0,0,0.0
-2020-04-01,11,Aisen,,O'Higgins,661.0,0,0.0
-2020-04-01,11,Aisen,,Río Ibáñez,2699.0,0,0.0
-2020-04-01,11,Aisen,,Tortel,572.0,0,0.0
-2020-04-01,12,Magallanes y la Antartica Chilena,,Antártica,137.0,0,0.0
-2020-04-01,12,Magallanes y la Antartica Chilena,,Cabo de Hornos,1983.0,6,302.6
-2020-04-01,12,Magallanes y la Antartica Chilena,,Laguna Blanca,264.0,0,0.0
-2020-04-01,12,Magallanes y la Antartica Chilena,,Natales,23782.0,4,16.8
-2020-04-01,12,Magallanes y la Antartica Chilena,,Porvenir,7323.0,2,27.3
-2020-04-01,12,Magallanes y la Antartica Chilena,,Primavera,694.0,0,0.0
-2020-04-01,12,Magallanes y la Antartica Chilena,,Punta Arenas,141984.0,87,61.3
-2020-04-01,12,Magallanes y la Antartica Chilena,,Río Verde,211.0,0,0.0
-2020-04-01,12,Magallanes y la Antartica Chilena,,San Gregorio,681.0,0,0.0
-2020-04-01,12,Magallanes y la Antartica Chilena,,Timaukel,282.0,0,0.0
-2020-04-01,12,Magallanes y la Antartica Chilena,,Torres del Paine,1021.0,0,0.0
-2020-04-01,13,Metropolitana,,Alhué,7405.0,0,0.0
-2020-04-01,13,Metropolitana,,Buin,109641.0,8,7.3
-2020-04-01,13,Metropolitana,,Calera de Tango,28525.0,7,24.5
-2020-04-01,13,Metropolitana,,Cerrillos,88956.0,4,4.5
-2020-04-01,13,Metropolitana,,Cerro Navia,142465.0,21,14.7
-2020-04-01,13,Metropolitana,,Colina,180353.0,39,21.6
-2020-04-01,13,Metropolitana,,Conchalí,139195.0,18,12.9
-2020-04-01,13,Metropolitana,,Curacaví,36430.0,5,13.7
-2020-04-01,13,Metropolitana,,El Bosque,172000.0,28,16.3
-2020-04-01,13,Metropolitana,,El Monte,40014.0,1,2.5
-2020-04-01,13,Metropolitana,,Estación Central,206792.0,22,10.6
-2020-04-01,13,Metropolitana,,Huechuraba,112528.0,19,16.9
-2020-04-01,13,Metropolitana,,Independencia,142065.0,17,12.0
-2020-04-01,13,Metropolitana,,Isla de Maipo,40171.0,1,2.5
-2020-04-01,13,Metropolitana,,La Cisterna,100434.0,12,11.9
-2020-04-01,13,Metropolitana,,La Florida,402433.0,58,14.4
-2020-04-01,13,Metropolitana,,La Granja,122557.0,8,6.5
-2020-04-01,13,Metropolitana,,La Pintana,189335.0,10,5.3
-2020-04-01,13,Metropolitana,,La Reina,100252.0,26,25.9
-2020-04-01,13,Metropolitana,,Lampa,126898.0,10,7.9
-2020-04-01,13,Metropolitana,,Las Condes,330759.0,208,62.9
-2020-04-01,13,Metropolitana,,Lo Barnechea,124076.0,78,62.9
-2020-04-01,13,Metropolitana,,Lo Espejo,103865.0,7,6.7
-2020-04-01,13,Metropolitana,,Lo Prado,104403.0,18,17.2
-2020-04-01,13,Metropolitana,,Macul,134635.0,15,11.1
-2020-04-01,13,Metropolitana,,Maipú,578605.0,55,9.5
-2020-04-01,13,Metropolitana,,María Pinto,14926.0,0,0.0
-2020-04-01,13,Metropolitana,,Melipilla,141612.0,8,5.6
-2020-04-01,13,Metropolitana,,Ñuñoa,250192.0,84,33.6
-2020-04-01,13,Metropolitana,,Padre Hurtado,74188.0,11,14.8
-2020-04-01,13,Metropolitana,,Paine,82766.0,3,3.6
-2020-04-01,13,Metropolitana,,Pedro Aguirre Cerda,107803.0,13,12.1
-2020-04-01,13,Metropolitana,,Peñaflor,101058.0,13,12.9
-2020-04-01,13,Metropolitana,,Peñalolén,266798.0,46,17.2
-2020-04-01,13,Metropolitana,,Pirque,30433.0,2,6.6
-2020-04-01,13,Metropolitana,,Providencia,157749.0,87,55.2
-2020-04-01,13,Metropolitana,,Pudahuel,253139.0,25,9.9
-2020-04-01,13,Metropolitana,,Puente Alto,645909.0,58,9.0
-2020-04-01,13,Metropolitana,,Quilicura,254694.0,29,11.4
-2020-04-01,13,Metropolitana,,Quinta Normal,136368.0,25,18.3
-2020-04-01,13,Metropolitana,,Recoleta,190075.0,23,12.1
-2020-04-01,13,Metropolitana,,Renca,160847.0,14,8.7
-2020-04-01,13,Metropolitana,,San Bernardo,334836.0,41,12.2
-2020-04-01,13,Metropolitana,,San Joaquín,103485.0,24,23.2
-2020-04-01,13,Metropolitana,,San José de Maipo,18644.0,2,10.7
-2020-04-01,13,Metropolitana,,San Miguel,133059.0,32,24.0
-2020-04-01,13,Metropolitana,,San Pedro,11953.0,0,0.0
-2020-04-01,13,Metropolitana,,San Ramón,86510.0,6,6.9
-2020-04-01,13,Metropolitana,,Santiago,503147.0,156,31.0
-2020-04-01,13,Metropolitana,,Talagante,81838.0,5,6.1
-2020-04-01,13,Metropolitana,,Tiltil,21477.0,2,9.3
-2020-04-01,13,Metropolitana,,Vitacura,96774.0,90,93.0
-2020-04-01,13,Metropolitana,,Por determinar,0.0,0,0.0
-2020-04-01,14,Los Rios,,Corral,5447.0,0,0.0
-2020-04-01,14,Los Rios,,Futrono,15261.0,2,13.1
-2020-04-01,14,Los Rios,,La Unión,39538.0,9,22.8
-2020-04-01,14,Los Rios,,Lago Ranco,10292.0,1,9.7
-2020-04-01,14,Los Rios,,Lanco,17652.0,1,5.7
-2020-04-01,14,Los Rios,,Los Lagos,20518.0,0,0.0
-2020-04-01,14,Los Rios,,Máfil,7389.0,1,13.5
-2020-04-01,14,Los Rios,,Mariquina,23250.0,2,8.6
-2020-04-01,14,Los Rios,,Paillaco,20798.0,1,4.8
-2020-04-01,14,Los Rios,,Panguipulli,35991.0,0,0.0
-2020-04-01,14,Los Rios,,Río Bueno,32925.0,2,6.1
-2020-04-01,14,Los Rios,,Valdivia,176774.0,45,25.5
-2020-04-01,15,Arica y Parinacota,,Arica,247552.0,6,2.4
-2020-04-01,15,Arica y Parinacota,,Camarones,1233.0,0,0.0
-2020-04-01,15,Arica y Parinacota,,General Lagos,810.0,0,0.0
-2020-04-01,15,Arica y Parinacota,,Putre,2515.0,0,0.0
-2020-04-01,16,Nuble,,Bulnes,22607.0,18,79.6
-2020-04-01,16,Nuble,,Chillán,198624.0,173,87.1
-2020-04-01,16,Nuble,,Chillán Viejo,33827.0,22,65.0
-2020-04-01,16,Nuble,,Cobquecura,5275.0,0,0.0
-2020-04-01,16,Nuble,,Coelemu,16845.0,1,5.9
-2020-04-01,16,Nuble,,Coihueco,28375.0,3,10.6
-2020-04-01,16,Nuble,,El Carmen,12334.0,2,16.2
-2020-04-01,16,Nuble,,Ninhue,5414.0,0,0.0
-2020-04-01,16,Nuble,,Ñiquén,11567.0,0,0.0
-2020-04-01,16,Nuble,,Pemuco,8639.0,0,0.0
-2020-04-01,16,Nuble,,Pinto,11880.0,2,16.8
-2020-04-01,16,Nuble,,Portezuelo,4940.0,0,0.0
-2020-04-01,16,Nuble,,Quillón,18777.0,7,37.3
-2020-04-01,16,Nuble,,Quirihue,12192.0,0,0.0
-2020-04-01,16,Nuble,,Ránquil,6261.0,1,16.0
-2020-04-01,16,Nuble,,San Carlos,56252.0,13,23.1
-2020-04-01,16,Nuble,,San Fabián,4654.0,5,107.4
-2020-04-01,16,Nuble,,San Ignacio,16624.0,1,6.0
-2020-04-01,16,Nuble,,San Nicolás,12172.0,2,16.4
-2020-04-01,16,Nuble,,Treguaco,5696.0,0,0.0
-2020-04-01,16,Nuble,,Yungay,18596.0,7,37.6
 2020-03-30,1,Tarapaca,,Alto Hospicio,129999.0,0,0.0
 2020-03-30,1,Tarapaca,,Camiña,1375.0,0,0.0
 2020-03-30,1,Tarapaca,,Colchane,1583.0,0,0.0
@@ -694,3 +345,1763 @@ fecha,id_region,nombre_region,id_comuna,nombre_comuna,poblacion,casos_totales,ta
 2020-03-30,16,Nuble,,San Nicolás,12172.0,1,8.2
 2020-03-30,16,Nuble,,Treguaco,5696.0,0,0.0
 2020-03-30,16,Nuble,,Yungay,18596.0,1,5.4
+2020-04-01,1,Tarapaca,,Alto Hospicio,129999.0,1,0.8
+2020-04-01,1,Tarapaca,,Camiña,1375.0,0,0.0
+2020-04-01,1,Tarapaca,,Colchane,1583.0,0,0.0
+2020-04-01,1,Tarapaca,,Huara,3000.0,0,0.0
+2020-04-01,1,Tarapaca,,Iquique,223463.0,5,2.2
+2020-04-01,1,Tarapaca,,Pica,5958.0,0,0.0
+2020-04-01,1,Tarapaca,,Pozo Almonte,17395.0,0,0.0
+2020-04-01,2,Antofagasta,,Antofagasta,425725.0,32,7.5
+2020-04-01,2,Antofagasta,,Calama,190336.0,3,1.6
+2020-04-01,2,Antofagasta,,María Elena,6814.0,0,0.0
+2020-04-01,2,Antofagasta,,Mejillones,14776.0,0,0.0
+2020-04-01,2,Antofagasta,,Ollagüe,287.0,0,0.0
+2020-04-01,2,Antofagasta,,San Pedro de Atacama,10434.0,2,19.2
+2020-04-01,2,Antofagasta,,Sierra Gorda,1746.0,0,0.0
+2020-04-01,2,Antofagasta,,Taltal,13657.0,0,0.0
+2020-04-01,2,Antofagasta,,Tocopilla,28079.0,2,7.1
+2020-04-01,3,Atacama,,Alto del Carmen,5729.0,0,0.0
+2020-04-01,3,Atacama,,Caldera,19426.0,0,0.0
+2020-04-01,3,Atacama,,Chañaral,13164.0,0,0.0
+2020-04-01,3,Atacama,,Copiapó,171766.0,2,1.2
+2020-04-01,3,Atacama,,Diego de Almagro,14358.0,1,7.0
+2020-04-01,3,Atacama,,Freirina,7681.0,0,0.0
+2020-04-01,3,Atacama,,Huasco,11264.0,0,0.0
+2020-04-01,3,Atacama,,Tierra Amarilla,14312.0,0,0.0
+2020-04-01,3,Atacama,,Vallenar,57009.0,0,0.0
+2020-04-01,4,Coquimbo,,Andacollo,11791.0,0,0.0
+2020-04-01,4,Coquimbo,,Canela,9546.0,0,0.0
+2020-04-01,4,Coquimbo,,Combarbalá,13884.0,0,0.0
+2020-04-01,4,Coquimbo,,Coquimbo,256735.0,19,7.4
+2020-04-01,4,Coquimbo,,Illapel,32801.0,0,0.0
+2020-04-01,4,Coquimbo,,La Higuera,4450.0,0,0.0
+2020-04-01,4,Coquimbo,,La Serena,249656.0,3,1.2
+2020-04-01,4,Coquimbo,,Los Vilos,23374.0,1,4.3
+2020-04-01,4,Coquimbo,,Monte Patria,32527.0,0,0.0
+2020-04-01,4,Coquimbo,,Ovalle,121269.0,4,3.3
+2020-04-01,4,Coquimbo,,Paiguano,4675.0,0,0.0
+2020-04-01,4,Coquimbo,,Punitaqui,12165.0,0,0.0
+2020-04-01,4,Coquimbo,,Río Hurtado,4372.0,1,22.9
+2020-04-01,4,Coquimbo,,Salamanca,29110.0,2,6.9
+2020-04-01,4,Coquimbo,,Vicuña,29741.0,0,0.0
+2020-04-01,5,Valparaiso,,Algarrobo,15174.0,7,46.1
+2020-04-01,5,Valparaiso,,Cabildo,20663.0,0,0.0
+2020-04-01,5,Valparaiso,,Calera,53591.0,6,11.2
+2020-04-01,5,Valparaiso,,Calle Larga,16482.0,0,0.0
+2020-04-01,5,Valparaiso,,Cartagena,25357.0,0,0.0
+2020-04-01,5,Valparaiso,,Casablanca,29170.0,1,3.4
+2020-04-01,5,Valparaiso,,Catemu,15213.0,0,0.0
+2020-04-01,5,Valparaiso,,Concón,45889.0,1,2.2
+2020-04-01,5,Valparaiso,,El Quisco,17742.0,0,0.0
+2020-04-01,5,Valparaiso,,El Tabo,14338.0,1,7.0
+2020-04-01,5,Valparaiso,,Hijuelas,19099.0,0,0.0
+2020-04-01,5,Valparaiso,,Isla de Pascua,8277.0,5,60.4
+2020-04-01,5,Valparaiso,,Juan Fernández,1033.0,0,0.0
+2020-04-01,5,Valparaiso,,La Cruz,25321.0,1,3.9
+2020-04-01,5,Valparaiso,,La Ligua,37739.0,2,5.3
+2020-04-01,5,Valparaiso,,Limache,49931.0,3,6.0
+2020-04-01,5,Valparaiso,,Llaillay,26533.0,0,0.0
+2020-04-01,5,Valparaiso,,Los Andes,68093.0,3,4.4
+2020-04-01,5,Valparaiso,,Nogales,23490.0,0,0.0
+2020-04-01,5,Valparaiso,,Olmué,19266.0,0,0.0
+2020-04-01,5,Valparaiso,,Panquehue,7633.0,0,0.0
+2020-04-01,5,Valparaiso,,Papudo,6201.0,0,0.0
+2020-04-01,5,Valparaiso,,Petorca,10558.0,1,9.5
+2020-04-01,5,Valparaiso,,Puchuncaví,20071.0,0,0.0
+2020-04-01,5,Valparaiso,,Putaendo,17645.0,1,5.7
+2020-04-01,5,Valparaiso,,Quillota,97572.0,7,7.2
+2020-04-01,5,Valparaiso,,Quilpué,167085.0,10,6.0
+2020-04-01,5,Valparaiso,,Quintero,36135.0,3,8.3
+2020-04-01,5,Valparaiso,,Rinconada,11263.0,0,0.0
+2020-04-01,5,Valparaiso,,San Antonio,96761.0,4,4.1
+2020-04-01,5,Valparaiso,,San Esteban,20643.0,0,0.0
+2020-04-01,5,Valparaiso,,San Felipe,83494.0,3,3.6
+2020-04-01,5,Valparaiso,,Santa María,16367.0,2,12.2
+2020-04-01,5,Valparaiso,,Santo Domingo,11934.0,3,25.1
+2020-04-01,5,Valparaiso,,Valparaíso,315732.0,26,8.2
+2020-04-01,5,Valparaiso,,Villa Alemana,139310.0,8,5.7
+2020-04-01,5,Valparaiso,,Viña del Mar,361371.0,38,10.5
+2020-04-01,5,Valparaiso,,Zapallar,7994.0,0,0.0
+2020-04-01,6,OHiggins,,Chépica,15925.0,0,0.0
+2020-04-01,6,OHiggins,,Chimbarongo,37696.0,2,5.3
+2020-04-01,6,OHiggins,,Codegua,14096.0,0,0.0
+2020-04-01,6,OHiggins,,Coinco,7831.0,0,0.0
+2020-04-01,6,OHiggins,,Coltauco,21263.0,0,0.0
+2020-04-01,6,OHiggins,,Doñihue,22700.0,0,0.0
+2020-04-01,6,OHiggins,,Graneros,36504.0,0,0.0
+2020-04-01,6,OHiggins,,La Estrella,3114.0,0,0.0
+2020-04-01,6,OHiggins,,Las Cabras,26749.0,0,0.0
+2020-04-01,6,OHiggins,,Litueche,6765.0,0,0.0
+2020-04-01,6,OHiggins,,Lolol,7289.0,0,0.0
+2020-04-01,6,OHiggins,,Machalí,59913.0,6,10.0
+2020-04-01,6,OHiggins,,Malloa,14163.0,0,0.0
+2020-04-01,6,OHiggins,,Marchihue,7632.0,0,0.0
+2020-04-01,6,OHiggins,,Mostazal,27462.0,0,0.0
+2020-04-01,6,OHiggins,,Nancagua,19141.0,0,0.0
+2020-04-01,6,OHiggins,,Navidad,6904.0,0,0.0
+2020-04-01,6,OHiggins,,Olivar,14624.0,1,6.8
+2020-04-01,6,OHiggins,,Palmilla,13299.0,0,0.0
+2020-04-01,6,OHiggins,,Paredones,6349.0,0,0.0
+2020-04-01,6,OHiggins,,Peralillo,11848.0,0,0.0
+2020-04-01,6,OHiggins,,Peumo,14952.0,0,0.0
+2020-04-01,6,OHiggins,,Pichidegua,20743.0,0,0.0
+2020-04-01,6,OHiggins,,Pichilemu,17882.0,0,0.0
+2020-04-01,6,OHiggins,,Placilla,9164.0,1,10.9
+2020-04-01,6,OHiggins,,Pumanque,3531.0,0,0.0
+2020-04-01,6,OHiggins,,Quinta de Tilcoco,13877.0,2,14.4
+2020-04-01,6,OHiggins,,Rancagua,265211.0,7,2.6
+2020-04-01,6,OHiggins,,Rengo,63710.0,1,1.6
+2020-04-01,6,OHiggins,,Requínoa,30371.0,1,3.3
+2020-04-01,6,OHiggins,,San Fernando,78642.0,4,5.1
+2020-04-01,6,OHiggins,,San Vicente,50617.0,1,2.0
+2020-04-01,6,OHiggins,,Santa Cruz,41096.0,0,0.0
+2020-04-01,7,Maule,,Cauquenes,44143.0,1,2.3
+2020-04-01,7,Maule,,Chanco,9331.0,0,0.0
+2020-04-01,7,Maule,,Colbún,22565.0,4,17.7
+2020-04-01,7,Maule,,Constitución,50348.0,1,2.0
+2020-04-01,7,Maule,,Curepto,9426.0,0,0.0
+2020-04-01,7,Maule,,Curicó,163626.0,8,4.9
+2020-04-01,7,Maule,,Empedrado,4206.0,0,0.0
+2020-04-01,7,Maule,,Hualañé,10222.0,0,0.0
+2020-04-01,7,Maule,,Licantén,6989.0,0,0.0
+2020-04-01,7,Maule,,Linares,101073.0,6,5.9
+2020-04-01,7,Maule,,Longaví,32810.0,1,3.0
+2020-04-01,7,Maule,,Maule,60000.0,2,3.3
+2020-04-01,7,Maule,,Molina,49800.0,3,6.0
+2020-04-01,7,Maule,,Parral,44544.0,3,6.7
+2020-04-01,7,Maule,,Pelarco,9083.0,0,0.0
+2020-04-01,7,Maule,,Pelluhue,8092.0,1,12.4
+2020-04-01,7,Maule,,Pencahue,8601.0,0,0.0
+2020-04-01,7,Maule,,Rauco,11248.0,0,0.0
+2020-04-01,7,Maule,,Retiro,21071.0,0,0.0
+2020-04-01,7,Maule,,Río Claro,14753.0,1,6.8
+2020-04-01,7,Maule,,Romeral,16170.0,2,12.4
+2020-04-01,7,Maule,,Sagrada Familia,19469.0,0,0.0
+2020-04-01,7,Maule,,San Clemente,46292.0,0,0.0
+2020-04-01,7,Maule,,San Javier,49451.0,1,2.0
+2020-04-01,7,Maule,,San Rafael,9959.0,0,0.0
+2020-04-01,7,Maule,,Talca,236724.0,37,15.6
+2020-04-01,7,Maule,,Teno,30850.0,0,0.0
+2020-04-01,7,Maule,,Vichuquén,4381.0,0,0.0
+2020-04-01,7,Maule,,Villa Alegre,17512.0,0,0.0
+2020-04-01,7,Maule,,Yerbas Buenas,19200.0,0,0.0
+2020-04-01,8,Biobio,,Alto Biobío,6775.0,0,0.0
+2020-04-01,8,Biobio,,Antuco,4306.0,0,0.0
+2020-04-01,8,Biobio,,Arauco,38679.0,5,12.9
+2020-04-01,8,Biobio,,Cabrero,30725.0,0,0.0
+2020-04-01,8,Biobio,,Cañete,37003.0,0,0.0
+2020-04-01,8,Biobio,,Chiguayante,91180.0,18,19.7
+2020-04-01,8,Biobio,,Concepción,238092.0,47,19.7
+2020-04-01,8,Biobio,,Contulmo,6330.0,0,0.0
+2020-04-01,8,Biobio,,Coronel,125829.0,11,8.7
+2020-04-01,8,Biobio,,Curanilahue,33892.0,1,3.0
+2020-04-01,8,Biobio,,Florida,11841.0,0,0.0
+2020-04-01,8,Biobio,,Hualpén,97273.0,39,40.1
+2020-04-01,8,Biobio,,Hualqui,26201.0,3,11.4
+2020-04-01,8,Biobio,,Laja,23873.0,2,8.4
+2020-04-01,8,Biobio,,Lebu,27100.0,0,0.0
+2020-04-01,8,Biobio,,Los Álamos,22524.0,0,0.0
+2020-04-01,8,Biobio,,Los Ángeles,218515.0,15,6.9
+2020-04-01,8,Biobio,,Lota,45750.0,0,0.0
+2020-04-01,8,Biobio,,Mulchén,31041.0,5,16.1
+2020-04-01,8,Biobio,,Nacimiento,27944.0,2,7.2
+2020-04-01,8,Biobio,,Negrete,10429.0,0,0.0
+2020-04-01,8,Biobio,,Penco,49865.0,1,2.0
+2020-04-01,8,Biobio,,Quilaco,4179.0,0,0.0
+2020-04-01,8,Biobio,,Quilleco,10032.0,0,0.0
+2020-04-01,8,Biobio,,San Pedro de la Paz,145906.0,50,34.3
+2020-04-01,8,Biobio,,San Rosendo,3611.0,0,0.0
+2020-04-01,8,Biobio,,Santa Bárbara,14592.0,2,13.7
+2020-04-01,8,Biobio,,Santa Juana,14779.0,0,0.0
+2020-04-01,8,Biobio,,Talcahuano,158345.0,23,14.5
+2020-04-01,8,Biobio,,Tirúa,11019.0,0,0.0
+2020-04-01,8,Biobio,,Tomé,58729.0,6,10.2
+2020-04-01,8,Biobio,,Tucapel,15205.0,0,0.0
+2020-04-01,8,Biobio,,Yumbel,22132.0,5,22.6
+2020-04-01,8,Biobio,,Por determinar,0.0,5,0.0
+2020-04-01,9,Araucania,,Angol,56058.0,13,23.2
+2020-04-01,9,Araucania,,Carahue,25486.0,2,7.8
+2020-04-01,9,Araucania,,Cholchol,12341.0,2,16.2
+2020-04-01,9,Araucania,,Collipulli,26148.0,0,0.0
+2020-04-01,9,Araucania,,Cunco,18055.0,0,0.0
+2020-04-01,9,Araucania,,Curacautín,18178.0,0,0.0
+2020-04-01,9,Araucania,,Curarrehue,7802.0,2,25.6
+2020-04-01,9,Araucania,,Ercilla,8458.0,0,0.0
+2020-04-01,9,Araucania,,Freire,25446.0,2,7.9
+2020-04-01,9,Araucania,,Galvarino,12633.0,1,7.9
+2020-04-01,9,Araucania,,Gorbea,15148.0,6,39.6
+2020-04-01,9,Araucania,,Lautaro,40746.0,8,19.6
+2020-04-01,9,Araucania,,Loncoche,24739.0,2,8.1
+2020-04-01,9,Araucania,,Lonquimay,11049.0,0,0.0
+2020-04-01,9,Araucania,,Los Sauces,7517.0,0,0.0
+2020-04-01,9,Araucania,,Lumaco,10050.0,0,0.0
+2020-04-01,9,Araucania,,Melipeuco,6265.0,0,0.0
+2020-04-01,9,Araucania,,Nueva Imperial,33777.0,2,5.9
+2020-04-01,9,Araucania,,Padre Las Casas,82110.0,14,17.1
+2020-04-01,9,Araucania,,Perquenco,7223.0,1,13.8
+2020-04-01,9,Araucania,,Pitrufquén,26096.0,6,23.0
+2020-04-01,9,Araucania,,Pucón,29782.0,3,10.1
+2020-04-01,9,Araucania,,Purén,12188.0,1,8.2
+2020-04-01,9,Araucania,,Renaico,10833.0,0,0.0
+2020-04-01,9,Araucania,,Saavedra,12793.0,0,0.0
+2020-04-01,9,Araucania,,Temuco,302931.0,225,74.3
+2020-04-01,9,Araucania,,Teodoro Schmidt,15786.0,4,25.3
+2020-04-01,9,Araucania,,Toltén,10055.0,3,29.8
+2020-04-01,9,Araucania,,Traiguén,19314.0,0,0.0
+2020-04-01,9,Araucania,,Victoria,35467.0,7,19.7
+2020-04-01,9,Araucania,,Vilcún,30766.0,5,16.3
+2020-04-01,9,Araucania,,Villarrica,59103.0,4,6.8
+2020-04-01,9,Araucania,,Por determinar,0.0,30,0.0
+2020-04-01,10,Los Lagos,,Ancud,42458.0,0,0.0
+2020-04-01,10,Los Lagos,,Calbuco,36744.0,5,13.6
+2020-04-01,10,Los Lagos,,Castro,47607.0,1,2.1
+2020-04-01,10,Los Lagos,,Chaitén,5020.0,1,19.9
+2020-04-01,10,Los Lagos,,Chonchi,16013.0,0,0.0
+2020-04-01,10,Los Lagos,,Cochamó,4006.0,0,0.0
+2020-04-01,10,Los Lagos,,Curaco de Vélez,4066.0,0,0.0
+2020-04-01,10,Los Lagos,,Dalcahue,15069.0,0,0.0
+2020-04-01,10,Los Lagos,,Fresia,12656.0,0,0.0
+2020-04-01,10,Los Lagos,,Frutillar,20223.0,0,0.0
+2020-04-01,10,Los Lagos,,Futaleufú,2806.0,0,0.0
+2020-04-01,10,Los Lagos,,Hualaihué,9525.0,3,31.5
+2020-04-01,10,Los Lagos,,Llanquihue,18621.0,0,0.0
+2020-04-01,10,Los Lagos,,Los Muermos,17817.0,1,5.6
+2020-04-01,10,Los Lagos,,Maullín,14894.0,0,0.0
+2020-04-01,10,Los Lagos,,Osorno,173410.0,120,69.2
+2020-04-01,10,Los Lagos,,Palena,1827.0,0,0.0
+2020-04-01,10,Los Lagos,,Puerto Montt,269398.0,44,16.3
+2020-04-01,10,Los Lagos,,Puerto Octay,9192.0,1,10.9
+2020-04-01,10,Los Lagos,,Puerto Varas,48620.0,1,2.1
+2020-04-01,10,Los Lagos,,Puqueldón,4201.0,0,0.0
+2020-04-01,10,Los Lagos,,Purranque,21080.0,1,4.7
+2020-04-01,10,Los Lagos,,Puyehue,11787.0,1,8.5
+2020-04-01,10,Los Lagos,,Queilén,5543.0,0,0.0
+2020-04-01,10,Los Lagos,,Quellón,29309.0,0,0.0
+2020-04-01,10,Los Lagos,,Quemchi,8783.0,0,0.0
+2020-04-01,10,Los Lagos,,Quinchao,8298.0,1,12.1
+2020-04-01,10,Los Lagos,,Río Negro,14275.0,0,0.0
+2020-04-01,10,Los Lagos,,San Juan de la Costa,7639.0,0,0.0
+2020-04-01,10,Los Lagos,,San Pablo,10553.0,1,9.5
+2020-04-01,11,Aisen,,Aisén,25002.0,1,4.0
+2020-04-01,11,Aisen,,Chile Chico,5121.0,0,0.0
+2020-04-01,11,Aisen,,Cisnes,5828.0,0,0.0
+2020-04-01,11,Aisen,,Cochrane,3685.0,0,0.0
+2020-04-01,11,Aisen,,Coyhaique,61210.0,2,3.3
+2020-04-01,11,Aisen,,Guaitecas,1599.0,0,0.0
+2020-04-01,11,Aisen,,Lago Verde,920.0,0,0.0
+2020-04-01,11,Aisen,,O'Higgins,661.0,0,0.0
+2020-04-01,11,Aisen,,Río Ibáñez,2699.0,0,0.0
+2020-04-01,11,Aisen,,Tortel,572.0,0,0.0
+2020-04-01,12,Magallanes y la Antartica Chilena,,Antártica,137.0,0,0.0
+2020-04-01,12,Magallanes y la Antartica Chilena,,Cabo de Hornos,1983.0,6,302.6
+2020-04-01,12,Magallanes y la Antartica Chilena,,Laguna Blanca,264.0,0,0.0
+2020-04-01,12,Magallanes y la Antartica Chilena,,Natales,23782.0,4,16.8
+2020-04-01,12,Magallanes y la Antartica Chilena,,Porvenir,7323.0,2,27.3
+2020-04-01,12,Magallanes y la Antartica Chilena,,Primavera,694.0,0,0.0
+2020-04-01,12,Magallanes y la Antartica Chilena,,Punta Arenas,141984.0,87,61.3
+2020-04-01,12,Magallanes y la Antartica Chilena,,Río Verde,211.0,0,0.0
+2020-04-01,12,Magallanes y la Antartica Chilena,,San Gregorio,681.0,0,0.0
+2020-04-01,12,Magallanes y la Antartica Chilena,,Timaukel,282.0,0,0.0
+2020-04-01,12,Magallanes y la Antartica Chilena,,Torres del Paine,1021.0,0,0.0
+2020-04-01,13,Metropolitana,,Alhué,7405.0,0,0.0
+2020-04-01,13,Metropolitana,,Buin,109641.0,8,7.3
+2020-04-01,13,Metropolitana,,Calera de Tango,28525.0,7,24.5
+2020-04-01,13,Metropolitana,,Cerrillos,88956.0,4,4.5
+2020-04-01,13,Metropolitana,,Cerro Navia,142465.0,21,14.7
+2020-04-01,13,Metropolitana,,Colina,180353.0,39,21.6
+2020-04-01,13,Metropolitana,,Conchalí,139195.0,18,12.9
+2020-04-01,13,Metropolitana,,Curacaví,36430.0,5,13.7
+2020-04-01,13,Metropolitana,,El Bosque,172000.0,28,16.3
+2020-04-01,13,Metropolitana,,El Monte,40014.0,1,2.5
+2020-04-01,13,Metropolitana,,Estación Central,206792.0,22,10.6
+2020-04-01,13,Metropolitana,,Huechuraba,112528.0,19,16.9
+2020-04-01,13,Metropolitana,,Independencia,142065.0,17,12.0
+2020-04-01,13,Metropolitana,,Isla de Maipo,40171.0,1,2.5
+2020-04-01,13,Metropolitana,,La Cisterna,100434.0,12,11.9
+2020-04-01,13,Metropolitana,,La Florida,402433.0,58,14.4
+2020-04-01,13,Metropolitana,,La Granja,122557.0,8,6.5
+2020-04-01,13,Metropolitana,,La Pintana,189335.0,10,5.3
+2020-04-01,13,Metropolitana,,La Reina,100252.0,26,25.9
+2020-04-01,13,Metropolitana,,Lampa,126898.0,10,7.9
+2020-04-01,13,Metropolitana,,Las Condes,330759.0,208,62.9
+2020-04-01,13,Metropolitana,,Lo Barnechea,124076.0,78,62.9
+2020-04-01,13,Metropolitana,,Lo Espejo,103865.0,7,6.7
+2020-04-01,13,Metropolitana,,Lo Prado,104403.0,18,17.2
+2020-04-01,13,Metropolitana,,Macul,134635.0,15,11.1
+2020-04-01,13,Metropolitana,,Maipú,578605.0,55,9.5
+2020-04-01,13,Metropolitana,,María Pinto,14926.0,0,0.0
+2020-04-01,13,Metropolitana,,Melipilla,141612.0,8,5.6
+2020-04-01,13,Metropolitana,,Ñuñoa,250192.0,84,33.6
+2020-04-01,13,Metropolitana,,Padre Hurtado,74188.0,11,14.8
+2020-04-01,13,Metropolitana,,Paine,82766.0,3,3.6
+2020-04-01,13,Metropolitana,,Pedro Aguirre Cerda,107803.0,13,12.1
+2020-04-01,13,Metropolitana,,Peñaflor,101058.0,13,12.9
+2020-04-01,13,Metropolitana,,Peñalolén,266798.0,46,17.2
+2020-04-01,13,Metropolitana,,Pirque,30433.0,2,6.6
+2020-04-01,13,Metropolitana,,Providencia,157749.0,87,55.2
+2020-04-01,13,Metropolitana,,Pudahuel,253139.0,25,9.9
+2020-04-01,13,Metropolitana,,Puente Alto,645909.0,58,9.0
+2020-04-01,13,Metropolitana,,Quilicura,254694.0,29,11.4
+2020-04-01,13,Metropolitana,,Quinta Normal,136368.0,25,18.3
+2020-04-01,13,Metropolitana,,Recoleta,190075.0,23,12.1
+2020-04-01,13,Metropolitana,,Renca,160847.0,14,8.7
+2020-04-01,13,Metropolitana,,San Bernardo,334836.0,41,12.2
+2020-04-01,13,Metropolitana,,San Joaquín,103485.0,24,23.2
+2020-04-01,13,Metropolitana,,San José de Maipo,18644.0,2,10.7
+2020-04-01,13,Metropolitana,,San Miguel,133059.0,32,24.0
+2020-04-01,13,Metropolitana,,San Pedro,11953.0,0,0.0
+2020-04-01,13,Metropolitana,,San Ramón,86510.0,6,6.9
+2020-04-01,13,Metropolitana,,Santiago,503147.0,156,31.0
+2020-04-01,13,Metropolitana,,Talagante,81838.0,5,6.1
+2020-04-01,13,Metropolitana,,Tiltil,21477.0,2,9.3
+2020-04-01,13,Metropolitana,,Vitacura,96774.0,90,93.0
+2020-04-01,13,Metropolitana,,Por determinar,0.0,27,0.0
+2020-04-01,14,Los Rios,,Corral,5447.0,0,0.0
+2020-04-01,14,Los Rios,,Futrono,15261.0,2,13.1
+2020-04-01,14,Los Rios,,La Unión,39538.0,9,22.8
+2020-04-01,14,Los Rios,,Lago Ranco,10292.0,1,9.7
+2020-04-01,14,Los Rios,,Lanco,17652.0,1,5.7
+2020-04-01,14,Los Rios,,Los Lagos,20518.0,0,0.0
+2020-04-01,14,Los Rios,,Máfil,7389.0,1,13.5
+2020-04-01,14,Los Rios,,Mariquina,23250.0,2,8.6
+2020-04-01,14,Los Rios,,Paillaco,20798.0,1,4.8
+2020-04-01,14,Los Rios,,Panguipulli,35991.0,0,0.0
+2020-04-01,14,Los Rios,,Río Bueno,32925.0,2,6.1
+2020-04-01,14,Los Rios,,Valdivia,176774.0,45,25.5
+2020-04-01,15,Arica y Parinacota,,Arica,247552.0,6,2.4
+2020-04-01,15,Arica y Parinacota,,Camarones,1233.0,0,0.0
+2020-04-01,15,Arica y Parinacota,,General Lagos,810.0,0,0.0
+2020-04-01,15,Arica y Parinacota,,Putre,2515.0,0,0.0
+2020-04-01,16,Nuble,,Bulnes,22607.0,18,79.6
+2020-04-01,16,Nuble,,Chillán,198624.0,173,87.1
+2020-04-01,16,Nuble,,Chillán Viejo,33827.0,22,65.0
+2020-04-01,16,Nuble,,Cobquecura,5275.0,0,0.0
+2020-04-01,16,Nuble,,Coelemu,16845.0,1,5.9
+2020-04-01,16,Nuble,,Coihueco,28375.0,3,10.6
+2020-04-01,16,Nuble,,El Carmen,12334.0,2,16.2
+2020-04-01,16,Nuble,,Ninhue,5414.0,0,0.0
+2020-04-01,16,Nuble,,Ñiquén,11567.0,0,0.0
+2020-04-01,16,Nuble,,Pemuco,8639.0,0,0.0
+2020-04-01,16,Nuble,,Pinto,11880.0,2,16.8
+2020-04-01,16,Nuble,,Portezuelo,4940.0,0,0.0
+2020-04-01,16,Nuble,,Quillón,18777.0,7,37.3
+2020-04-01,16,Nuble,,Quirihue,12192.0,0,0.0
+2020-04-01,16,Nuble,,Ránquil,6261.0,1,16.0
+2020-04-01,16,Nuble,,San Carlos,56252.0,13,23.1
+2020-04-01,16,Nuble,,San Fabián,4654.0,5,107.4
+2020-04-01,16,Nuble,,San Ignacio,16624.0,1,6.0
+2020-04-01,16,Nuble,,San Nicolás,12172.0,2,16.4
+2020-04-01,16,Nuble,,Treguaco,5696.0,0,0.0
+2020-04-01,16,Nuble,,Yungay,18596.0,7,37.6
+2020-04-03,1,Tarapaca,,Alto Hospicio,129999.0,3,2.3
+2020-04-03,1,Tarapaca,,Camiña,1375.0,0,0.0
+2020-04-03,1,Tarapaca,,Colchane,1583.0,0,0.0
+2020-04-03,1,Tarapaca,,Huara,3000.0,0,0.0
+2020-04-03,1,Tarapaca,,Iquique,223463.0,10,4.5
+2020-04-03,1,Tarapaca,,Pica,5958.0,0,0.0
+2020-04-03,1,Tarapaca,,Pozo Almonte,17395.0,0,0.0
+2020-04-03,2,Antofagasta,,Antofagasta,425725.0,44,10.3
+2020-04-03,2,Antofagasta,,Calama,190336.0,5,2.6
+2020-04-03,2,Antofagasta,,María Elena,6814.0,0,0.0
+2020-04-03,2,Antofagasta,,Mejillones,14776.0,0,0.0
+2020-04-03,2,Antofagasta,,Ollagüe,287.0,0,0.0
+2020-04-03,2,Antofagasta,,San Pedro de Atacama,10434.0,3,28.8
+2020-04-03,2,Antofagasta,,Sierra Gorda,1746.0,0,0.0
+2020-04-03,2,Antofagasta,,Taltal,13657.0,0,0.0
+2020-04-03,2,Antofagasta,,Tocopilla,28079.0,2,7.1
+2020-04-03,3,Atacama,,Alto del Carmen,5729.0,0,0.0
+2020-04-03,3,Atacama,,Caldera,19426.0,0,0.0
+2020-04-03,3,Atacama,,Chañaral,13164.0,0,0.0
+2020-04-03,3,Atacama,,Copiapó,171766.0,4,2.3
+2020-04-03,3,Atacama,,Diego de Almagro,14358.0,1,7.0
+2020-04-03,3,Atacama,,Freirina,7681.0,0,0.0
+2020-04-03,3,Atacama,,Huasco,11264.0,0,0.0
+2020-04-03,3,Atacama,,Tierra Amarilla,14312.0,0,0.0
+2020-04-03,3,Atacama,,Vallenar,57009.0,0,0.0
+2020-04-03,4,Coquimbo,,Andacollo,11791.0,0,0.0
+2020-04-03,4,Coquimbo,,Canela,9546.0,0,0.0
+2020-04-03,4,Coquimbo,,Combarbalá,13884.0,0,0.0
+2020-04-03,4,Coquimbo,,Coquimbo,256735.0,19,7.4
+2020-04-03,4,Coquimbo,,Illapel,32801.0,0,0.0
+2020-04-03,4,Coquimbo,,La Higuera,4450.0,0,0.0
+2020-04-03,4,Coquimbo,,La Serena,249656.0,8,3.2
+2020-04-03,4,Coquimbo,,Los Vilos,23374.0,1,4.3
+2020-04-03,4,Coquimbo,,Monte Patria,32527.0,0,0.0
+2020-04-03,4,Coquimbo,,Ovalle,121269.0,4,3.3
+2020-04-03,4,Coquimbo,,Paiguano,4675.0,0,0.0
+2020-04-03,4,Coquimbo,,Punitaqui,12165.0,0,0.0
+2020-04-03,4,Coquimbo,,Río Hurtado,4372.0,1,22.9
+2020-04-03,4,Coquimbo,,Salamanca,29110.0,2,6.9
+2020-04-03,4,Coquimbo,,Vicuña,29741.0,0,0.0
+2020-04-03,5,Valparaiso,,Algarrobo,15174.0,9,59.3
+2020-04-03,5,Valparaiso,,Cabildo,20663.0,0,0.0
+2020-04-03,5,Valparaiso,,Calera,53591.0,7,13.1
+2020-04-03,5,Valparaiso,,Calle Larga,16482.0,2,12.1
+2020-04-03,5,Valparaiso,,Cartagena,25357.0,0,0.0
+2020-04-03,5,Valparaiso,,Casablanca,29170.0,2,6.9
+2020-04-03,5,Valparaiso,,Catemu,15213.0,0,0.0
+2020-04-03,5,Valparaiso,,Concón,45889.0,7,15.3
+2020-04-03,5,Valparaiso,,El Quisco,17742.0,1,5.6
+2020-04-03,5,Valparaiso,,El Tabo,14338.0,3,20.9
+2020-04-03,5,Valparaiso,,Hijuelas,19099.0,0,0.0
+2020-04-03,5,Valparaiso,,Isla de Pascua,8277.0,5,60.4
+2020-04-03,5,Valparaiso,,Juan Fernández,1033.0,0,0.0
+2020-04-03,5,Valparaiso,,La Cruz,25321.0,3,11.8
+2020-04-03,5,Valparaiso,,La Ligua,37739.0,2,5.3
+2020-04-03,5,Valparaiso,,Limache,49931.0,3,6.0
+2020-04-03,5,Valparaiso,,Llaillay,26533.0,1,3.8
+2020-04-03,5,Valparaiso,,Los Andes,68093.0,2,2.9
+2020-04-03,5,Valparaiso,,Nogales,23490.0,0,0.0
+2020-04-03,5,Valparaiso,,Olmué,19266.0,0,0.0
+2020-04-03,5,Valparaiso,,Panquehue,7633.0,0,0.0
+2020-04-03,5,Valparaiso,,Papudo,6201.0,1,16.1
+2020-04-03,5,Valparaiso,,Petorca,10558.0,1,9.5
+2020-04-03,5,Valparaiso,,Puchuncaví,20071.0,0,0.0
+2020-04-03,5,Valparaiso,,Putaendo,17645.0,1,5.7
+2020-04-03,5,Valparaiso,,Quillota,97572.0,9,9.2
+2020-04-03,5,Valparaiso,,Quilpué,167085.0,11,6.6
+2020-04-03,5,Valparaiso,,Quintero,36135.0,2,5.5
+2020-04-03,5,Valparaiso,,Rinconada,11263.0,0,0.0
+2020-04-03,5,Valparaiso,,San Antonio,96761.0,8,8.3
+2020-04-03,5,Valparaiso,,San Esteban,20643.0,0,0.0
+2020-04-03,5,Valparaiso,,San Felipe,83494.0,5,6.0
+2020-04-03,5,Valparaiso,,Santa María,16367.0,2,12.2
+2020-04-03,5,Valparaiso,,Santo Domingo,11934.0,1,8.4
+2020-04-03,5,Valparaiso,,Valparaíso,315732.0,23,7.3
+2020-04-03,5,Valparaiso,,Villa Alemana,139310.0,11,7.9
+2020-04-03,5,Valparaiso,,Viña del Mar,361371.0,47,13.0
+2020-04-03,5,Valparaiso,,Zapallar,7994.0,0,0.0
+2020-04-03,5,Valparaiso,,Por determinar,0.0,7,0.0
+2020-04-03,6,OHiggins,,Chépica,15925.0,0,0.0
+2020-04-03,6,OHiggins,,Chimbarongo,37696.0,2,5.3
+2020-04-03,6,OHiggins,,Codegua,14096.0,0,0.0
+2020-04-03,6,OHiggins,,Coinco,7831.0,0,0.0
+2020-04-03,6,OHiggins,,Coltauco,21263.0,0,0.0
+2020-04-03,6,OHiggins,,Doñihue,22700.0,0,0.0
+2020-04-03,6,OHiggins,,Graneros,36504.0,0,0.0
+2020-04-03,6,OHiggins,,La Estrella,3114.0,0,0.0
+2020-04-03,6,OHiggins,,Las Cabras,26749.0,0,0.0
+2020-04-03,6,OHiggins,,Litueche,6765.0,0,0.0
+2020-04-03,6,OHiggins,,Lolol,7289.0,0,0.0
+2020-04-03,6,OHiggins,,Machalí,59913.0,7,11.7
+2020-04-03,6,OHiggins,,Malloa,14163.0,0,0.0
+2020-04-03,6,OHiggins,,Marchihue,7632.0,0,0.0
+2020-04-03,6,OHiggins,,Mostazal,27462.0,0,0.0
+2020-04-03,6,OHiggins,,Nancagua,19141.0,0,0.0
+2020-04-03,6,OHiggins,,Navidad,6904.0,0,0.0
+2020-04-03,6,OHiggins,,Olivar,14624.0,2,13.7
+2020-04-03,6,OHiggins,,Palmilla,13299.0,0,0.0
+2020-04-03,6,OHiggins,,Paredones,6349.0,0,0.0
+2020-04-03,6,OHiggins,,Peralillo,11848.0,0,0.0
+2020-04-03,6,OHiggins,,Peumo,14952.0,0,0.0
+2020-04-03,6,OHiggins,,Pichidegua,20743.0,0,0.0
+2020-04-03,6,OHiggins,,Pichilemu,17882.0,0,0.0
+2020-04-03,6,OHiggins,,Placilla,9164.0,1,10.9
+2020-04-03,6,OHiggins,,Pumanque,3531.0,0,0.0
+2020-04-03,6,OHiggins,,Quinta de Tilcoco,13877.0,2,14.4
+2020-04-03,6,OHiggins,,Rancagua,265211.0,9,3.4
+2020-04-03,6,OHiggins,,Rengo,63710.0,1,1.6
+2020-04-03,6,OHiggins,,Requínoa,30371.0,1,3.3
+2020-04-03,6,OHiggins,,San Fernando,78642.0,4,5.1
+2020-04-03,6,OHiggins,,San Vicente,50617.0,4,7.9
+2020-04-03,6,OHiggins,,Santa Cruz,41096.0,0,0.0
+2020-04-03,7,Maule,,Cauquenes,44143.0,3,6.8
+2020-04-03,7,Maule,,Chanco,9331.0,0,0.0
+2020-04-03,7,Maule,,Colbún,22565.0,4,17.7
+2020-04-03,7,Maule,,Constitución,50348.0,3,6.0
+2020-04-03,7,Maule,,Curepto,9426.0,0,0.0
+2020-04-03,7,Maule,,Curicó,163626.0,11,6.7
+2020-04-03,7,Maule,,Empedrado,4206.0,0,0.0
+2020-04-03,7,Maule,,Hualañé,10222.0,0,0.0
+2020-04-03,7,Maule,,Licantén,6989.0,0,0.0
+2020-04-03,7,Maule,,Linares,101073.0,10,9.9
+2020-04-03,7,Maule,,Longaví,32810.0,1,3.0
+2020-04-03,7,Maule,,Maule,60000.0,2,3.3
+2020-04-03,7,Maule,,Molina,49800.0,3,6.0
+2020-04-03,7,Maule,,Parral,44544.0,3,6.7
+2020-04-03,7,Maule,,Pelarco,9083.0,0,0.0
+2020-04-03,7,Maule,,Pelluhue,8092.0,1,12.4
+2020-04-03,7,Maule,,Pencahue,8601.0,0,0.0
+2020-04-03,7,Maule,,Rauco,11248.0,1,8.9
+2020-04-03,7,Maule,,Retiro,21071.0,0,0.0
+2020-04-03,7,Maule,,Río Claro,14753.0,1,6.8
+2020-04-03,7,Maule,,Romeral,16170.0,2,12.4
+2020-04-03,7,Maule,,Sagrada Familia,19469.0,0,0.0
+2020-04-03,7,Maule,,San Clemente,46292.0,0,0.0
+2020-04-03,7,Maule,,San Javier,49451.0,1,2.0
+2020-04-03,7,Maule,,San Rafael,9959.0,1,10.0
+2020-04-03,7,Maule,,Talca,236724.0,42,17.7
+2020-04-03,7,Maule,,Teno,30850.0,0,0.0
+2020-04-03,7,Maule,,Vichuquén,4381.0,0,0.0
+2020-04-03,7,Maule,,Villa Alegre,17512.0,0,0.0
+2020-04-03,7,Maule,,Yerbas Buenas,19200.0,0,0.0
+2020-04-03,8,Biobio,,Alto Biobío,6775.0,0,0.0
+2020-04-03,8,Biobio,,Antuco,4306.0,0,0.0
+2020-04-03,8,Biobio,,Arauco,38679.0,6,15.5
+2020-04-03,8,Biobio,,Cabrero,30725.0,1,3.3
+2020-04-03,8,Biobio,,Cañete,37003.0,0,0.0
+2020-04-03,8,Biobio,,Chiguayante,91180.0,26,28.5
+2020-04-03,8,Biobio,,Concepción,238092.0,53,22.3
+2020-04-03,8,Biobio,,Contulmo,6330.0,0,0.0
+2020-04-03,8,Biobio,,Coronel,125829.0,12,9.5
+2020-04-03,8,Biobio,,Curanilahue,33892.0,1,3.0
+2020-04-03,8,Biobio,,Florida,11841.0,2,16.9
+2020-04-03,8,Biobio,,Hualpén,97273.0,50,51.4
+2020-04-03,8,Biobio,,Hualqui,26201.0,3,11.4
+2020-04-03,8,Biobio,,Laja,23873.0,3,12.6
+2020-04-03,8,Biobio,,Lebu,27100.0,0,0.0
+2020-04-03,8,Biobio,,Los Álamos,22524.0,0,0.0
+2020-04-03,8,Biobio,,Los Ángeles,218515.0,12,5.5
+2020-04-03,8,Biobio,,Lota,45750.0,1,2.2
+2020-04-03,8,Biobio,,Mulchén,31041.0,5,16.1
+2020-04-03,8,Biobio,,Nacimiento,27944.0,2,7.2
+2020-04-03,8,Biobio,,Negrete,10429.0,0,0.0
+2020-04-03,8,Biobio,,Penco,49865.0,3,6.0
+2020-04-03,8,Biobio,,Quilaco,4179.0,0,0.0
+2020-04-03,8,Biobio,,Quilleco,10032.0,0,0.0
+2020-04-03,8,Biobio,,San Pedro de la Paz,145906.0,56,38.4
+2020-04-03,8,Biobio,,San Rosendo,3611.0,0,0.0
+2020-04-03,8,Biobio,,Santa Bárbara,14592.0,2,13.7
+2020-04-03,8,Biobio,,Santa Juana,14779.0,0,0.0
+2020-04-03,8,Biobio,,Talcahuano,158345.0,29,18.3
+2020-04-03,8,Biobio,,Tirúa,11019.0,2,18.2
+2020-04-03,8,Biobio,,Tomé,58729.0,9,15.3
+2020-04-03,8,Biobio,,Tucapel,15205.0,0,0.0
+2020-04-03,8,Biobio,,Yumbel,22132.0,5,22.6
+2020-04-03,8,Biobio,,Por determinar,0.0,19,0.0
+2020-04-03,9,Araucania,,Angol,56058.0,12,21.4
+2020-04-03,9,Araucania,,Carahue,25486.0,2,7.8
+2020-04-03,9,Araucania,,Cholchol,12341.0,3,24.3
+2020-04-03,9,Araucania,,Collipulli,26148.0,0,0.0
+2020-04-03,9,Araucania,,Cunco,18055.0,0,0.0
+2020-04-03,9,Araucania,,Curacautín,18178.0,0,0.0
+2020-04-03,9,Araucania,,Curarrehue,7802.0,3,38.5
+2020-04-03,9,Araucania,,Ercilla,8458.0,0,0.0
+2020-04-03,9,Araucania,,Freire,25446.0,5,19.6
+2020-04-03,9,Araucania,,Galvarino,12633.0,1,7.9
+2020-04-03,9,Araucania,,Gorbea,15148.0,7,46.2
+2020-04-03,9,Araucania,,Lautaro,40746.0,10,24.5
+2020-04-03,9,Araucania,,Loncoche,24739.0,4,16.2
+2020-04-03,9,Araucania,,Lonquimay,11049.0,0,0.0
+2020-04-03,9,Araucania,,Los Sauces,7517.0,0,0.0
+2020-04-03,9,Araucania,,Lumaco,10050.0,0,0.0
+2020-04-03,9,Araucania,,Melipeuco,6265.0,0,0.0
+2020-04-03,9,Araucania,,Nueva Imperial,33777.0,11,32.6
+2020-04-03,9,Araucania,,Padre Las Casas,82110.0,33,40.2
+2020-04-03,9,Araucania,,Perquenco,7223.0,2,27.7
+2020-04-03,9,Araucania,,Pitrufquén,26096.0,7,26.8
+2020-04-03,9,Araucania,,Pucón,29782.0,3,10.1
+2020-04-03,9,Araucania,,Purén,12188.0,1,8.2
+2020-04-03,9,Araucania,,Renaico,10833.0,0,0.0
+2020-04-03,9,Araucania,,Saavedra,12793.0,1,7.8
+2020-04-03,9,Araucania,,Temuco,302931.0,293,96.7
+2020-04-03,9,Araucania,,Teodoro Schmidt,15786.0,2,12.7
+2020-04-03,9,Araucania,,Toltén,10055.0,4,39.8
+2020-04-03,9,Araucania,,Traiguén,19314.0,0,0.0
+2020-04-03,9,Araucania,,Victoria,35467.0,11,31.0
+2020-04-03,9,Araucania,,Vilcún,30766.0,11,35.8
+2020-04-03,9,Araucania,,Villarrica,59103.0,6,10.2
+2020-04-03,9,Araucania,,Por determinar,0.0,0,0.0
+2020-04-03,10,Los Lagos,,Ancud,42458.0,0,0.0
+2020-04-03,10,Los Lagos,,Calbuco,36744.0,5,13.6
+2020-04-03,10,Los Lagos,,Castro,47607.0,1,2.1
+2020-04-03,10,Los Lagos,,Chaitén,5020.0,1,19.9
+2020-04-03,10,Los Lagos,,Chonchi,16013.0,0,0.0
+2020-04-03,10,Los Lagos,,Cochamó,4006.0,0,0.0
+2020-04-03,10,Los Lagos,,Curaco de Vélez,4066.0,0,0.0
+2020-04-03,10,Los Lagos,,Dalcahue,15069.0,0,0.0
+2020-04-03,10,Los Lagos,,Fresia,12656.0,0,0.0
+2020-04-03,10,Los Lagos,,Frutillar,20223.0,1,4.9
+2020-04-03,10,Los Lagos,,Futaleufú,2806.0,0,0.0
+2020-04-03,10,Los Lagos,,Hualaihué,9525.0,3,31.5
+2020-04-03,10,Los Lagos,,Llanquihue,18621.0,0,0.0
+2020-04-03,10,Los Lagos,,Los Muermos,17817.0,1,5.6
+2020-04-03,10,Los Lagos,,Maullín,14894.0,0,0.0
+2020-04-03,10,Los Lagos,,Osorno,173410.0,163,94.0
+2020-04-03,10,Los Lagos,,Palena,1827.0,0,0.0
+2020-04-03,10,Los Lagos,,Puerto Montt,269398.0,25,9.3
+2020-04-03,10,Los Lagos,,Puerto Octay,9192.0,1,10.9
+2020-04-03,10,Los Lagos,,Puerto Varas,48620.0,2,4.1
+2020-04-03,10,Los Lagos,,Puqueldón,4201.0,0,0.0
+2020-04-03,10,Los Lagos,,Purranque,21080.0,5,23.7
+2020-04-03,10,Los Lagos,,Puyehue,11787.0,1,8.5
+2020-04-03,10,Los Lagos,,Queilén,5543.0,0,0.0
+2020-04-03,10,Los Lagos,,Quellón,29309.0,0,0.0
+2020-04-03,10,Los Lagos,,Quemchi,8783.0,0,0.0
+2020-04-03,10,Los Lagos,,Quinchao,8298.0,1,12.1
+2020-04-03,10,Los Lagos,,Río Negro,14275.0,1,7.0
+2020-04-03,10,Los Lagos,,San Juan de la Costa,7639.0,0,0.0
+2020-04-03,10,Los Lagos,,San Pablo,10553.0,2,19.0
+2020-04-03,10,Los Lagos,,Por determinar,0.0,21,0.0
+2020-04-03,11,Aisen,,Aisén,25002.0,4,16.0
+2020-04-03,11,Aisen,,Chile Chico,5121.0,0,0.0
+2020-04-03,11,Aisen,,Cisnes,5828.0,0,0.0
+2020-04-03,11,Aisen,,Cochrane,3685.0,0,0.0
+2020-04-03,11,Aisen,,Coyhaique,61210.0,2,3.3
+2020-04-03,11,Aisen,,Guaitecas,1599.0,0,0.0
+2020-04-03,11,Aisen,,Lago Verde,920.0,0,0.0
+2020-04-03,11,Aisen,,O'Higgins,661.0,0,0.0
+2020-04-03,11,Aisen,,Río Ibáñez,2699.0,0,0.0
+2020-04-03,11,Aisen,,Tortel,572.0,0,0.0
+2020-04-03,12,Magallanes y la Antartica Chilena,,Antártica,137.0,0,0.0
+2020-04-03,12,Magallanes y la Antartica Chilena,,Cabo de Hornos,1983.0,6,302.6
+2020-04-03,12,Magallanes y la Antartica Chilena,,Laguna Blanca,264.0,0,0.0
+2020-04-03,12,Magallanes y la Antartica Chilena,,Natales,23782.0,5,21.0
+2020-04-03,12,Magallanes y la Antartica Chilena,,Porvenir,7323.0,2,27.3
+2020-04-03,12,Magallanes y la Antartica Chilena,,Primavera,694.0,0,0.0
+2020-04-03,12,Magallanes y la Antartica Chilena,,Punta Arenas,141984.0,143,100.7
+2020-04-03,12,Magallanes y la Antartica Chilena,,Río Verde,211.0,0,0.0
+2020-04-03,12,Magallanes y la Antartica Chilena,,San Gregorio,681.0,0,0.0
+2020-04-03,12,Magallanes y la Antartica Chilena,,Timaukel,282.0,0,0.0
+2020-04-03,12,Magallanes y la Antartica Chilena,,Torres del Paine,1021.0,0,0.0
+2020-04-03,13,Metropolitana,,Alhué,7405.0,0,0.0
+2020-04-03,13,Metropolitana,,Buin,109641.0,14,12.8
+2020-04-03,13,Metropolitana,,Calera de Tango,28525.0,7,24.5
+2020-04-03,13,Metropolitana,,Cerrillos,88956.0,4,4.5
+2020-04-03,13,Metropolitana,,Cerro Navia,142465.0,26,18.3
+2020-04-03,13,Metropolitana,,Colina,180353.0,47,26.1
+2020-04-03,13,Metropolitana,,Conchalí,139195.0,22,15.8
+2020-04-03,13,Metropolitana,,Curacaví,36430.0,5,13.7
+2020-04-03,13,Metropolitana,,El Bosque,172000.0,35,20.3
+2020-04-03,13,Metropolitana,,El Monte,40014.0,2,5.0
+2020-04-03,13,Metropolitana,,Estación Central,206792.0,25,12.1
+2020-04-03,13,Metropolitana,,Huechuraba,112528.0,22,19.6
+2020-04-03,13,Metropolitana,,Independencia,142065.0,22,15.5
+2020-04-03,13,Metropolitana,,Isla de Maipo,40171.0,1,2.5
+2020-04-03,13,Metropolitana,,La Cisterna,100434.0,12,11.9
+2020-04-03,13,Metropolitana,,La Florida,402433.0,67,16.6
+2020-04-03,13,Metropolitana,,La Granja,122557.0,16,13.1
+2020-04-03,13,Metropolitana,,La Pintana,189335.0,13,6.9
+2020-04-03,13,Metropolitana,,La Reina,100252.0,30,29.9
+2020-04-03,13,Metropolitana,,Lampa,126898.0,13,10.2
+2020-04-03,13,Metropolitana,,Las Condes,330759.0,224,67.7
+2020-04-03,13,Metropolitana,,Lo Barnechea,124076.0,85,68.5
+2020-04-03,13,Metropolitana,,Lo Espejo,103865.0,9,8.7
+2020-04-03,13,Metropolitana,,Lo Prado,104403.0,20,19.2
+2020-04-03,13,Metropolitana,,Macul,134635.0,23,17.1
+2020-04-03,13,Metropolitana,,Maipú,578605.0,64,11.1
+2020-04-03,13,Metropolitana,,María Pinto,14926.0,0,0.0
+2020-04-03,13,Metropolitana,,Melipilla,141612.0,9,6.4
+2020-04-03,13,Metropolitana,,Ñuñoa,250192.0,93,37.2
+2020-04-03,13,Metropolitana,,Padre Hurtado,74188.0,14,18.9
+2020-04-03,13,Metropolitana,,Paine,82766.0,3,3.6
+2020-04-03,13,Metropolitana,,Pedro Aguirre Cerda,107803.0,13,12.1
+2020-04-03,13,Metropolitana,,Peñaflor,101058.0,13,12.9
+2020-04-03,13,Metropolitana,,Peñalolén,266798.0,54,20.2
+2020-04-03,13,Metropolitana,,Pirque,30433.0,2,6.6
+2020-04-03,13,Metropolitana,,Providencia,157749.0,94,59.6
+2020-04-03,13,Metropolitana,,Pudahuel,253139.0,32,12.6
+2020-04-03,13,Metropolitana,,Puente Alto,645909.0,76,11.8
+2020-04-03,13,Metropolitana,,Quilicura,254694.0,33,13.0
+2020-04-03,13,Metropolitana,,Quinta Normal,136368.0,35,25.7
+2020-04-03,13,Metropolitana,,Recoleta,190075.0,32,16.8
+2020-04-03,13,Metropolitana,,Renca,160847.0,18,11.2
+2020-04-03,13,Metropolitana,,San Bernardo,334836.0,53,15.8
+2020-04-03,13,Metropolitana,,San Joaquín,103485.0,28,27.1
+2020-04-03,13,Metropolitana,,San José de Maipo,18644.0,2,10.7
+2020-04-03,13,Metropolitana,,San Miguel,133059.0,39,29.3
+2020-04-03,13,Metropolitana,,San Pedro,11953.0,0,0.0
+2020-04-03,13,Metropolitana,,San Ramón,86510.0,9,10.4
+2020-04-03,13,Metropolitana,,Santiago,503147.0,173,34.4
+2020-04-03,13,Metropolitana,,Talagante,81838.0,6,7.3
+2020-04-03,13,Metropolitana,,Tiltil,21477.0,3,14.0
+2020-04-03,13,Metropolitana,,Vitacura,96774.0,100,103.3
+2020-04-03,13,Metropolitana,,Por determinar,0.0,0,0.0
+2020-04-03,14,Los Rios,,Corral,5447.0,0,0.0
+2020-04-03,14,Los Rios,,Futrono,15261.0,2,13.1
+2020-04-03,14,Los Rios,,La Unión,39538.0,10,25.3
+2020-04-03,14,Los Rios,,Lago Ranco,10292.0,1,9.7
+2020-04-03,14,Los Rios,,Lanco,17652.0,1,5.7
+2020-04-03,14,Los Rios,,Los Lagos,20518.0,0,0.0
+2020-04-03,14,Los Rios,,Máfil,7389.0,1,13.5
+2020-04-03,14,Los Rios,,Mariquina,23250.0,3,12.9
+2020-04-03,14,Los Rios,,Paillaco,20798.0,1,4.8
+2020-04-03,14,Los Rios,,Panguipulli,35991.0,0,0.0
+2020-04-03,14,Los Rios,,Río Bueno,32925.0,2,6.1
+2020-04-03,14,Los Rios,,Valdivia,176774.0,47,26.6
+2020-04-03,14,Los Rios,,Por determinar,0.0,10,0.0
+2020-04-03,15,Arica y Parinacota,,Arica,247552.0,12,4.8
+2020-04-03,15,Arica y Parinacota,,Camarones,1233.0,0,0.0
+2020-04-03,15,Arica y Parinacota,,General Lagos,810.0,0,0.0
+2020-04-03,15,Arica y Parinacota,,Putre,2515.0,0,0.0
+2020-04-03,16,Nuble,,Bulnes,22607.0,32,141.5
+2020-04-03,16,Nuble,,Chillán,198624.0,240,120.8
+2020-04-03,16,Nuble,,Chillán Viejo,33827.0,26,76.9
+2020-04-03,16,Nuble,,Cobquecura,5275.0,0,0.0
+2020-04-03,16,Nuble,,Coelemu,16845.0,2,11.9
+2020-04-03,16,Nuble,,Coihueco,28375.0,3,10.6
+2020-04-03,16,Nuble,,El Carmen,12334.0,2,16.2
+2020-04-03,16,Nuble,,Ninhue,5414.0,0,0.0
+2020-04-03,16,Nuble,,Ñiquén,11567.0,0,0.0
+2020-04-03,16,Nuble,,Pemuco,8639.0,0,0.0
+2020-04-03,16,Nuble,,Pinto,11880.0,6,50.5
+2020-04-03,16,Nuble,,Portezuelo,4940.0,0,0.0
+2020-04-03,16,Nuble,,Quillón,18777.0,15,79.9
+2020-04-03,16,Nuble,,Quirihue,12192.0,0,0.0
+2020-04-03,16,Nuble,,Ránquil,6261.0,5,79.9
+2020-04-03,16,Nuble,,San Carlos,56252.0,13,23.1
+2020-04-03,16,Nuble,,San Fabián,4654.0,6,128.9
+2020-04-03,16,Nuble,,San Ignacio,16624.0,3,18.0
+2020-04-03,16,Nuble,,San Nicolás,12172.0,4,32.9
+2020-04-03,16,Nuble,,Treguaco,5696.0,0,0.0
+2020-04-03,16,Nuble,,Yungay,18596.0,10,53.8
+2020-04-03,16,Nuble,,Por determinar,0.0,3,0.0
+2020-04-06,1,Tarapaca,,Alto Hospicio,129999.0,5,3.8
+2020-04-06,1,Tarapaca,,Camiña,1375.0,0,0.0
+2020-04-06,1,Tarapaca,,Colchane,1583.0,0,0.0
+2020-04-06,1,Tarapaca,,Huara,3000.0,0,0.0
+2020-04-06,1,Tarapaca,,Iquique,223463.0,13,5.8
+2020-04-06,1,Tarapaca,,Pica,5958.0,1,16.8
+2020-04-06,1,Tarapaca,,Pozo Almonte,17395.0,2,11.5
+2020-04-06,2,Antofagasta,,Antofagasta,425725.0,54,12.7
+2020-04-06,2,Antofagasta,,Calama,190336.0,7,3.7
+2020-04-06,2,Antofagasta,,María Elena,6814.0,0,0.0
+2020-04-06,2,Antofagasta,,Mejillones,14776.0,1,6.8
+2020-04-06,2,Antofagasta,,Ollagüe,287.0,0,0.0
+2020-04-06,2,Antofagasta,,San Pedro de Atacama,10434.0,4,38.3
+2020-04-06,2,Antofagasta,,Sierra Gorda,1746.0,0,0.0
+2020-04-06,2,Antofagasta,,Taltal,13657.0,0,0.0
+2020-04-06,2,Antofagasta,,Tocopilla,28079.0,2,7.1
+2020-04-06,3,Atacama,,Alto del Carmen,5729.0,0,0.0
+2020-04-06,3,Atacama,,Caldera,19426.0,0,0.0
+2020-04-06,3,Atacama,,Chañaral,13164.0,0,0.0
+2020-04-06,3,Atacama,,Copiapó,171766.0,4,2.3
+2020-04-06,3,Atacama,,Diego de Almagro,14358.0,1,7.0
+2020-04-06,3,Atacama,,Freirina,7681.0,0,0.0
+2020-04-06,3,Atacama,,Huasco,11264.0,0,0.0
+2020-04-06,3,Atacama,,Tierra Amarilla,14312.0,0,0.0
+2020-04-06,3,Atacama,,Vallenar,57009.0,0,0.0
+2020-04-06,4,Coquimbo,,Andacollo,11791.0,0,0.0
+2020-04-06,4,Coquimbo,,Canela,9546.0,0,0.0
+2020-04-06,4,Coquimbo,,Combarbalá,13884.0,0,0.0
+2020-04-06,4,Coquimbo,,Coquimbo,256735.0,19,7.4
+2020-04-06,4,Coquimbo,,Illapel,32801.0,7,21.3
+2020-04-06,4,Coquimbo,,La Higuera,4450.0,0,0.0
+2020-04-06,4,Coquimbo,,La Serena,249656.0,12,4.8
+2020-04-06,4,Coquimbo,,Los Vilos,23374.0,1,4.3
+2020-04-06,4,Coquimbo,,Monte Patria,32527.0,0,0.0
+2020-04-06,4,Coquimbo,,Ovalle,121269.0,7,5.8
+2020-04-06,4,Coquimbo,,Paiguano,4675.0,0,0.0
+2020-04-06,4,Coquimbo,,Punitaqui,12165.0,0,0.0
+2020-04-06,4,Coquimbo,,Río Hurtado,4372.0,1,22.9
+2020-04-06,4,Coquimbo,,Salamanca,29110.0,4,13.7
+2020-04-06,4,Coquimbo,,Vicuña,29741.0,0,0.0
+2020-04-06,5,Valparaiso,,Algarrobo,15174.0,9,59.3
+2020-04-06,5,Valparaiso,,Cabildo,20663.0,0,0.0
+2020-04-06,5,Valparaiso,,Calera,53591.0,7,13.1
+2020-04-06,5,Valparaiso,,Calle Larga,16482.0,2,12.1
+2020-04-06,5,Valparaiso,,Cartagena,25357.0,1,3.9
+2020-04-06,5,Valparaiso,,Casablanca,29170.0,3,10.3
+2020-04-06,5,Valparaiso,,Catemu,15213.0,0,0.0
+2020-04-06,5,Valparaiso,,Concón,45889.0,7,15.3
+2020-04-06,5,Valparaiso,,El Quisco,17742.0,1,5.6
+2020-04-06,5,Valparaiso,,El Tabo,14338.0,3,20.9
+2020-04-06,5,Valparaiso,,Hijuelas,19099.0,0,0.0
+2020-04-06,5,Valparaiso,,Isla de Pascua,8277.0,5,60.4
+2020-04-06,5,Valparaiso,,Juan Fernández,1033.0,0,0.0
+2020-04-06,5,Valparaiso,,La Cruz,25321.0,3,11.8
+2020-04-06,5,Valparaiso,,La Ligua,37739.0,2,5.3
+2020-04-06,5,Valparaiso,,Limache,49931.0,4,8.0
+2020-04-06,5,Valparaiso,,Llaillay,26533.0,2,7.5
+2020-04-06,5,Valparaiso,,Los Andes,68093.0,2,2.9
+2020-04-06,5,Valparaiso,,Nogales,23490.0,0,0.0
+2020-04-06,5,Valparaiso,,Olmué,19266.0,0,0.0
+2020-04-06,5,Valparaiso,,Panquehue,7633.0,0,0.0
+2020-04-06,5,Valparaiso,,Papudo,6201.0,1,16.1
+2020-04-06,5,Valparaiso,,Petorca,10558.0,5,47.4
+2020-04-06,5,Valparaiso,,Puchuncaví,20071.0,0,0.0
+2020-04-06,5,Valparaiso,,Putaendo,17645.0,1,5.7
+2020-04-06,5,Valparaiso,,Quillota,97572.0,9,9.2
+2020-04-06,5,Valparaiso,,Quilpué,167085.0,12,7.2
+2020-04-06,5,Valparaiso,,Quintero,36135.0,2,5.5
+2020-04-06,5,Valparaiso,,Rinconada,11263.0,0,0.0
+2020-04-06,5,Valparaiso,,San Antonio,96761.0,9,9.3
+2020-04-06,5,Valparaiso,,San Esteban,20643.0,0,0.0
+2020-04-06,5,Valparaiso,,San Felipe,83494.0,5,6.0
+2020-04-06,5,Valparaiso,,Santa María,16367.0,2,12.2
+2020-04-06,5,Valparaiso,,Santo Domingo,11934.0,2,16.8
+2020-04-06,5,Valparaiso,,Valparaíso,315732.0,26,8.2
+2020-04-06,5,Valparaiso,,Villa Alemana,139310.0,11,7.9
+2020-04-06,5,Valparaiso,,Viña del Mar,361371.0,53,14.7
+2020-04-06,5,Valparaiso,,Zapallar,7994.0,0,0.0
+2020-04-06,5,Valparaiso,,Por determinar,0.0,9,0.0
+2020-04-06,6,OHiggins,,Chépica,15925.0,0,0.0
+2020-04-06,6,OHiggins,,Chimbarongo,37696.0,2,5.3
+2020-04-06,6,OHiggins,,Codegua,14096.0,0,0.0
+2020-04-06,6,OHiggins,,Coinco,7831.0,0,0.0
+2020-04-06,6,OHiggins,,Coltauco,21263.0,0,0.0
+2020-04-06,6,OHiggins,,Doñihue,22700.0,0,0.0
+2020-04-06,6,OHiggins,,Graneros,36504.0,0,0.0
+2020-04-06,6,OHiggins,,La Estrella,3114.0,0,0.0
+2020-04-06,6,OHiggins,,Las Cabras,26749.0,0,0.0
+2020-04-06,6,OHiggins,,Litueche,6765.0,0,0.0
+2020-04-06,6,OHiggins,,Lolol,7289.0,0,0.0
+2020-04-06,6,OHiggins,,Machalí,59913.0,8,13.4
+2020-04-06,6,OHiggins,,Malloa,14163.0,0,0.0
+2020-04-06,6,OHiggins,,Marchihue,7632.0,0,0.0
+2020-04-06,6,OHiggins,,Mostazal,27462.0,0,0.0
+2020-04-06,6,OHiggins,,Nancagua,19141.0,0,0.0
+2020-04-06,6,OHiggins,,Navidad,6904.0,0,0.0
+2020-04-06,6,OHiggins,,Olivar,14624.0,2,13.7
+2020-04-06,6,OHiggins,,Palmilla,13299.0,0,0.0
+2020-04-06,6,OHiggins,,Paredones,6349.0,0,0.0
+2020-04-06,6,OHiggins,,Peralillo,11848.0,0,0.0
+2020-04-06,6,OHiggins,,Peumo,14952.0,1,6.7
+2020-04-06,6,OHiggins,,Pichidegua,20743.0,0,0.0
+2020-04-06,6,OHiggins,,Pichilemu,17882.0,0,0.0
+2020-04-06,6,OHiggins,,Placilla,9164.0,1,10.9
+2020-04-06,6,OHiggins,,Pumanque,3531.0,0,0.0
+2020-04-06,6,OHiggins,,Quinta de Tilcoco,13877.0,2,14.4
+2020-04-06,6,OHiggins,,Rancagua,265211.0,15,5.7
+2020-04-06,6,OHiggins,,Rengo,63710.0,1,1.6
+2020-04-06,6,OHiggins,,Requínoa,30371.0,1,3.3
+2020-04-06,6,OHiggins,,San Fernando,78642.0,4,5.1
+2020-04-06,6,OHiggins,,San Vicente,50617.0,4,7.9
+2020-04-06,6,OHiggins,,Santa Cruz,41096.0,1,2.4
+2020-04-06,7,Maule,,Cauquenes,44143.0,4,9.1
+2020-04-06,7,Maule,,Chanco,9331.0,0,0.0
+2020-04-06,7,Maule,,Colbún,22565.0,5,22.2
+2020-04-06,7,Maule,,Constitución,50348.0,3,6.0
+2020-04-06,7,Maule,,Curepto,9426.0,0,0.0
+2020-04-06,7,Maule,,Curicó,163626.0,13,7.9
+2020-04-06,7,Maule,,Empedrado,4206.0,0,0.0
+2020-04-06,7,Maule,,Hualañé,10222.0,0,0.0
+2020-04-06,7,Maule,,Licantén,6989.0,0,0.0
+2020-04-06,7,Maule,,Linares,101073.0,11,10.9
+2020-04-06,7,Maule,,Longaví,32810.0,2,6.1
+2020-04-06,7,Maule,,Maule,60000.0,2,3.3
+2020-04-06,7,Maule,,Molina,49800.0,3,6.0
+2020-04-06,7,Maule,,Parral,44544.0,3,6.7
+2020-04-06,7,Maule,,Pelarco,9083.0,0,0.0
+2020-04-06,7,Maule,,Pelluhue,8092.0,1,12.4
+2020-04-06,7,Maule,,Pencahue,8601.0,0,0.0
+2020-04-06,7,Maule,,Rauco,11248.0,1,8.9
+2020-04-06,7,Maule,,Retiro,21071.0,0,0.0
+2020-04-06,7,Maule,,Río Claro,14753.0,1,6.8
+2020-04-06,7,Maule,,Romeral,16170.0,2,12.4
+2020-04-06,7,Maule,,Sagrada Familia,19469.0,1,5.1
+2020-04-06,7,Maule,,San Clemente,46292.0,0,0.0
+2020-04-06,7,Maule,,San Javier,49451.0,7,14.2
+2020-04-06,7,Maule,,San Rafael,9959.0,1,10.0
+2020-04-06,7,Maule,,Talca,236724.0,48,20.3
+2020-04-06,7,Maule,,Teno,30850.0,0,0.0
+2020-04-06,7,Maule,,Vichuquén,4381.0,0,0.0
+2020-04-06,7,Maule,,Villa Alegre,17512.0,0,0.0
+2020-04-06,7,Maule,,Yerbas Buenas,19200.0,0,0.0
+2020-04-06,8,Biobio,,Alto Biobío,6775.0,0,0.0
+2020-04-06,8,Biobio,,Antuco,4306.0,0,0.0
+2020-04-06,8,Biobio,,Arauco,38679.0,6,15.5
+2020-04-06,8,Biobio,,Cabrero,30725.0,1,3.3
+2020-04-06,8,Biobio,,Cañete,37003.0,0,0.0
+2020-04-06,8,Biobio,,Chiguayante,91180.0,32,35.1
+2020-04-06,8,Biobio,,Concepción,238092.0,70,29.4
+2020-04-06,8,Biobio,,Contulmo,6330.0,0,0.0
+2020-04-06,8,Biobio,,Coronel,125829.0,13,10.3
+2020-04-06,8,Biobio,,Curanilahue,33892.0,1,3.0
+2020-04-06,8,Biobio,,Florida,11841.0,2,16.9
+2020-04-06,8,Biobio,,Hualpén,97273.0,67,68.9
+2020-04-06,8,Biobio,,Hualqui,26201.0,7,26.7
+2020-04-06,8,Biobio,,Laja,23873.0,5,20.9
+2020-04-06,8,Biobio,,Lebu,27100.0,0,0.0
+2020-04-06,8,Biobio,,Los Álamos,22524.0,0,0.0
+2020-04-06,8,Biobio,,Los Ángeles,218515.0,17,7.8
+2020-04-06,8,Biobio,,Lota,45750.0,1,2.2
+2020-04-06,8,Biobio,,Mulchén,31041.0,5,16.1
+2020-04-06,8,Biobio,,Nacimiento,27944.0,2,7.2
+2020-04-06,8,Biobio,,Negrete,10429.0,1,9.6
+2020-04-06,8,Biobio,,Penco,49865.0,5,10.0
+2020-04-06,8,Biobio,,Quilaco,4179.0,0,0.0
+2020-04-06,8,Biobio,,Quilleco,10032.0,0,0.0
+2020-04-06,8,Biobio,,San Pedro de la Paz,145906.0,63,43.2
+2020-04-06,8,Biobio,,San Rosendo,3611.0,0,0.0
+2020-04-06,8,Biobio,,Santa Bárbara,14592.0,2,13.7
+2020-04-06,8,Biobio,,Santa Juana,14779.0,0,0.0
+2020-04-06,8,Biobio,,Talcahuano,158345.0,36,22.7
+2020-04-06,8,Biobio,,Tirúa,11019.0,4,36.3
+2020-04-06,8,Biobio,,Tomé,58729.0,25,42.6
+2020-04-06,8,Biobio,,Tucapel,15205.0,0,0.0
+2020-04-06,8,Biobio,,Yumbel,22132.0,5,22.6
+2020-04-06,8,Biobio,,Por determinar,0.0,13,0.0
+2020-04-06,9,Araucania,,Angol,56058.0,15,26.8
+2020-04-06,9,Araucania,,Carahue,25486.0,3,11.8
+2020-04-06,9,Araucania,,Cholchol,12341.0,2,16.2
+2020-04-06,9,Araucania,,Collipulli,26148.0,0,0.0
+2020-04-06,9,Araucania,,Cunco,18055.0,5,27.7
+2020-04-06,9,Araucania,,Curacautín,18178.0,2,11.0
+2020-04-06,9,Araucania,,Curarrehue,7802.0,3,38.5
+2020-04-06,9,Araucania,,Ercilla,8458.0,0,0.0
+2020-04-06,9,Araucania,,Freire,25446.0,5,19.6
+2020-04-06,9,Araucania,,Galvarino,12633.0,2,15.8
+2020-04-06,9,Araucania,,Gorbea,15148.0,10,66.0
+2020-04-06,9,Araucania,,Lautaro,40746.0,16,39.3
+2020-04-06,9,Araucania,,Loncoche,24739.0,4,16.2
+2020-04-06,9,Araucania,,Lonquimay,11049.0,0,0.0
+2020-04-06,9,Araucania,,Los Sauces,7517.0,0,0.0
+2020-04-06,9,Araucania,,Lumaco,10050.0,0,0.0
+2020-04-06,9,Araucania,,Melipeuco,6265.0,0,0.0
+2020-04-06,9,Araucania,,Nueva Imperial,33777.0,16,47.4
+2020-04-06,9,Araucania,,Padre Las Casas,82110.0,44,53.6
+2020-04-06,9,Araucania,,Perquenco,7223.0,1,13.8
+2020-04-06,9,Araucania,,Pitrufquén,26096.0,11,42.2
+2020-04-06,9,Araucania,,Pucón,29782.0,4,13.4
+2020-04-06,9,Araucania,,Purén,12188.0,2,16.4
+2020-04-06,9,Araucania,,Renaico,10833.0,0,0.0
+2020-04-06,9,Araucania,,Saavedra,12793.0,1,7.8
+2020-04-06,9,Araucania,,Temuco,302931.0,365,120.5
+2020-04-06,9,Araucania,,Teodoro Schmidt,15786.0,3,19.0
+2020-04-06,9,Araucania,,Toltén,10055.0,5,49.7
+2020-04-06,9,Araucania,,Traiguén,19314.0,0,0.0
+2020-04-06,9,Araucania,,Victoria,35467.0,12,33.8
+2020-04-06,9,Araucania,,Vilcún,30766.0,18,58.5
+2020-04-06,9,Araucania,,Villarrica,59103.0,11,18.6
+2020-04-06,9,Araucania,,Por determinar,0.0,2,0.0
+2020-04-06,10,Los Lagos,,Ancud,42458.0,0,0.0
+2020-04-06,10,Los Lagos,,Calbuco,36744.0,5,13.6
+2020-04-06,10,Los Lagos,,Castro,47607.0,4,8.4
+2020-04-06,10,Los Lagos,,Chaitén,5020.0,1,19.9
+2020-04-06,10,Los Lagos,,Chonchi,16013.0,0,0.0
+2020-04-06,10,Los Lagos,,Cochamó,4006.0,0,0.0
+2020-04-06,10,Los Lagos,,Curaco de Vélez,4066.0,0,0.0
+2020-04-06,10,Los Lagos,,Dalcahue,15069.0,0,0.0
+2020-04-06,10,Los Lagos,,Fresia,12656.0,0,0.0
+2020-04-06,10,Los Lagos,,Frutillar,20223.0,3,14.8
+2020-04-06,10,Los Lagos,,Futaleufú,2806.0,0,0.0
+2020-04-06,10,Los Lagos,,Hualaihué,9525.0,3,31.5
+2020-04-06,10,Los Lagos,,Llanquihue,18621.0,0,0.0
+2020-04-06,10,Los Lagos,,Los Muermos,17817.0,1,5.6
+2020-04-06,10,Los Lagos,,Maullín,14894.0,0,0.0
+2020-04-06,10,Los Lagos,,Osorno,173410.0,190,109.6
+2020-04-06,10,Los Lagos,,Palena,1827.0,0,0.0
+2020-04-06,10,Los Lagos,,Puerto Montt,269398.0,35,13.0
+2020-04-06,10,Los Lagos,,Puerto Octay,9192.0,1,10.9
+2020-04-06,10,Los Lagos,,Puerto Varas,48620.0,4,8.2
+2020-04-06,10,Los Lagos,,Puqueldón,4201.0,0,0.0
+2020-04-06,10,Los Lagos,,Purranque,21080.0,5,23.7
+2020-04-06,10,Los Lagos,,Puyehue,11787.0,1,8.5
+2020-04-06,10,Los Lagos,,Queilén,5543.0,0,0.0
+2020-04-06,10,Los Lagos,,Quellón,29309.0,0,0.0
+2020-04-06,10,Los Lagos,,Quemchi,8783.0,0,0.0
+2020-04-06,10,Los Lagos,,Quinchao,8298.0,1,12.1
+2020-04-06,10,Los Lagos,,Río Negro,14275.0,1,7.0
+2020-04-06,10,Los Lagos,,San Juan de la Costa,7639.0,7,91.6
+2020-04-06,10,Los Lagos,,San Pablo,10553.0,2,19.0
+2020-04-06,10,Los Lagos,,Por determinar,0.0,22,0.0
+2020-04-06,11,Aisen,,Aisén,25002.0,5,20.0
+2020-04-06,11,Aisen,,Chile Chico,5121.0,1,19.5
+2020-04-06,11,Aisen,,Cisnes,5828.0,0,0.0
+2020-04-06,11,Aisen,,Cochrane,3685.0,0,0.0
+2020-04-06,11,Aisen,,Coyhaique,61210.0,1,1.6
+2020-04-06,11,Aisen,,Guaitecas,1599.0,0,0.0
+2020-04-06,11,Aisen,,Lago Verde,920.0,0,0.0
+2020-04-06,11,Aisen,,O'Higgins,661.0,0,0.0
+2020-04-06,11,Aisen,,Río Ibáñez,2699.0,0,0.0
+2020-04-06,11,Aisen,,Tortel,572.0,0,0.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,Antártica,137.0,0,0.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,Cabo de Hornos,1983.0,10,504.3
+2020-04-06,12,Magallanes y la Antartica Chilena,,Laguna Blanca,264.0,0,0.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,Natales,23782.0,5,21.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,Porvenir,7323.0,3,41.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,Primavera,694.0,0,0.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,Punta Arenas,141984.0,203,143.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,Río Verde,211.0,0,0.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,San Gregorio,681.0,0,0.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,Timaukel,282.0,0,0.0
+2020-04-06,12,Magallanes y la Antartica Chilena,,Torres del Paine,1021.0,0,0.0
+2020-04-06,13,Metropolitana,,Alhué,7405.0,0,0.0
+2020-04-06,13,Metropolitana,,Buin,109641.0,20,18.2
+2020-04-06,13,Metropolitana,,Calera de Tango,28525.0,7,24.5
+2020-04-06,13,Metropolitana,,Cerrillos,88956.0,5,5.6
+2020-04-06,13,Metropolitana,,Cerro Navia,142465.0,31,21.8
+2020-04-06,13,Metropolitana,,Colina,180353.0,50,27.7
+2020-04-06,13,Metropolitana,,Conchalí,139195.0,32,23.0
+2020-04-06,13,Metropolitana,,Curacaví,36430.0,8,22.0
+2020-04-06,13,Metropolitana,,El Bosque,172000.0,37,21.5
+2020-04-06,13,Metropolitana,,El Monte,40014.0,5,12.5
+2020-04-06,13,Metropolitana,,Estación Central,206792.0,36,17.4
+2020-04-06,13,Metropolitana,,Huechuraba,112528.0,32,28.4
+2020-04-06,13,Metropolitana,,Independencia,142065.0,26,18.3
+2020-04-06,13,Metropolitana,,Isla de Maipo,40171.0,4,10.0
+2020-04-06,13,Metropolitana,,La Cisterna,100434.0,20,19.9
+2020-04-06,13,Metropolitana,,La Florida,402433.0,91,22.6
+2020-04-06,13,Metropolitana,,La Granja,122557.0,24,19.6
+2020-04-06,13,Metropolitana,,La Pintana,189335.0,18,9.5
+2020-04-06,13,Metropolitana,,La Reina,100252.0,35,34.9
+2020-04-06,13,Metropolitana,,Lampa,126898.0,14,11.0
+2020-04-06,13,Metropolitana,,Las Condes,330759.0,258,78.0
+2020-04-06,13,Metropolitana,,Lo Barnechea,124076.0,97,78.2
+2020-04-06,13,Metropolitana,,Lo Espejo,103865.0,15,14.4
+2020-04-06,13,Metropolitana,,Lo Prado,104403.0,25,23.9
+2020-04-06,13,Metropolitana,,Macul,134635.0,34,25.3
+2020-04-06,13,Metropolitana,,Maipú,578605.0,83,14.3
+2020-04-06,13,Metropolitana,,María Pinto,14926.0,0,0.0
+2020-04-06,13,Metropolitana,,Melipilla,141612.0,11,7.8
+2020-04-06,13,Metropolitana,,Ñuñoa,250192.0,107,42.8
+2020-04-06,13,Metropolitana,,Padre Hurtado,74188.0,16,21.6
+2020-04-06,13,Metropolitana,,Paine,82766.0,3,3.6
+2020-04-06,13,Metropolitana,,Pedro Aguirre Cerda,107803.0,16,14.8
+2020-04-06,13,Metropolitana,,Peñaflor,101058.0,18,17.8
+2020-04-06,13,Metropolitana,,Peñalolén,266798.0,65,24.4
+2020-04-06,13,Metropolitana,,Pirque,30433.0,4,13.1
+2020-04-06,13,Metropolitana,,Providencia,157749.0,104,65.9
+2020-04-06,13,Metropolitana,,Pudahuel,253139.0,44,17.4
+2020-04-06,13,Metropolitana,,Puente Alto,645909.0,119,18.4
+2020-04-06,13,Metropolitana,,Quilicura,254694.0,51,20.0
+2020-04-06,13,Metropolitana,,Quinta Normal,136368.0,41,30.1
+2020-04-06,13,Metropolitana,,Recoleta,190075.0,44,23.1
+2020-04-06,13,Metropolitana,,Renca,160847.0,19,11.8
+2020-04-06,13,Metropolitana,,San Bernardo,334836.0,74,22.1
+2020-04-06,13,Metropolitana,,San Joaquín,103485.0,36,34.8
+2020-04-06,13,Metropolitana,,San José de Maipo,18644.0,3,16.1
+2020-04-06,13,Metropolitana,,San Miguel,133059.0,49,36.8
+2020-04-06,13,Metropolitana,,San Pedro,11953.0,0,0.0
+2020-04-06,13,Metropolitana,,San Ramón,86510.0,9,10.4
+2020-04-06,13,Metropolitana,,Santiago,503147.0,234,46.5
+2020-04-06,13,Metropolitana,,Talagante,81838.0,11,13.4
+2020-04-06,13,Metropolitana,,Tiltil,21477.0,3,14.0
+2020-04-06,13,Metropolitana,,Vitacura,96774.0,114,117.8
+2020-04-06,13,Metropolitana,,Por determinar,0.0,42,0.0
+2020-04-06,14,Los Rios,,Corral,5447.0,0,0.0
+2020-04-06,14,Los Rios,,Futrono,15261.0,5,32.8
+2020-04-06,14,Los Rios,,La Unión,39538.0,17,43.0
+2020-04-06,14,Los Rios,,Lago Ranco,10292.0,2,19.4
+2020-04-06,14,Los Rios,,Lanco,17652.0,2,11.3
+2020-04-06,14,Los Rios,,Los Lagos,20518.0,0,0.0
+2020-04-06,14,Los Rios,,Máfil,7389.0,1,13.5
+2020-04-06,14,Los Rios,,Mariquina,23250.0,6,25.8
+2020-04-06,14,Los Rios,,Paillaco,20798.0,1,4.8
+2020-04-06,14,Los Rios,,Panguipulli,35991.0,0,0.0
+2020-04-06,14,Los Rios,,Río Bueno,32925.0,5,15.2
+2020-04-06,14,Los Rios,,Valdivia,176774.0,65,36.8
+2020-04-06,15,Arica y Parinacota,,Arica,247552.0,41,16.6
+2020-04-06,15,Arica y Parinacota,,Camarones,1233.0,0,0.0
+2020-04-06,15,Arica y Parinacota,,General Lagos,810.0,0,0.0
+2020-04-06,15,Arica y Parinacota,,Putre,2515.0,0,0.0
+2020-04-06,16,Nuble,,Bulnes,22607.0,36,159.2
+2020-04-06,16,Nuble,,Chillán,198624.0,291,146.5
+2020-04-06,16,Nuble,,Chillán Viejo,33827.0,30,88.7
+2020-04-06,16,Nuble,,Cobquecura,5275.0,0,0.0
+2020-04-06,16,Nuble,,Coelemu,16845.0,3,17.8
+2020-04-06,16,Nuble,,Coihueco,28375.0,6,21.1
+2020-04-06,16,Nuble,,El Carmen,12334.0,2,16.2
+2020-04-06,16,Nuble,,Ninhue,5414.0,0,0.0
+2020-04-06,16,Nuble,,Ñiquén,11567.0,0,0.0
+2020-04-06,16,Nuble,,Pemuco,8639.0,2,23.2
+2020-04-06,16,Nuble,,Pinto,11880.0,9,75.8
+2020-04-06,16,Nuble,,Portezuelo,4940.0,0,0.0
+2020-04-06,16,Nuble,,Quillón,18777.0,17,90.5
+2020-04-06,16,Nuble,,Quirihue,12192.0,1,8.2
+2020-04-06,16,Nuble,,Ránquil,6261.0,7,111.8
+2020-04-06,16,Nuble,,San Carlos,56252.0,19,33.8
+2020-04-06,16,Nuble,,San Fabián,4654.0,6,128.9
+2020-04-06,16,Nuble,,San Ignacio,16624.0,6,36.1
+2020-04-06,16,Nuble,,San Nicolás,12172.0,10,82.2
+2020-04-06,16,Nuble,,Treguaco,5696.0,0,0.0
+2020-04-06,16,Nuble,,Yungay,18596.0,26,139.8
+2020-04-06,16,Nuble,,Por determinar,0.0,3,0.0
+2020-04-08,1,Tarapaca,,Alto Hospicio,129999.0,6,4.6
+2020-04-08,1,Tarapaca,,Camiña,1375.0,0,0.0
+2020-04-08,1,Tarapaca,,Colchane,1583.0,0,0.0
+2020-04-08,1,Tarapaca,,Huara,3000.0,0,0.0
+2020-04-08,1,Tarapaca,,Iquique,223463.0,16,7.2
+2020-04-08,1,Tarapaca,,Pica,5958.0,2,33.6
+2020-04-08,1,Tarapaca,,Pozo Almonte,17395.0,2,11.5
+2020-04-08,2,Antofagasta,,Antofagasta,425725.0,60,14.1
+2020-04-08,2,Antofagasta,,Calama,190336.0,8,4.2
+2020-04-08,2,Antofagasta,,María Elena,6814.0,0,0.0
+2020-04-08,2,Antofagasta,,Mejillones,14776.0,2,13.5
+2020-04-08,2,Antofagasta,,Ollagüe,287.0,0,0.0
+2020-04-08,2,Antofagasta,,San Pedro de Atacama,10434.0,4,38.3
+2020-04-08,2,Antofagasta,,Sierra Gorda,1746.0,0,0.0
+2020-04-08,2,Antofagasta,,Taltal,13657.0,1,7.3
+2020-04-08,2,Antofagasta,,Tocopilla,28079.0,2,7.1
+2020-04-08,3,Atacama,,Alto del Carmen,5729.0,0,0.0
+2020-04-08,3,Atacama,,Caldera,19426.0,0,0.0
+2020-04-08,3,Atacama,,Chañaral,13164.0,0,0.0
+2020-04-08,3,Atacama,,Copiapó,171766.0,5,2.9
+2020-04-08,3,Atacama,,Diego de Almagro,14358.0,1,7.0
+2020-04-08,3,Atacama,,Freirina,7681.0,0,0.0
+2020-04-08,3,Atacama,,Huasco,11264.0,0,0.0
+2020-04-08,3,Atacama,,Tierra Amarilla,14312.0,2,14.0
+2020-04-08,3,Atacama,,Vallenar,57009.0,0,0.0
+2020-04-08,4,Coquimbo,,Andacollo,11791.0,0,0.0
+2020-04-08,4,Coquimbo,,Canela,9546.0,0,0.0
+2020-04-08,4,Coquimbo,,Combarbalá,13884.0,0,0.0
+2020-04-08,4,Coquimbo,,Coquimbo,256735.0,19,7.4
+2020-04-08,4,Coquimbo,,Illapel,32801.0,12,36.6
+2020-04-08,4,Coquimbo,,La Higuera,4450.0,0,0.0
+2020-04-08,4,Coquimbo,,La Serena,249656.0,12,4.8
+2020-04-08,4,Coquimbo,,Los Vilos,23374.0,1,4.3
+2020-04-08,4,Coquimbo,,Monte Patria,32527.0,0,0.0
+2020-04-08,4,Coquimbo,,Ovalle,121269.0,7,5.8
+2020-04-08,4,Coquimbo,,Paiguano,4675.0,0,0.0
+2020-04-08,4,Coquimbo,,Punitaqui,12165.0,0,0.0
+2020-04-08,4,Coquimbo,,Río Hurtado,4372.0,1,22.9
+2020-04-08,4,Coquimbo,,Salamanca,29110.0,4,13.7
+2020-04-08,4,Coquimbo,,Vicuña,29741.0,0,0.0
+2020-04-08,5,Valparaiso,,Algarrobo,15174.0,8,52.7
+2020-04-08,5,Valparaiso,,Cabildo,20663.0,0,0.0
+2020-04-08,5,Valparaiso,,Calera,53591.0,9,16.8
+2020-04-08,5,Valparaiso,,Calle Larga,16482.0,1,6.1
+2020-04-08,5,Valparaiso,,Cartagena,25357.0,0,0.0
+2020-04-08,5,Valparaiso,,Casablanca,29170.0,2,6.9
+2020-04-08,5,Valparaiso,,Catemu,15213.0,0,0.0
+2020-04-08,5,Valparaiso,,Concón,45889.0,3,6.5
+2020-04-08,5,Valparaiso,,El Quisco,17742.0,1,5.6
+2020-04-08,5,Valparaiso,,El Tabo,14338.0,2,13.9
+2020-04-08,5,Valparaiso,,Hijuelas,19099.0,0,0.0
+2020-04-08,5,Valparaiso,,Isla de Pascua,8277.0,5,60.4
+2020-04-08,5,Valparaiso,,Juan Fernández,1033.0,0,0.0
+2020-04-08,5,Valparaiso,,La Cruz,25321.0,2,7.9
+2020-04-08,5,Valparaiso,,La Ligua,37739.0,2,5.3
+2020-04-08,5,Valparaiso,,Limache,49931.0,5,10.0
+2020-04-08,5,Valparaiso,,Llaillay,26533.0,2,7.5
+2020-04-08,5,Valparaiso,,Los Andes,68093.0,6,8.8
+2020-04-08,5,Valparaiso,,Nogales,23490.0,0,0.0
+2020-04-08,5,Valparaiso,,Olmué,19266.0,0,0.0
+2020-04-08,5,Valparaiso,,Panquehue,7633.0,0,0.0
+2020-04-08,5,Valparaiso,,Papudo,6201.0,0,0.0
+2020-04-08,5,Valparaiso,,Petorca,10558.0,4,37.9
+2020-04-08,5,Valparaiso,,Puchuncaví,20071.0,0,0.0
+2020-04-08,5,Valparaiso,,Putaendo,17645.0,1,5.7
+2020-04-08,5,Valparaiso,,Quillota,97572.0,13,13.3
+2020-04-08,5,Valparaiso,,Quilpué,167085.0,15,9.0
+2020-04-08,5,Valparaiso,,Quintero,36135.0,3,8.3
+2020-04-08,5,Valparaiso,,Rinconada,11263.0,1,8.9
+2020-04-08,5,Valparaiso,,San Antonio,96761.0,9,9.3
+2020-04-08,5,Valparaiso,,San Esteban,20643.0,0,0.0
+2020-04-08,5,Valparaiso,,San Felipe,83494.0,6,7.2
+2020-04-08,5,Valparaiso,,Santa María,16367.0,2,12.2
+2020-04-08,5,Valparaiso,,Santo Domingo,11934.0,5,41.9
+2020-04-08,5,Valparaiso,,Valparaíso,315732.0,36,11.4
+2020-04-08,5,Valparaiso,,Villa Alemana,139310.0,12,8.6
+2020-04-08,5,Valparaiso,,Viña del Mar,361371.0,66,18.3
+2020-04-08,5,Valparaiso,,Zapallar,7994.0,0,0.0
+2020-04-08,5,Valparaiso,,Por determinar,0.0,4,0.0
+2020-04-08,6,OHiggins,,Chépica,15925.0,0,0.0
+2020-04-08,6,OHiggins,,Chimbarongo,37696.0,2,5.3
+2020-04-08,6,OHiggins,,Codegua,14096.0,0,0.0
+2020-04-08,6,OHiggins,,Coinco,7831.0,0,0.0
+2020-04-08,6,OHiggins,,Coltauco,21263.0,0,0.0
+2020-04-08,6,OHiggins,,Doñihue,22700.0,0,0.0
+2020-04-08,6,OHiggins,,Graneros,36504.0,0,0.0
+2020-04-08,6,OHiggins,,La Estrella,3114.0,0,0.0
+2020-04-08,6,OHiggins,,Las Cabras,26749.0,0,0.0
+2020-04-08,6,OHiggins,,Litueche,6765.0,0,0.0
+2020-04-08,6,OHiggins,,Lolol,7289.0,0,0.0
+2020-04-08,6,OHiggins,,Machalí,59913.0,8,13.4
+2020-04-08,6,OHiggins,,Malloa,14163.0,0,0.0
+2020-04-08,6,OHiggins,,Marchihue,7632.0,0,0.0
+2020-04-08,6,OHiggins,,Mostazal,27462.0,0,0.0
+2020-04-08,6,OHiggins,,Nancagua,19141.0,0,0.0
+2020-04-08,6,OHiggins,,Navidad,6904.0,0,0.0
+2020-04-08,6,OHiggins,,Olivar,14624.0,2,13.7
+2020-04-08,6,OHiggins,,Palmilla,13299.0,0,0.0
+2020-04-08,6,OHiggins,,Paredones,6349.0,0,0.0
+2020-04-08,6,OHiggins,,Peralillo,11848.0,0,0.0
+2020-04-08,6,OHiggins,,Peumo,14952.0,1,6.7
+2020-04-08,6,OHiggins,,Pichidegua,20743.0,0,0.0
+2020-04-08,6,OHiggins,,Pichilemu,17882.0,0,0.0
+2020-04-08,6,OHiggins,,Placilla,9164.0,1,10.9
+2020-04-08,6,OHiggins,,Pumanque,3531.0,0,0.0
+2020-04-08,6,OHiggins,,Quinta de Tilcoco,13877.0,2,14.4
+2020-04-08,6,OHiggins,,Rancagua,265211.0,15,5.7
+2020-04-08,6,OHiggins,,Rengo,63710.0,1,1.6
+2020-04-08,6,OHiggins,,Requínoa,30371.0,1,3.3
+2020-04-08,6,OHiggins,,San Fernando,78642.0,4,5.1
+2020-04-08,6,OHiggins,,San Vicente,50617.0,4,7.9
+2020-04-08,6,OHiggins,,Santa Cruz,41096.0,2,4.9
+2020-04-08,7,Maule,,Cauquenes,44143.0,4,9.1
+2020-04-08,7,Maule,,Chanco,9331.0,0,0.0
+2020-04-08,7,Maule,,Colbún,22565.0,5,22.2
+2020-04-08,7,Maule,,Constitución,50348.0,5,9.9
+2020-04-08,7,Maule,,Curepto,9426.0,2,21.2
+2020-04-08,7,Maule,,Curicó,163626.0,13,7.9
+2020-04-08,7,Maule,,Empedrado,4206.0,0,0.0
+2020-04-08,7,Maule,,Hualañé,10222.0,0,0.0
+2020-04-08,7,Maule,,Licantén,6989.0,0,0.0
+2020-04-08,7,Maule,,Linares,101073.0,12,11.9
+2020-04-08,7,Maule,,Longaví,32810.0,2,6.1
+2020-04-08,7,Maule,,Maule,60000.0,3,5.0
+2020-04-08,7,Maule,,Molina,49800.0,3,6.0
+2020-04-08,7,Maule,,Parral,44544.0,4,9.0
+2020-04-08,7,Maule,,Pelarco,9083.0,0,0.0
+2020-04-08,7,Maule,,Pelluhue,8092.0,1,12.4
+2020-04-08,7,Maule,,Pencahue,8601.0,0,0.0
+2020-04-08,7,Maule,,Rauco,11248.0,1,8.9
+2020-04-08,7,Maule,,Retiro,21071.0,0,0.0
+2020-04-08,7,Maule,,Río Claro,14753.0,2,13.6
+2020-04-08,7,Maule,,Romeral,16170.0,2,12.4
+2020-04-08,7,Maule,,Sagrada Familia,19469.0,1,5.1
+2020-04-08,7,Maule,,San Clemente,46292.0,0,0.0
+2020-04-08,7,Maule,,San Javier,49451.0,7,14.2
+2020-04-08,7,Maule,,San Rafael,9959.0,1,10.0
+2020-04-08,7,Maule,,Talca,236724.0,51,21.5
+2020-04-08,7,Maule,,Teno,30850.0,0,0.0
+2020-04-08,7,Maule,,Vichuquén,4381.0,0,0.0
+2020-04-08,7,Maule,,Villa Alegre,17512.0,0,0.0
+2020-04-08,7,Maule,,Yerbas Buenas,19200.0,0,0.0
+2020-04-08,8,Biobio,,Alto Biobío,6775.0,0,0.0
+2020-04-08,8,Biobio,,Antuco,4306.0,0,0.0
+2020-04-08,8,Biobio,,Arauco,38679.0,6,15.5
+2020-04-08,8,Biobio,,Cabrero,30725.0,1,3.3
+2020-04-08,8,Biobio,,Cañete,37003.0,0,0.0
+2020-04-08,8,Biobio,,Chiguayante,91180.0,35,38.4
+2020-04-08,8,Biobio,,Concepción,238092.0,73,30.7
+2020-04-08,8,Biobio,,Contulmo,6330.0,0,0.0
+2020-04-08,8,Biobio,,Coronel,125829.0,18,14.3
+2020-04-08,8,Biobio,,Curanilahue,33892.0,1,3.0
+2020-04-08,8,Biobio,,Florida,11841.0,2,16.9
+2020-04-08,8,Biobio,,Hualpén,97273.0,74,76.1
+2020-04-08,8,Biobio,,Hualqui,26201.0,7,26.7
+2020-04-08,8,Biobio,,Laja,23873.0,5,20.9
+2020-04-08,8,Biobio,,Lebu,27100.0,0,0.0
+2020-04-08,8,Biobio,,Los Álamos,22524.0,0,0.0
+2020-04-08,8,Biobio,,Los Ángeles,218515.0,22,10.1
+2020-04-08,8,Biobio,,Lota,45750.0,1,2.2
+2020-04-08,8,Biobio,,Mulchén,31041.0,5,16.1
+2020-04-08,8,Biobio,,Nacimiento,27944.0,4,14.3
+2020-04-08,8,Biobio,,Negrete,10429.0,2,19.2
+2020-04-08,8,Biobio,,Penco,49865.0,5,10.0
+2020-04-08,8,Biobio,,Quilaco,4179.0,0,0.0
+2020-04-08,8,Biobio,,Quilleco,10032.0,0,0.0
+2020-04-08,8,Biobio,,San Pedro de la Paz,145906.0,71,48.7
+2020-04-08,8,Biobio,,San Rosendo,3611.0,0,0.0
+2020-04-08,8,Biobio,,Santa Bárbara,14592.0,2,13.7
+2020-04-08,8,Biobio,,Santa Juana,14779.0,0,0.0
+2020-04-08,8,Biobio,,Talcahuano,158345.0,45,28.4
+2020-04-08,8,Biobio,,Tirúa,11019.0,4,36.3
+2020-04-08,8,Biobio,,Tomé,58729.0,30,51.1
+2020-04-08,8,Biobio,,Tucapel,15205.0,1,6.6
+2020-04-08,8,Biobio,,Yumbel,22132.0,5,22.6
+2020-04-08,8,Biobio,,Por determinar,0.0,20,0.0
+2020-04-08,9,Araucania,,Angol,56058.0,23,41.0
+2020-04-08,9,Araucania,,Carahue,25486.0,6,23.5
+2020-04-08,9,Araucania,,Cholchol,12341.0,3,24.3
+2020-04-08,9,Araucania,,Collipulli,26148.0,0,0.0
+2020-04-08,9,Araucania,,Cunco,18055.0,5,27.7
+2020-04-08,9,Araucania,,Curacautín,18178.0,3,16.5
+2020-04-08,9,Araucania,,Curarrehue,7802.0,4,51.3
+2020-04-08,9,Araucania,,Ercilla,8458.0,2,23.6
+2020-04-08,9,Araucania,,Freire,25446.0,5,19.6
+2020-04-08,9,Araucania,,Galvarino,12633.0,2,15.8
+2020-04-08,9,Araucania,,Gorbea,15148.0,10,66.0
+2020-04-08,9,Araucania,,Lautaro,40746.0,19,46.6
+2020-04-08,9,Araucania,,Loncoche,24739.0,6,24.3
+2020-04-08,9,Araucania,,Lonquimay,11049.0,0,0.0
+2020-04-08,9,Araucania,,Los Sauces,7517.0,0,0.0
+2020-04-08,9,Araucania,,Lumaco,10050.0,0,0.0
+2020-04-08,9,Araucania,,Melipeuco,6265.0,0,0.0
+2020-04-08,9,Araucania,,Nueva Imperial,33777.0,20,59.2
+2020-04-08,9,Araucania,,Padre Las Casas,82110.0,49,59.7
+2020-04-08,9,Araucania,,Perquenco,7223.0,2,27.7
+2020-04-08,9,Araucania,,Pitrufquén,26096.0,12,46.0
+2020-04-08,9,Araucania,,Pucón,29782.0,5,16.8
+2020-04-08,9,Araucania,,Purén,12188.0,2,16.4
+2020-04-08,9,Araucania,,Renaico,10833.0,1,9.2
+2020-04-08,9,Araucania,,Saavedra,12793.0,1,7.8
+2020-04-08,9,Araucania,,Temuco,302931.0,407,134.4
+2020-04-08,9,Araucania,,Teodoro Schmidt,15786.0,3,19.0
+2020-04-08,9,Araucania,,Toltén,10055.0,7,69.6
+2020-04-08,9,Araucania,,Traiguén,19314.0,0,0.0
+2020-04-08,9,Araucania,,Victoria,35467.0,15,42.3
+2020-04-08,9,Araucania,,Vilcún,30766.0,20,65.0
+2020-04-08,9,Araucania,,Villarrica,59103.0,15,25.4
+2020-04-08,9,Araucania,,Por determinar,0.0,22,0.0
+2020-04-08,10,Los Lagos,,Ancud,42458.0,2,4.7
+2020-04-08,10,Los Lagos,,Calbuco,36744.0,5,13.6
+2020-04-08,10,Los Lagos,,Castro,47607.0,6,12.6
+2020-04-08,10,Los Lagos,,Chaitén,5020.0,1,19.9
+2020-04-08,10,Los Lagos,,Chonchi,16013.0,0,0.0
+2020-04-08,10,Los Lagos,,Cochamó,4006.0,0,0.0
+2020-04-08,10,Los Lagos,,Curaco de Vélez,4066.0,0,0.0
+2020-04-08,10,Los Lagos,,Dalcahue,15069.0,0,0.0
+2020-04-08,10,Los Lagos,,Fresia,12656.0,0,0.0
+2020-04-08,10,Los Lagos,,Frutillar,20223.0,3,14.8
+2020-04-08,10,Los Lagos,,Futaleufú,2806.0,0,0.0
+2020-04-08,10,Los Lagos,,Hualaihué,9525.0,3,31.5
+2020-04-08,10,Los Lagos,,Llanquihue,18621.0,0,0.0
+2020-04-08,10,Los Lagos,,Los Muermos,17817.0,1,5.6
+2020-04-08,10,Los Lagos,,Maullín,14894.0,0,0.0
+2020-04-08,10,Los Lagos,,Osorno,173410.0,207,119.4
+2020-04-08,10,Los Lagos,,Palena,1827.0,0,0.0
+2020-04-08,10,Los Lagos,,Puerto Montt,269398.0,37,13.7
+2020-04-08,10,Los Lagos,,Puerto Octay,9192.0,1,10.9
+2020-04-08,10,Los Lagos,,Puerto Varas,48620.0,3,6.2
+2020-04-08,10,Los Lagos,,Puqueldón,4201.0,0,0.0
+2020-04-08,10,Los Lagos,,Purranque,21080.0,11,52.2
+2020-04-08,10,Los Lagos,,Puyehue,11787.0,2,17.0
+2020-04-08,10,Los Lagos,,Queilén,5543.0,0,0.0
+2020-04-08,10,Los Lagos,,Quellón,29309.0,0,0.0
+2020-04-08,10,Los Lagos,,Quemchi,8783.0,0,0.0
+2020-04-08,10,Los Lagos,,Quinchao,8298.0,1,12.1
+2020-04-08,10,Los Lagos,,Río Negro,14275.0,1,7.0
+2020-04-08,10,Los Lagos,,San Juan de la Costa,7639.0,11,144.0
+2020-04-08,10,Los Lagos,,San Pablo,10553.0,6,56.9
+2020-04-08,10,Los Lagos,,Por determinar,0.0,24,0.0
+2020-04-08,11,Aisen,,Aisén,25002.0,4,16.0
+2020-04-08,11,Aisen,,Chile Chico,5121.0,1,19.5
+2020-04-08,11,Aisen,,Cisnes,5828.0,0,0.0
+2020-04-08,11,Aisen,,Cochrane,3685.0,0,0.0
+2020-04-08,11,Aisen,,Coyhaique,61210.0,1,1.6
+2020-04-08,11,Aisen,,Guaitecas,1599.0,0,0.0
+2020-04-08,11,Aisen,,Lago Verde,920.0,0,0.0
+2020-04-08,11,Aisen,,O'Higgins,661.0,0,0.0
+2020-04-08,11,Aisen,,Río Ibáñez,2699.0,0,0.0
+2020-04-08,11,Aisen,,Tortel,572.0,1,174.8
+2020-04-08,12,Magallanes y la Antartica Chilena,,Antártica,137.0,0,0.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,Cabo de Hornos,1983.0,10,504.3
+2020-04-08,12,Magallanes y la Antartica Chilena,,Laguna Blanca,264.0,0,0.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,Natales,23782.0,5,21.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,Porvenir,7323.0,3,41.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,Primavera,694.0,0,0.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,Punta Arenas,141984.0,203,143.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,Río Verde,211.0,0,0.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,San Gregorio,681.0,0,0.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,Timaukel,282.0,0,0.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,Torres del Paine,1021.0,0,0.0
+2020-04-08,12,Magallanes y la Antartica Chilena,,Por determinar,0.0,40,0.0
+2020-04-08,13,Metropolitana,,Alhué,7405.0,0,0.0
+2020-04-08,13,Metropolitana,,Buin,109641.0,20,18.2
+2020-04-08,13,Metropolitana,,Calera de Tango,28525.0,8,28.0
+2020-04-08,13,Metropolitana,,Cerrillos,88956.0,11,12.4
+2020-04-08,13,Metropolitana,,Cerro Navia,142465.0,36,25.3
+2020-04-08,13,Metropolitana,,Colina,180353.0,62,34.4
+2020-04-08,13,Metropolitana,,Conchalí,139195.0,38,27.3
+2020-04-08,13,Metropolitana,,Curacaví,36430.0,9,24.7
+2020-04-08,13,Metropolitana,,El Bosque,172000.0,46,26.7
+2020-04-08,13,Metropolitana,,El Monte,40014.0,7,17.5
+2020-04-08,13,Metropolitana,,Estación Central,206792.0,41,19.8
+2020-04-08,13,Metropolitana,,Huechuraba,112528.0,35,31.1
+2020-04-08,13,Metropolitana,,Independencia,142065.0,31,21.8
+2020-04-08,13,Metropolitana,,Isla de Maipo,40171.0,7,17.4
+2020-04-08,13,Metropolitana,,La Cisterna,100434.0,26,25.9
+2020-04-08,13,Metropolitana,,La Florida,402433.0,103,25.6
+2020-04-08,13,Metropolitana,,La Granja,122557.0,26,21.2
+2020-04-08,13,Metropolitana,,La Pintana,189335.0,25,13.2
+2020-04-08,13,Metropolitana,,La Reina,100252.0,44,43.9
+2020-04-08,13,Metropolitana,,Lampa,126898.0,18,14.2
+2020-04-08,13,Metropolitana,,Las Condes,330759.0,266,80.4
+2020-04-08,13,Metropolitana,,Lo Barnechea,124076.0,105,84.6
+2020-04-08,13,Metropolitana,,Lo Espejo,103865.0,23,22.1
+2020-04-08,13,Metropolitana,,Lo Prado,104403.0,32,30.7
+2020-04-08,13,Metropolitana,,Macul,134635.0,37,27.5
+2020-04-08,13,Metropolitana,,Maipú,578605.0,106,18.3
+2020-04-08,13,Metropolitana,,María Pinto,14926.0,0,0.0
+2020-04-08,13,Metropolitana,,Melipilla,141612.0,12,8.5
+2020-04-08,13,Metropolitana,,Ñuñoa,250192.0,118,47.2
+2020-04-08,13,Metropolitana,,Padre Hurtado,74188.0,18,24.3
+2020-04-08,13,Metropolitana,,Paine,82766.0,3,3.6
+2020-04-08,13,Metropolitana,,Pedro Aguirre Cerda,107803.0,19,17.6
+2020-04-08,13,Metropolitana,,Peñaflor,101058.0,18,17.8
+2020-04-08,13,Metropolitana,,Peñalolén,266798.0,78,29.2
+2020-04-08,13,Metropolitana,,Pirque,30433.0,4,13.1
+2020-04-08,13,Metropolitana,,Providencia,157749.0,115,72.9
+2020-04-08,13,Metropolitana,,Pudahuel,253139.0,52,20.5
+2020-04-08,13,Metropolitana,,Puente Alto,645909.0,166,25.7
+2020-04-08,13,Metropolitana,,Quilicura,254694.0,57,22.4
+2020-04-08,13,Metropolitana,,Quinta Normal,136368.0,57,41.8
+2020-04-08,13,Metropolitana,,Recoleta,190075.0,52,27.4
+2020-04-08,13,Metropolitana,,Renca,160847.0,22,13.7
+2020-04-08,13,Metropolitana,,San Bernardo,334836.0,79,23.6
+2020-04-08,13,Metropolitana,,San Joaquín,103485.0,42,40.6
+2020-04-08,13,Metropolitana,,San José de Maipo,18644.0,3,16.1
+2020-04-08,13,Metropolitana,,San Miguel,133059.0,56,42.1
+2020-04-08,13,Metropolitana,,San Pedro,11953.0,0,0.0
+2020-04-08,13,Metropolitana,,San Ramón,86510.0,12,13.9
+2020-04-08,13,Metropolitana,,Santiago,503147.0,271,53.9
+2020-04-08,13,Metropolitana,,Talagante,81838.0,14,17.1
+2020-04-08,13,Metropolitana,,Tiltil,21477.0,4,18.6
+2020-04-08,13,Metropolitana,,Vitacura,96774.0,114,117.8
+2020-04-08,13,Metropolitana,,Por determinar,0.0,0,0.0
+2020-04-08,14,Los Rios,,Corral,5447.0,0,0.0
+2020-04-08,14,Los Rios,,Futrono,15261.0,5,32.8
+2020-04-08,14,Los Rios,,La Unión,39538.0,18,45.5
+2020-04-08,14,Los Rios,,Lago Ranco,10292.0,2,19.4
+2020-04-08,14,Los Rios,,Lanco,17652.0,2,11.3
+2020-04-08,14,Los Rios,,Los Lagos,20518.0,0,0.0
+2020-04-08,14,Los Rios,,Máfil,7389.0,1,13.5
+2020-04-08,14,Los Rios,,Mariquina,23250.0,8,34.4
+2020-04-08,14,Los Rios,,Paillaco,20798.0,1,4.8
+2020-04-08,14,Los Rios,,Panguipulli,35991.0,0,0.0
+2020-04-08,14,Los Rios,,Río Bueno,32925.0,5,15.2
+2020-04-08,14,Los Rios,,Valdivia,176774.0,72,40.7
+2020-04-08,15,Arica y Parinacota,,Arica,247552.0,63,25.4
+2020-04-08,15,Arica y Parinacota,,Camarones,1233.0,0,0.0
+2020-04-08,15,Arica y Parinacota,,General Lagos,810.0,0,0.0
+2020-04-08,15,Arica y Parinacota,,Putre,2515.0,0,0.0
+2020-04-08,16,Nuble,,Bulnes,22607.0,45,199.1
+2020-04-08,16,Nuble,,Chillán,198624.0,327,164.6
+2020-04-08,16,Nuble,,Chillán Viejo,33827.0,34,100.5
+2020-04-08,16,Nuble,,Cobquecura,5275.0,0,0.0
+2020-04-08,16,Nuble,,Coelemu,16845.0,4,23.7
+2020-04-08,16,Nuble,,Coihueco,28375.0,7,24.7
+2020-04-08,16,Nuble,,El Carmen,12334.0,3,24.3
+2020-04-08,16,Nuble,,Ninhue,5414.0,1,18.5
+2020-04-08,16,Nuble,,Ñiquén,11567.0,2,17.3
+2020-04-08,16,Nuble,,Pemuco,8639.0,3,34.7
+2020-04-08,16,Nuble,,Pinto,11880.0,10,84.2
+2020-04-08,16,Nuble,,Portezuelo,4940.0,0,0.0
+2020-04-08,16,Nuble,,Quillón,18777.0,22,117.2
+2020-04-08,16,Nuble,,Quirihue,12192.0,4,32.8
+2020-04-08,16,Nuble,,Ránquil,6261.0,9,143.7
+2020-04-08,16,Nuble,,San Carlos,56252.0,28,49.8
+2020-04-08,16,Nuble,,San Fabián,4654.0,6,128.9
+2020-04-08,16,Nuble,,San Ignacio,16624.0,6,36.1
+2020-04-08,16,Nuble,,San Nicolás,12172.0,11,90.4
+2020-04-08,16,Nuble,,Treguaco,5696.0,0,0.0
+2020-04-08,16,Nuble,,Yungay,18596.0,37,199.0
+2020-04-08,16,Nuble,,Por determinar,0.0,2,0.0
+2020-04-10,1,Tarapaca,,Alto Hospicio,129999.0,10,7.7
+2020-04-10,1,Tarapaca,,Camiña,1375.0,0,0.0
+2020-04-10,1,Tarapaca,,Colchane,1583.0,0,0.0
+2020-04-10,1,Tarapaca,,Huara,3000.0,0,0.0
+2020-04-10,1,Tarapaca,,Iquique,223463.0,18,8.1
+2020-04-10,1,Tarapaca,,Pica,5958.0,5,83.9
+2020-04-10,1,Tarapaca,,Pozo Almonte,17395.0,2,11.5
+2020-04-10,2,Antofagasta,,Antofagasta,425725.0,82,19.3
+2020-04-10,2,Antofagasta,,Calama,190336.0,13,6.8
+2020-04-10,2,Antofagasta,,María Elena,6814.0,0,0.0
+2020-04-10,2,Antofagasta,,Mejillones,14776.0,6,40.6
+2020-04-10,2,Antofagasta,,Ollagüe,287.0,0,0.0
+2020-04-10,2,Antofagasta,,San Pedro de Atacama,10434.0,4,38.3
+2020-04-10,2,Antofagasta,,Sierra Gorda,1746.0,0,0.0
+2020-04-10,2,Antofagasta,,Taltal,13657.0,3,22.0
+2020-04-10,2,Antofagasta,,Tocopilla,28079.0,2,7.1
+2020-04-10,3,Atacama,,Alto del Carmen,5729.0,0,0.0
+2020-04-10,3,Atacama,,Caldera,19426.0,0,0.0
+2020-04-10,3,Atacama,,Chañaral,13164.0,0,0.0
+2020-04-10,3,Atacama,,Copiapó,171766.0,8,4.7
+2020-04-10,3,Atacama,,Diego de Almagro,14358.0,1,7.0
+2020-04-10,3,Atacama,,Freirina,7681.0,0,0.0
+2020-04-10,3,Atacama,,Huasco,11264.0,0,0.0
+2020-04-10,3,Atacama,,Tierra Amarilla,14312.0,4,27.9
+2020-04-10,3,Atacama,,Vallenar,57009.0,0,0.0
+2020-04-10,4,Coquimbo,,Andacollo,11791.0,0,0.0
+2020-04-10,4,Coquimbo,,Canela,9546.0,0,0.0
+2020-04-10,4,Coquimbo,,Combarbalá,13884.0,0,0.0
+2020-04-10,4,Coquimbo,,Coquimbo,256735.0,21,8.2
+2020-04-10,4,Coquimbo,,Illapel,32801.0,13,39.6
+2020-04-10,4,Coquimbo,,La Higuera,4450.0,0,0.0
+2020-04-10,4,Coquimbo,,La Serena,249656.0,12,4.8
+2020-04-10,4,Coquimbo,,Los Vilos,23374.0,1,4.3
+2020-04-10,4,Coquimbo,,Monte Patria,32527.0,0,0.0
+2020-04-10,4,Coquimbo,,Ovalle,121269.0,8,6.6
+2020-04-10,4,Coquimbo,,Paiguano,4675.0,0,0.0
+2020-04-10,4,Coquimbo,,Punitaqui,12165.0,0,0.0
+2020-04-10,4,Coquimbo,,Río Hurtado,4372.0,1,22.9
+2020-04-10,4,Coquimbo,,Salamanca,29110.0,5,17.2
+2020-04-10,4,Coquimbo,,Vicuña,29741.0,0,0.0
+2020-04-10,5,Valparaiso,,Algarrobo,15174.0,8,52.7
+2020-04-10,5,Valparaiso,,Cabildo,20663.0,0,0.0
+2020-04-10,5,Valparaiso,,Calera,53591.0,9,16.8
+2020-04-10,5,Valparaiso,,Calle Larga,16482.0,2,12.1
+2020-04-10,5,Valparaiso,,Cartagena,25357.0,0,0.0
+2020-04-10,5,Valparaiso,,Casablanca,29170.0,2,6.9
+2020-04-10,5,Valparaiso,,Catemu,15213.0,0,0.0
+2020-04-10,5,Valparaiso,,Concón,45889.0,3,6.5
+2020-04-10,5,Valparaiso,,El Quisco,17742.0,1,5.6
+2020-04-10,5,Valparaiso,,El Tabo,14338.0,2,13.9
+2020-04-10,5,Valparaiso,,Hijuelas,19099.0,0,0.0
+2020-04-10,5,Valparaiso,,Isla de Pascua,8277.0,6,72.5
+2020-04-10,5,Valparaiso,,Juan Fernández,1033.0,0,0.0
+2020-04-10,5,Valparaiso,,La Cruz,25321.0,2,7.9
+2020-04-10,5,Valparaiso,,La Ligua,37739.0,2,5.3
+2020-04-10,5,Valparaiso,,Limache,49931.0,7,14.0
+2020-04-10,5,Valparaiso,,Llaillay,26533.0,2,7.5
+2020-04-10,5,Valparaiso,,Los Andes,68093.0,6,8.8
+2020-04-10,5,Valparaiso,,Nogales,23490.0,0,0.0
+2020-04-10,5,Valparaiso,,Olmué,19266.0,0,0.0
+2020-04-10,5,Valparaiso,,Panquehue,7633.0,0,0.0
+2020-04-10,5,Valparaiso,,Papudo,6201.0,0,0.0
+2020-04-10,5,Valparaiso,,Petorca,10558.0,5,47.4
+2020-04-10,5,Valparaiso,,Puchuncaví,20071.0,0,0.0
+2020-04-10,5,Valparaiso,,Putaendo,17645.0,1,5.7
+2020-04-10,5,Valparaiso,,Quillota,97572.0,13,13.3
+2020-04-10,5,Valparaiso,,Quilpué,167085.0,18,10.8
+2020-04-10,5,Valparaiso,,Quintero,36135.0,4,11.1
+2020-04-10,5,Valparaiso,,Rinconada,11263.0,2,17.8
+2020-04-10,5,Valparaiso,,San Antonio,96761.0,13,13.4
+2020-04-10,5,Valparaiso,,San Esteban,20643.0,0,0.0
+2020-04-10,5,Valparaiso,,San Felipe,83494.0,6,7.2
+2020-04-10,5,Valparaiso,,Santa María,16367.0,2,12.2
+2020-04-10,5,Valparaiso,,Santo Domingo,11934.0,5,41.9
+2020-04-10,5,Valparaiso,,Valparaíso,315732.0,39,12.4
+2020-04-10,5,Valparaiso,,Villa Alemana,139310.0,12,8.6
+2020-04-10,5,Valparaiso,,Viña del Mar,361371.0,69,19.1
+2020-04-10,5,Valparaiso,,Zapallar,7994.0,0,0.0
+2020-04-10,5,Valparaiso,,Por determinar,0.0,0,0.0
+2020-04-10,6,OHiggins,,Chépica,15925.0,0,0.0
+2020-04-10,6,OHiggins,,Chimbarongo,37696.0,2,5.3
+2020-04-10,6,OHiggins,,Codegua,14096.0,0,0.0
+2020-04-10,6,OHiggins,,Coinco,7831.0,0,0.0
+2020-04-10,6,OHiggins,,Coltauco,21263.0,0,0.0
+2020-04-10,6,OHiggins,,Doñihue,22700.0,0,0.0
+2020-04-10,6,OHiggins,,Graneros,36504.0,0,0.0
+2020-04-10,6,OHiggins,,La Estrella,3114.0,0,0.0
+2020-04-10,6,OHiggins,,Las Cabras,26749.0,0,0.0
+2020-04-10,6,OHiggins,,Litueche,6765.0,0,0.0
+2020-04-10,6,OHiggins,,Lolol,7289.0,0,0.0
+2020-04-10,6,OHiggins,,Machalí,59913.0,8,13.4
+2020-04-10,6,OHiggins,,Malloa,14163.0,0,0.0
+2020-04-10,6,OHiggins,,Marchihue,7632.0,0,0.0
+2020-04-10,6,OHiggins,,Mostazal,27462.0,0,0.0
+2020-04-10,6,OHiggins,,Nancagua,19141.0,0,0.0
+2020-04-10,6,OHiggins,,Navidad,6904.0,0,0.0
+2020-04-10,6,OHiggins,,Olivar,14624.0,3,20.5
+2020-04-10,6,OHiggins,,Palmilla,13299.0,0,0.0
+2020-04-10,6,OHiggins,,Paredones,6349.0,0,0.0
+2020-04-10,6,OHiggins,,Peralillo,11848.0,0,0.0
+2020-04-10,6,OHiggins,,Peumo,14952.0,1,6.7
+2020-04-10,6,OHiggins,,Pichidegua,20743.0,0,0.0
+2020-04-10,6,OHiggins,,Pichilemu,17882.0,0,0.0
+2020-04-10,6,OHiggins,,Placilla,9164.0,1,10.9
+2020-04-10,6,OHiggins,,Pumanque,3531.0,0,0.0
+2020-04-10,6,OHiggins,,Quinta de Tilcoco,13877.0,2,14.4
+2020-04-10,6,OHiggins,,Rancagua,265211.0,15,5.7
+2020-04-10,6,OHiggins,,Rengo,63710.0,1,1.6
+2020-04-10,6,OHiggins,,Requínoa,30371.0,1,3.3
+2020-04-10,6,OHiggins,,San Fernando,78642.0,4,5.1
+2020-04-10,6,OHiggins,,San Vicente,50617.0,4,7.9
+2020-04-10,6,OHiggins,,Santa Cruz,41096.0,2,4.9
+2020-04-10,7,Maule,,Cauquenes,44143.0,4,9.1
+2020-04-10,7,Maule,,Chanco,9331.0,0,0.0
+2020-04-10,7,Maule,,Colbún,22565.0,5,22.2
+2020-04-10,7,Maule,,Constitución,50348.0,5,9.9
+2020-04-10,7,Maule,,Curepto,9426.0,3,31.8
+2020-04-10,7,Maule,,Curicó,163626.0,17,10.4
+2020-04-10,7,Maule,,Empedrado,4206.0,0,0.0
+2020-04-10,7,Maule,,Hualañé,10222.0,0,0.0
+2020-04-10,7,Maule,,Licantén,6989.0,0,0.0
+2020-04-10,7,Maule,,Linares,101073.0,13,12.9
+2020-04-10,7,Maule,,Longaví,32810.0,2,6.1
+2020-04-10,7,Maule,,Maule,60000.0,3,5.0
+2020-04-10,7,Maule,,Molina,49800.0,3,6.0
+2020-04-10,7,Maule,,Parral,44544.0,5,11.2
+2020-04-10,7,Maule,,Pelarco,9083.0,0,0.0
+2020-04-10,7,Maule,,Pelluhue,8092.0,1,12.4
+2020-04-10,7,Maule,,Pencahue,8601.0,0,0.0
+2020-04-10,7,Maule,,Rauco,11248.0,2,17.8
+2020-04-10,7,Maule,,Retiro,21071.0,0,0.0
+2020-04-10,7,Maule,,Río Claro,14753.0,3,20.3
+2020-04-10,7,Maule,,Romeral,16170.0,3,18.6
+2020-04-10,7,Maule,,Sagrada Familia,19469.0,1,5.1
+2020-04-10,7,Maule,,San Clemente,46292.0,0,0.0
+2020-04-10,7,Maule,,San Javier,49451.0,8,16.2
+2020-04-10,7,Maule,,San Rafael,9959.0,1,10.0
+2020-04-10,7,Maule,,Talca,236724.0,51,21.5
+2020-04-10,7,Maule,,Teno,30850.0,1,3.2
+2020-04-10,7,Maule,,Vichuquén,4381.0,0,0.0
+2020-04-10,7,Maule,,Villa Alegre,17512.0,0,0.0
+2020-04-10,7,Maule,,Yerbas Buenas,19200.0,0,0.0
+2020-04-10,8,Biobio,,Alto Biobío,6775.0,0,0.0
+2020-04-10,8,Biobio,,Antuco,4306.0,0,0.0
+2020-04-10,8,Biobio,,Arauco,38679.0,6,15.5
+2020-04-10,8,Biobio,,Cabrero,30725.0,4,13.0
+2020-04-10,8,Biobio,,Cañete,37003.0,0,0.0
+2020-04-10,8,Biobio,,Chiguayante,91180.0,40,43.9
+2020-04-10,8,Biobio,,Concepción,238092.0,81,34.0
+2020-04-10,8,Biobio,,Contulmo,6330.0,0,0.0
+2020-04-10,8,Biobio,,Coronel,125829.0,18,14.3
+2020-04-10,8,Biobio,,Curanilahue,33892.0,1,3.0
+2020-04-10,8,Biobio,,Florida,11841.0,2,16.9
+2020-04-10,8,Biobio,,Hualpén,97273.0,83,85.3
+2020-04-10,8,Biobio,,Hualqui,26201.0,7,26.7
+2020-04-10,8,Biobio,,Laja,23873.0,5,20.9
+2020-04-10,8,Biobio,,Lebu,27100.0,0,0.0
+2020-04-10,8,Biobio,,Los Álamos,22524.0,0,0.0
+2020-04-10,8,Biobio,,Los Ángeles,218515.0,22,10.1
+2020-04-10,8,Biobio,,Lota,45750.0,1,2.2
+2020-04-10,8,Biobio,,Mulchén,31041.0,5,16.1
+2020-04-10,8,Biobio,,Nacimiento,27944.0,5,17.9
+2020-04-10,8,Biobio,,Negrete,10429.0,2,19.2
+2020-04-10,8,Biobio,,Penco,49865.0,5,10.0
+2020-04-10,8,Biobio,,Quilaco,4179.0,0,0.0
+2020-04-10,8,Biobio,,Quilleco,10032.0,0,0.0
+2020-04-10,8,Biobio,,San Pedro de la Paz,145906.0,73,50.0
+2020-04-10,8,Biobio,,San Rosendo,3611.0,0,0.0
+2020-04-10,8,Biobio,,Santa Bárbara,14592.0,2,13.7
+2020-04-10,8,Biobio,,Santa Juana,14779.0,0,0.0
+2020-04-10,8,Biobio,,Talcahuano,158345.0,46,29.1
+2020-04-10,8,Biobio,,Tirúa,11019.0,4,36.3
+2020-04-10,8,Biobio,,Tomé,58729.0,30,51.1
+2020-04-10,8,Biobio,,Tucapel,15205.0,1,6.6
+2020-04-10,8,Biobio,,Yumbel,22132.0,5,22.6
+2020-04-10,8,Biobio,,Por determinar,0.0,26,0.0
+2020-04-10,9,Araucania,,Angol,56058.0,24,42.8
+2020-04-10,9,Araucania,,Carahue,25486.0,6,23.5
+2020-04-10,9,Araucania,,Cholchol,12341.0,4,32.4
+2020-04-10,9,Araucania,,Collipulli,26148.0,0,0.0
+2020-04-10,9,Araucania,,Cunco,18055.0,5,27.7
+2020-04-10,9,Araucania,,Curacautín,18178.0,5,27.5
+2020-04-10,9,Araucania,,Curarrehue,7802.0,4,51.3
+2020-04-10,9,Araucania,,Ercilla,8458.0,2,23.6
+2020-04-10,9,Araucania,,Freire,25446.0,5,19.6
+2020-04-10,9,Araucania,,Galvarino,12633.0,2,15.8
+2020-04-10,9,Araucania,,Gorbea,15148.0,10,66.0
+2020-04-10,9,Araucania,,Lautaro,40746.0,19,46.6
+2020-04-10,9,Araucania,,Loncoche,24739.0,6,24.3
+2020-04-10,9,Araucania,,Lonquimay,11049.0,0,0.0
+2020-04-10,9,Araucania,,Los Sauces,7517.0,0,0.0
+2020-04-10,9,Araucania,,Lumaco,10050.0,0,0.0
+2020-04-10,9,Araucania,,Melipeuco,6265.0,0,0.0
+2020-04-10,9,Araucania,,Nueva Imperial,33777.0,22,65.1
+2020-04-10,9,Araucania,,Padre Las Casas,82110.0,49,59.7
+2020-04-10,9,Araucania,,Perquenco,7223.0,2,27.7
+2020-04-10,9,Araucania,,Pitrufquén,26096.0,12,46.0
+2020-04-10,9,Araucania,,Pucón,29782.0,5,16.8
+2020-04-10,9,Araucania,,Purén,12188.0,2,16.4
+2020-04-10,9,Araucania,,Renaico,10833.0,1,9.2
+2020-04-10,9,Araucania,,Saavedra,12793.0,1,7.8
+2020-04-10,9,Araucania,,Temuco,302931.0,443,146.2
+2020-04-10,9,Araucania,,Teodoro Schmidt,15786.0,4,25.3
+2020-04-10,9,Araucania,,Toltén,10055.0,7,69.6
+2020-04-10,9,Araucania,,Traiguén,19314.0,1,5.2
+2020-04-10,9,Araucania,,Victoria,35467.0,15,42.3
+2020-04-10,9,Araucania,,Vilcún,30766.0,20,65.0
+2020-04-10,9,Araucania,,Villarrica,59103.0,15,25.4
+2020-04-10,9,Araucania,,Por determinar,0.0,21,0.0
+2020-04-10,10,Los Lagos,,Ancud,42458.0,3,7.1
+2020-04-10,10,Los Lagos,,Calbuco,36744.0,5,13.6
+2020-04-10,10,Los Lagos,,Castro,47607.0,7,14.7
+2020-04-10,10,Los Lagos,,Chaitén,5020.0,1,19.9
+2020-04-10,10,Los Lagos,,Chonchi,16013.0,0,0.0
+2020-04-10,10,Los Lagos,,Cochamó,4006.0,0,0.0
+2020-04-10,10,Los Lagos,,Curaco de Vélez,4066.0,0,0.0
+2020-04-10,10,Los Lagos,,Dalcahue,15069.0,0,0.0
+2020-04-10,10,Los Lagos,,Fresia,12656.0,0,0.0
+2020-04-10,10,Los Lagos,,Frutillar,20223.0,3,14.8
+2020-04-10,10,Los Lagos,,Futaleufú,2806.0,0,0.0
+2020-04-10,10,Los Lagos,,Hualaihué,9525.0,3,31.5
+2020-04-10,10,Los Lagos,,Llanquihue,18621.0,0,0.0
+2020-04-10,10,Los Lagos,,Los Muermos,17817.0,1,5.6
+2020-04-10,10,Los Lagos,,Maullín,14894.0,1,6.7
+2020-04-10,10,Los Lagos,,Osorno,173410.0,220,126.9
+2020-04-10,10,Los Lagos,,Palena,1827.0,0,0.0
+2020-04-10,10,Los Lagos,,Puerto Montt,269398.0,39,14.5
+2020-04-10,10,Los Lagos,,Puerto Octay,9192.0,1,10.9
+2020-04-10,10,Los Lagos,,Puerto Varas,48620.0,3,6.2
+2020-04-10,10,Los Lagos,,Puqueldón,4201.0,0,0.0
+2020-04-10,10,Los Lagos,,Purranque,21080.0,16,75.9
+2020-04-10,10,Los Lagos,,Puyehue,11787.0,2,17.0
+2020-04-10,10,Los Lagos,,Queilén,5543.0,0,0.0
+2020-04-10,10,Los Lagos,,Quellón,29309.0,0,0.0
+2020-04-10,10,Los Lagos,,Quemchi,8783.0,0,0.0
+2020-04-10,10,Los Lagos,,Quinchao,8298.0,1,12.1
+2020-04-10,10,Los Lagos,,Río Negro,14275.0,2,14.0
+2020-04-10,10,Los Lagos,,San Juan de la Costa,7639.0,11,144.0
+2020-04-10,10,Los Lagos,,San Pablo,10553.0,6,56.9
+2020-04-10,10,Los Lagos,,Por determinar,0.0,24,0.0
+2020-04-10,11,Aisen,,Aisén,25002.0,4,16.0
+2020-04-10,11,Aisen,,Chile Chico,5121.0,1,19.5
+2020-04-10,11,Aisen,,Cisnes,5828.0,0,0.0
+2020-04-10,11,Aisen,,Cochrane,3685.0,0,0.0
+2020-04-10,11,Aisen,,Coyhaique,61210.0,1,1.6
+2020-04-10,11,Aisen,,Guaitecas,1599.0,0,0.0
+2020-04-10,11,Aisen,,Lago Verde,920.0,0,0.0
+2020-04-10,11,Aisen,,O'Higgins,661.0,0,0.0
+2020-04-10,11,Aisen,,Río Ibáñez,2699.0,0,0.0
+2020-04-10,11,Aisen,,Tortel,572.0,1,174.8
+2020-04-10,12,Magallanes y la Antartica Chilena,,Antártica,137.0,0,0.0
+2020-04-10,12,Magallanes y la Antartica Chilena,,Cabo de Hornos,1983.0,13,655.6
+2020-04-10,12,Magallanes y la Antartica Chilena,,Laguna Blanca,264.0,0,0.0
+2020-04-10,12,Magallanes y la Antartica Chilena,,Natales,23782.0,6,25.2
+2020-04-10,12,Magallanes y la Antartica Chilena,,Porvenir,7323.0,3,41.0
+2020-04-10,12,Magallanes y la Antartica Chilena,,Primavera,694.0,0,0.0
+2020-04-10,12,Magallanes y la Antartica Chilena,,Punta Arenas,141984.0,299,210.6
+2020-04-10,12,Magallanes y la Antartica Chilena,,Río Verde,211.0,0,0.0
+2020-04-10,12,Magallanes y la Antartica Chilena,,San Gregorio,681.0,0,0.0
+2020-04-10,12,Magallanes y la Antartica Chilena,,Timaukel,282.0,0,0.0
+2020-04-10,12,Magallanes y la Antartica Chilena,,Torres del Paine,1021.0,0,0.0
+2020-04-10,12,Magallanes y la Antartica Chilena,,Por determinar,0.0,10,0.0
+2020-04-10,13,Metropolitana,,Alhué,7405.0,0,0.0
+2020-04-10,13,Metropolitana,,Buin,109641.0,29,26.4
+2020-04-10,13,Metropolitana,,Calera de Tango,28525.0,8,28.0
+2020-04-10,13,Metropolitana,,Cerrillos,88956.0,21,23.6
+2020-04-10,13,Metropolitana,,Cerro Navia,142465.0,42,29.5
+2020-04-10,13,Metropolitana,,Colina,180353.0,66,36.6
+2020-04-10,13,Metropolitana,,Conchalí,139195.0,47,33.8
+2020-04-10,13,Metropolitana,,Curacaví,36430.0,10,27.4
+2020-04-10,13,Metropolitana,,El Bosque,172000.0,64,37.2
+2020-04-10,13,Metropolitana,,El Monte,40014.0,9,22.5
+2020-04-10,13,Metropolitana,,Estación Central,206792.0,61,29.5
+2020-04-10,13,Metropolitana,,Huechuraba,112528.0,38,33.8
+2020-04-10,13,Metropolitana,,Independencia,142065.0,37,26.0
+2020-04-10,13,Metropolitana,,Isla de Maipo,40171.0,10,24.9
+2020-04-10,13,Metropolitana,,La Cisterna,100434.0,34,33.9
+2020-04-10,13,Metropolitana,,La Florida,402433.0,126,31.3
+2020-04-10,13,Metropolitana,,La Granja,122557.0,36,29.4
+2020-04-10,13,Metropolitana,,La Pintana,189335.0,39,20.6
+2020-04-10,13,Metropolitana,,La Reina,100252.0,52,51.9
+2020-04-10,13,Metropolitana,,Lampa,126898.0,26,20.5
+2020-04-10,13,Metropolitana,,Las Condes,330759.0,281,85.0
+2020-04-10,13,Metropolitana,,Lo Barnechea,124076.0,110,88.7
+2020-04-10,13,Metropolitana,,Lo Espejo,103865.0,34,32.7
+2020-04-10,13,Metropolitana,,Lo Prado,104403.0,35,33.5
+2020-04-10,13,Metropolitana,,Macul,134635.0,43,31.9
+2020-04-10,13,Metropolitana,,Maipú,578605.0,167,28.9
+2020-04-10,13,Metropolitana,,María Pinto,14926.0,0,0.0
+2020-04-10,13,Metropolitana,,Melipilla,141612.0,16,11.3
+2020-04-10,13,Metropolitana,,Ñuñoa,250192.0,155,62.0
+2020-04-10,13,Metropolitana,,Padre Hurtado,74188.0,20,27.0
+2020-04-10,13,Metropolitana,,Paine,82766.0,7,8.5
+2020-04-10,13,Metropolitana,,Pedro Aguirre Cerda,107803.0,36,33.4
+2020-04-10,13,Metropolitana,,Peñaflor,101058.0,20,19.8
+2020-04-10,13,Metropolitana,,Peñalolén,266798.0,98,36.7
+2020-04-10,13,Metropolitana,,Pirque,30433.0,9,29.6
+2020-04-10,13,Metropolitana,,Providencia,157749.0,129,81.8
+2020-04-10,13,Metropolitana,,Pudahuel,253139.0,67,26.5
+2020-04-10,13,Metropolitana,,Puente Alto,645909.0,239,37.0
+2020-04-10,13,Metropolitana,,Quilicura,254694.0,79,31.0
+2020-04-10,13,Metropolitana,,Quinta Normal,136368.0,69,50.6
+2020-04-10,13,Metropolitana,,Recoleta,190075.0,61,32.1
+2020-04-10,13,Metropolitana,,Renca,160847.0,28,17.4
+2020-04-10,13,Metropolitana,,San Bernardo,334836.0,117,34.9
+2020-04-10,13,Metropolitana,,San Joaquín,103485.0,52,50.2
+2020-04-10,13,Metropolitana,,San José de Maipo,18644.0,4,21.5
+2020-04-10,13,Metropolitana,,San Miguel,133059.0,69,51.9
+2020-04-10,13,Metropolitana,,San Pedro,11953.0,0,0.0
+2020-04-10,13,Metropolitana,,San Ramón,86510.0,18,20.8
+2020-04-10,13,Metropolitana,,Santiago,503147.0,321,63.8
+2020-04-10,13,Metropolitana,,Talagante,81838.0,18,22.0
+2020-04-10,13,Metropolitana,,Tiltil,21477.0,4,18.6
+2020-04-10,13,Metropolitana,,Vitacura,96774.0,119,123.0
+2020-04-10,13,Metropolitana,,Por determinar,0.0,13,0.0
+2020-04-10,14,Los Rios,,Corral,5447.0,0,0.0
+2020-04-10,14,Los Rios,,Futrono,15261.0,5,32.8
+2020-04-10,14,Los Rios,,La Unión,39538.0,18,45.5
+2020-04-10,14,Los Rios,,Lago Ranco,10292.0,2,19.4
+2020-04-10,14,Los Rios,,Lanco,17652.0,2,11.3
+2020-04-10,14,Los Rios,,Los Lagos,20518.0,0,0.0
+2020-04-10,14,Los Rios,,Máfil,7389.0,1,13.5
+2020-04-10,14,Los Rios,,Mariquina,23250.0,8,34.4
+2020-04-10,14,Los Rios,,Paillaco,20798.0,1,4.8
+2020-04-10,14,Los Rios,,Panguipulli,35991.0,0,0.0
+2020-04-10,14,Los Rios,,Río Bueno,32925.0,5,15.2
+2020-04-10,14,Los Rios,,Valdivia,176774.0,82,46.4
+2020-04-10,15,Arica y Parinacota,,Arica,247552.0,87,35.1
+2020-04-10,15,Arica y Parinacota,,Camarones,1233.0,0,0.0
+2020-04-10,15,Arica y Parinacota,,General Lagos,810.0,0,0.0
+2020-04-10,15,Arica y Parinacota,,Putre,2515.0,0,0.0
+2020-04-10,16,Nuble,,Bulnes,22607.0,48,212.3
+2020-04-10,16,Nuble,,Chillán,198624.0,342,172.2
+2020-04-10,16,Nuble,,Chillán Viejo,33827.0,40,118.2
+2020-04-10,16,Nuble,,Cobquecura,5275.0,0,0.0
+2020-04-10,16,Nuble,,Coelemu,16845.0,4,23.7
+2020-04-10,16,Nuble,,Coihueco,28375.0,8,28.2
+2020-04-10,16,Nuble,,El Carmen,12334.0,3,24.3
+2020-04-10,16,Nuble,,Ninhue,5414.0,1,18.5
+2020-04-10,16,Nuble,,Ñiquén,11567.0,2,17.3
+2020-04-10,16,Nuble,,Pemuco,8639.0,3,34.7
+2020-04-10,16,Nuble,,Pinto,11880.0,10,84.2
+2020-04-10,16,Nuble,,Portezuelo,4940.0,0,0.0
+2020-04-10,16,Nuble,,Quillón,18777.0,22,117.2
+2020-04-10,16,Nuble,,Quirihue,12192.0,4,32.8
+2020-04-10,16,Nuble,,Ránquil,6261.0,9,143.7
+2020-04-10,16,Nuble,,San Carlos,56252.0,29,51.6
+2020-04-10,16,Nuble,,San Fabián,4654.0,6,128.9
+2020-04-10,16,Nuble,,San Ignacio,16624.0,6,36.1
+2020-04-10,16,Nuble,,San Nicolás,12172.0,12,98.6
+2020-04-10,16,Nuble,,Treguaco,5696.0,0,0.0
+2020-04-10,16,Nuble,,Yungay,18596.0,38,204.3
+2020-04-10,16,Nuble,,Por determinar,0.0,2,0.0

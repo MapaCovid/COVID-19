@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-## Script para correr cuando haya actualización de los informes diarios en CSV
+## Script para correr cuando haya actualizaciÃ³n de los informes diarios en CSV
 
 import pandas as pd
 import glob
@@ -114,19 +114,31 @@ def consolidarCSV():
         
         
         ### Los datos por Comuna tienen que ser arreglados.
-        #   Primero, a partir de la columna de tasa y la de población, hay que
-        #   reconstruir los datos de los casos (porque sólo informan cuando hay más
+        #   Primero, a partir de la columna de tasa y la de poblaciÃ³n, hay que
+        #   reconstruir los datos de los casos (porque sÃ³lo informan cuando hay mÃ¡s
         # de 4 casos)
         
         df['casos_totales']=df.casos_totales.replace('-',0)
+        df['tasa']=df.tasa.replace('-',0)
+        
+        
         df['casos_totales']=df.casos_totales.fillna(0)
-        df['casos_totales']=df.casos_totales.astype(int)
         df['tasa']=df.tasa.fillna(0)
+        
+        df['casos_totales']=df.casos_totales.astype(int)
+
+
         df['tasa']=df.tasa.astype(float)
+        
         df['poblacion']=df.poblacion.fillna(0)
         
+        
         ##Ahora corregimos los datos de los casos totales.
-        df['casos_totales']=(df.tasa*df.poblacion/100000).round(0).astype(int)
+        ##EXEPTO PARA LAS "Por determinar"
+        df.loc[df.nombre_comuna!='Por determinar','casos_totales']=\
+            (df[df.nombre_comuna!='Por determinar'].tasa\
+              *df[df.nombre_comuna!='Por determinar'].poblacion/100000)\
+                .round(0).astype(int)
         
         if primero:
             #Creamos el consolidado usando la fecha mas antigua
