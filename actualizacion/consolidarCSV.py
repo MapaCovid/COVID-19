@@ -85,6 +85,7 @@ def consolidarCSV():
     
     print('Datos Regionales consolidados!')
     
+'''
     ##Ahora consolidamos los Comunales
     
     pathImport=pathInformesComunas
@@ -169,3 +170,4 @@ def consolidarCSV():
     
     print('Datos por Comuna consolidados!')
 
+'''
