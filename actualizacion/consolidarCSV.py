@@ -87,7 +87,7 @@ def consolidarCSV():
     
 
 
-def consolidarComunas()
+def consolidarComunas():
 
     ##Ahora consolidamos los Comunales
     
