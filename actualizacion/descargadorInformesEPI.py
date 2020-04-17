@@ -14,7 +14,8 @@ def descargadorInformesEPI():
     
     # (Para eso, primero tiene que ver si hay un nuevo informe)
     # Si descarga un nuevo informe, debería devolver (True, "YYY-MM-DD")
-    
+    # Si no descarga nada nuevo, es importante que emita (False,""), 
+    # Para no correr los procesos de consolidación de Comunas
     
     # Por ahora, lo estamos haciendo a mano. Necesitamos programar aquí!
     return (True,"2020-04-15");
