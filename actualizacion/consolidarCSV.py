@@ -85,6 +85,7 @@ def consolidarCSV():
     
     print('Datos Regionales consolidados!')
     
+
 '''
     ##Ahora consolidamos los Comunales
     
