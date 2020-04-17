@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 # Fit polinomial y exponencial de la cantidad de casos confirmados en Chile según Johns Hopkins
 
-name = "../../datos_johns_hopkins/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+name = "../../datos/datos_johns_hopkins/time_series_covid19_confirmed_global.csv"
 
 
 # Importar los datos 
@@ -70,9 +70,9 @@ plt.plot(t1, np.log10(ypoly), label=r'Predicción polinomial hoy: $\sim x^{ %f}$
 plt.plot(t1, np.log10(y), '--',label=r'Predicción exponencial hoy: $\sim e^{%f x}$' %curve_fit[0], color='orange', linewidth=2)
 plt.plot(tp, np.log10(chp),'o', color='k', label='Casos Reales')
 plt.legend(fontsize=14)
-plt.xticks([2,7, 12,17,22, 27, 32, 37,42], ['5/3', '10/3', '15/3', '20/3', '25/3', '30/3','5/4','10/4' ], fontsize=14)
+#plt.xticks([2,7, 12,17,22, 27, 32, 37,42], ['5/3', '10/3', '15/3', '20/3', '25/3', '30/3','5/4','10/4, 15' ], fontsize=14)
 plt.yticks([0, 1, 2, 3, 4, 5], [1, 10, 20, 100 ,1000 , 10000, 100000], fontsize =14)
-plt.xlabel(r'Fecha', fontsize=14)
+plt.xlabel(r'Días desde el primer Caso', fontsize=14)
 plt.ylabel(r'Casos (Escala logarítmica)', fontsize=14)
 
 plt.show()

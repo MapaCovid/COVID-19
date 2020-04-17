@@ -2,92 +2,82 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-#df = pd.read_csv("ts_recov.csv")
+# Fit polinomial y exponencial de la cantidad de casos confirmados en Chile según Johns Hopkins
 
-# Importar los datos
-name = "../../datos_johns_hopkins/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+name = "../../datos/datos_johns_hopkins/time_series_covid19_confirmed_global.csv"
+
+
+# Importar los datos 
 
 df = pd.read_csv(name)
 
-# Obtener datos de los paises que elegimos: 
 
-dfr = df[df['Country/Region'] == 'France']
-dfr = dfr[dfr['Province/State'].isnull()]
-
+# Seleccionar los datos de Chile
 dch = df[df['Country/Region'] == 'Chile']
-dus = df[df['Country/Region'] == 'US']
-dbr = df[df['Country/Region'] == 'Brazil']
-dit = df[df['Country/Region'] == 'Italy']
-dsp = df[df['Country/Region'] == 'Spain']
 
-
-# Modificar los datos erroneos de la base de datos
-fr = np.array(dfr.values[0, 4:], dtype=float)
-fr[50] = 2876
-fr[52] = 4499
-fr[53] = 5423
+# Seleccionar la serie de tiempo 
 ch = np.array(dch.values[0, 4:], dtype=float)
+
+
+
+# Modificar un error en la base de datos:
 ch[57] = 342
-fr[50] = 2876
 
-us = np.array(dus.values[0, 4:], dtype=float)
-br = np.array(dbr.values[0, 4:], dtype=float)
-br[51] = 98
-it = np.array(dit.values[0, 4:], dtype=float)
-it[50] = 15113
+# Obtener los días
+dia = (df.columns)
 
-sp = np.array(dsp.values[0, 4:], dtype=float)
-sp[50] = 3146
+# Agregar un dato faltante para el día de hoy si necesario
+#ch = np.append(ch, 3000) 
+#dia = np.append(dia, '4/1/20')
 
 
-# Dividir por la población (millones)
+t = np.arange(ch.shape[0]) + 1
+dia = np.array(dia, dtype=np.str)
 
-fr /= 66.99 
-it /= 60.46 
-br /= 46.66
-ch /= 18.05
-sp /= 46.66
-us /= 327.2
-
-
-# Restringir a partir del caso 1
-
-fr = fr[fr >= 1]
-it = it[it >= 1]
-br = br[br >= 1]
-ch = ch[ch >= 1]
-sp = sp[sp >= 1]
-us = us[us >= 1]
+# elegir los días a partir del primer caso: ch positivo (chp)
+chp = ch[ch >= 1] 
+diap = dia[-chp.shape[0]:]
+tp = np.arange(chp.shape[0]) + 1
 
 
-# Plot .L;.,M,.MM
-fig = plt.figure(figsize=(8,8))
+# Regresiones
+log_tp = np.log(tp)
+log_t = np.log(t)
+log_y_chile = np.log(ch)
+log_y_chilep = np.log(chp)
 
-ti = np.arange(11)
-plt.plot(ti, np.log10(2 ** ti), '--', color='gray')
-ti = np.arange(20)
-plt.plot(ti, np.log10(2 ** (ti/2.)), '--', color='gray')
-ti = np.arange(30)
-plt.plot(ti, np.log10(2 ** (ti/4.)), '--', color='gray')
-ti = np.arange(30)
-plt.plot(ti, np.log10(2 ** (ti/7.)), '--', color='gray')
+# Fit exponencial al día de hoy
+curve_fit = np.polyfit(tp, log_y_chilep, 1)
+
+# Fit polinomial al día de hoy
+curve_poly = np.polyfit(log_tp[-10:], log_y_chilep[-10:], 1)
+
+# valores t de train + predict:
+t1 = np.arange(tp[-1] + 11)
+
+# valores t de predict:
+t2 = np.arange(11) + tp[-1]  + 1
+
+# Predicciones:
+y = np.exp(curve_fit[1]) * np.exp(curve_fit[0]*t1)
+ypoly = t1 ** curve_poly[0] * np.exp(curve_poly[1]) 
 
 
-plt.plot(np.log10(fr),'-o',linewidth=1, label = 'Francia', color ='C9')
-plt.plot(np.log10(us),'-o',linewidth=2, label = 'US', color ='b')
-plt.plot(np.log10(it),'-o',linewidth=1, label = 'Italia', color ='g')
-plt.plot(np.log10(sp),'-o',linewidth=1, label = r'España', color ='orange')
+# Plot
+fig = plt.figure(figsize=(9,8))
 
-plt.plot(np.log10(br),'-o',linewidth=2, label = 'Brasil', color ='r')
-plt.plot(np.log10(ch),'-o',linewidth=2, label = 'Chile', color ='k')
-plt.yticks([0, 1,2,3], ['1', '10', '100', '1000'], fontsize=12)
-plt.xticks([0, 10, 20, 30], fontsize=14)
-
-plt.xlabel(r'Días desde que se alcanza un caso por millón de habitantes', fontsize=14)
-plt.ylabel(r'Casos confirmados por millón de habitantes', fontsize=14)
+plt.plot(t1, np.log10(ypoly), label=r'Predicción polinomial hoy: $\sim x^{ %f}$' %curve_poly[0],  color='blue', linewidth=2)
+plt.plot(t1, np.log10(y), '--',label=r'Predicción exponencial hoy: $\sim e^{%f x}$' %curve_fit[0], color='orange', linewidth=2)
+plt.plot(tp, np.log10(chp),'o', color='k', label='Casos Reales')
 plt.legend(fontsize=14)
+#plt.xticks([2,7, 12,17,22, 27, 32, 37,42], ['5/3', '10/3', '15/3', '20/3', '25/3', '30/3','5/4','10/4, 15' ], fontsize=14)
+plt.yticks([0, 1, 2, 3, 4, 5], [1, 10, 20, 100 ,1000 , 10000, 100000], fontsize =14)
+plt.xlabel(r'Días desde el primer Caso', fontsize=14)
+plt.ylabel(r'Casos (Escala logarítmica)', fontsize=14)
 
-plt.legend(fontsize=14)
+plt.show()
 
+# Error cuadrado medio:
 
-plt.show(block=False)
+erre = np.sum((y[:chp.shape[0]]- chp)**2) /chp.shape[0]
+errp = np.sum((ypoly[:chp.shape[0]]- chp)**2) /chp.shape[0]
