@@ -19,5 +19,8 @@ nombreInformeConsolidadoRegiones='Consolidado_COVID19_Chile_Regiones.CSV'
 nombreInformesRegiones='COVID19_Chile_Regiones-'
 nombreInformeConsolidadoComunas='Consolidado_COVID19_Chile_Comunas.CSV'
 nombreInformesComunas='COVID19_Chile_Comunas-'
-
 pathRepo='../'
+
+urlCifrasOficiales='https://www.gob.cl/coronavirus/cifrasoficiales/'
+pathInformesEPI='../fuentes/informes_departamento_epidimiologia'
+pathReportesCOVID='../fuentes/reportes_coronavirus_resumidos'
