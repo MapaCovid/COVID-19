@@ -77,8 +77,37 @@ def descargadorInformesEPI():
 
 #        args = ['/usr/local/bin/wget', '-r', '-l', '1', '-p', '-P', pathInformesEPI, url]
 #        output = Popen(args, stdout=PIPE)
+        
+    os.chdir('../../actualizacion')  
+        
+        
+        
+        
+        
+        
+    #ahora lo mismo con los reportes diarios:
+    reportes_resumidos_descargados = []
+    for (dirpath, dirnames, filenames) in walk(pathReportesCOVID):
+        reportes_resumidos_descargados.extend(filenames)
+        break
+    
+    #Vamos a capturar sólo los nombres de los archivos:
+    nombres_reportes=[]
+    for urlReporte in url_reporte:
+        nombres_reportes.append(urlReporte.split('/')[-1]);
+    urlpath=urlReporte.replace(urlReporte.split('/')[-1],'')
+        
+    ##Tomamos sólo los que faltan por descargar:
+    reportes_a_descargar=list(set(nombres_reportes)-set(reportes_resumidos_descargados))
+    
 
+    #from os import popen
+    os.chdir(pathReportesCOVID)    
+    for reporte in reportes_a_descargar:
+        url=urlpath+reporte
+        os.system('/usr/local/bin/wget '+url)
 
+    os.chdir('../../actualizacion')    
 
     # Si descarga un nuevo informe, debería devolver (True, "YYY-MM-DD")
     # Si no descarga nada nuevo, es importante que emita (False,""), 
