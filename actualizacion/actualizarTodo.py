@@ -13,7 +13,7 @@ from descargadorInformesEPI import descargadorInformesEPI
 from extraerDatosInformeEPI import extraerDatosInformeEPI
 
 (actualizacionBoolRegiones,fechaActualizacionRegiones)=extraerDatosRegiones()
-(actualizacionBoolComunas,fechaActualizacionComunas)=descargadorInformesEPI
+#(actualizacionBoolComunas,fechaActualizacionComunas)=descargadorInformesEPI
 
 #Primero para las Regiones
 if actualizacionBoolRegiones:
@@ -25,15 +25,15 @@ if actualizacionBoolRegiones:
     mensajeCommit='auto-update Regiones'+fechaActualizacionRegiones
     gitPush(mensajeCommit)
     
-if actualizacionBoolComunas:
-    print('Tenemos nuevos datos por Comunas')
+#if actualizacionBoolComunas:
+#    print('Tenemos nuevos datos por Comunas')
     
-    print('Primero vamos a extraer los datos de los PDFs')
-    extraerDatosInformeEPI()
-    consolidarCSVComunas()
-    git pull
-    mensajeCommit='auto-update Informe EPI'+fechaActualizacionComunas
-    gitPush(mensajeCommit)
+#    print('Primero vamos a extraer los datos de los PDFs')
+#    extraerDatosInformeEPI()
+#    consolidarCSVComunas()
+#    gitPull
+#    mensajeCommit='auto-update Informe EPI'+fechaActualizacionComunas
+#    gitPush(mensajeCommit)
     
     
     
