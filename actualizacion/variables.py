@@ -23,4 +23,4 @@ pathRepo='../'
 
 urlCifrasOficiales='https://www.gob.cl/coronavirus/cifrasoficiales/'
 pathInformesEPI='../fuentes/informes_departamento_epidimiologia'
-pathReportesCOVID='../fuentes/reportes_coronavirus_resumidos'
+pathReportesCOVID='../datos/COVID19_Chile/covid19_comunas_informeEpidemiologico.csv'

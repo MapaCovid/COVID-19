@@ -18,10 +18,10 @@ def extraerDatosInformeEPI():
     # Y dejarla en pathInformesComunas
     print('Todavía falta programar la extracción correctamente')
     
-'''    
+   
     
     #Documento adaptado de https://github.com/Stepp1 y https://github.com/estebaniglesias 
-#por https://github.com/DiazSalinas
+    #por https://github.com/DiazSalinas
     
     import subprocess
     import shlex
@@ -46,4 +46,3 @@ def extraerDatosInformeEPI():
     #Hay que dejar todo en un csv en pathInformesComunas
     # Formato por definir
         
-'''

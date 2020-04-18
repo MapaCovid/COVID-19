@@ -24,16 +24,23 @@ if actualizacionBoolRegiones:
     gitPull
     mensajeCommit='auto-update Regiones'+fechaActualizacionRegiones
     gitPush(mensajeCommit)
-    
+
+
+print('Vamos a consolidar a partir de submodule de ivan')   
+ultimaFecha=consolidarCSVComunas() 
+gitPull
+mensajeCommit='auto-update Informes EPI '+ultimaFecha
+gitPush(mensajeCommit)
+
+
 #if actualizacionBoolComunas:
 #    print('Tenemos nuevos datos por Comunas')
     
 #    print('Primero vamos a extraer los datos de los PDFs')
 #    extraerDatosInformeEPI()
-#    consolidarCSVComunas()
-#    gitPull
-#    mensajeCommit='auto-update Informe EPI'+fechaActualizacionComunas
-#    gitPush(mensajeCommit)
+#    
+#    
+#    
     
     
     
