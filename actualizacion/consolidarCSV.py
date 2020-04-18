@@ -156,7 +156,7 @@ def consolidarCSVComunas():
     
     df=df.merge(df.merge(pobla,left_on='nombre_comuna',right_on='nombre_comuna', sort=False))
     
-    df['tasa']=df.casos_totales/df.poblacion*100000df
+    df['tasa']=df.casos_totales/df.poblacion*100000
 
     df=df[['fecha',
            'id_region',
