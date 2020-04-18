@@ -15,7 +15,7 @@ from variables import pathInformesRegiones,\
     nombreInformesComunas
     
 
-def consolidarCSV():
+def consolidarCSVRegiones():
     
      ##Primero consolidamos los regionales
     
@@ -84,7 +84,11 @@ def consolidarCSV():
     
     
     print('Datos Regionales consolidados!')
+
+
+def consolidarCSVComunas():
     
+    print('Falta todavía programar bien la consolidación de CSV Comunas')
 
 '''
     ##Ahora consolidamos los Comunales
