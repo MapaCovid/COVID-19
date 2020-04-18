@@ -12,7 +12,7 @@ from variables import pathInformesRegiones,\
     nombreInformeConsolidadoRegiones,\
     nombreInformesRegiones,\
     nombreInformeConsolidadoComunas,\
-    nombreInformesComunas
+    nombreInformesComunas,pathReportesCOVID
     
 
 def consolidarCSVRegiones():
