@@ -1,3 +1,6 @@
 [submodule "datos_johns_hopkins/--force"]
 	path = datos_johns_hopkins/--force
 	url = https://github.com/CSSEGISandData/COVID-19
+[submodule "datos/COVID19_Chile"]
+	path = datos/COVID19_Chile
+	url = https://github.com/ivanMSC/COVID19_Chile.git
