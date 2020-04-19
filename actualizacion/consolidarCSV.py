@@ -166,7 +166,7 @@ def consolidarCSVComunas():
            'casos_totales',
            'poblacion',
            'tasa']]
-    
+    df.fecha=pd.to_datetime(df["fecha"],format="%d-%m-%Y").dt.strftime('%Y-%m-%d')
     #guardamos el informe consolidado 
     df.to_csv(pathExport+nombreInformeConsolidadoComunas, index=False)
     
