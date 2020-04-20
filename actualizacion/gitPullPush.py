@@ -5,6 +5,10 @@ Created on Wed Apr  8 13:07:33 2020
 
 @author: esteban
 """
+
+# git viene del package GitPython
+# pip3 install GitPython
+
 from git import Repo
 from variables import pathRepo
 repo = Repo(pathRepo)  
