@@ -7,6 +7,8 @@ jobs:
   buidld:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
       - name: Update submodules
         shell: bash
         run: git submodule update --recursive --remote
