@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Update submodules
         shell: bash
-	run: git submodule update --recursive --remote
+        run: git submodule update --recursive --remote
       - name: Commit changes
         run: |
         git config --local user.email "action@github.com"
@@ -22,5 +22,3 @@ jobs:
         with:
           repository: YachayData/COVID-19
           github_token: ${{ secrets.GITHUB_TOKEN }}
-			
-			
