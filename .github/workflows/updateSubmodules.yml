@@ -12,11 +12,11 @@ jobs:
         run: git submodule update --recursive --remote
       - name: Commit changes
         run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git status
-        git add .
-        git commit -m "Update Sumbodules" || echo "Nothing to commit"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git status
+          git add .
+          git commit -m "Update Sumbodules" || echo "Nothing to commit"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
