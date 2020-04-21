@@ -1,9 +1,9 @@
 name: Actualizacion de datos de Regiones y Comunas
 
 on:
-  push:
-    branches:
-      - master
+ # push:
+ #   branches:
+ #     - master
   schedule:
     #Lo vamos a hacer correr cada 30 minutos
     - cron: "*/30 * * * *"
@@ -30,10 +30,10 @@ jobs:
           python-version: "3.7"
       - name: Install Python dependencies
         run: pip install -r requirements.txt
-      - name: Setup node
-        uses: actions/setup-node@v1
-        with:
-          node-version: "10.x"
+  #    - name: Setup node
+  #      uses: actions/setup-node@v1
+  #      with:
+  #        node-version: "10.x"
 #Corre el script
       - name: Script Actualizar Todo
         run: python actualizacion/actualizarTodo.py
