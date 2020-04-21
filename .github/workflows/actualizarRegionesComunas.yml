@@ -1,20 +1,20 @@
-name: Update Datasets
+name: Actualizacion de datos de Regiones y Comunas
 
 on:
   push:
     branches:
       - master
   schedule:
-    - cron: "0 */2 * * *"
+    #Lo vamos a hacer correr cada 30 minutos
+    - cron: "*/30 * * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
-      - name: Checkout submodules
+      - name: Actualiza los submodulos
+        # Los datos por comunas se obtienen de submodulos
         shell: bash
         run: |
           # If your submodules are configured to use SSH instead of HTTPS please uncomment the following line
@@ -24,6 +24,7 @@ jobs:
           git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
           git submodule update --remote
       - name: Setup Python
+        # Los scripts que usamos usan algunos paquetes en python que deben ser instalados
         uses: actions/setup-python@v1
         with:
           python-version: "3.7"
@@ -33,24 +34,25 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "10.x"
-      - name: Generate data
-        run: yarn install
+#Corre el script
+      - name: Script Actualizar Todo
+        run: python actualizacion/actualizarTodo.py
       - name: Commit data files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git status
           git add .
-          git commit -m "Update Datasets" || echo "Nothing to commit"
+          git commit -m "actualizacion automatica" || echo "Nothing to commit"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          repository: stevenliuyi/covid19
+          repository: YachayData/COVID-19
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build site
-        run: yarn build
-      - name: Deploy to Netlify
-        uses: netlify/actions/cli@master
-        with:
-          args: deploy --dir build/ --prod --site eb853380-c682-4829-b1b3-0794efd5d8c0 --auth ${{ secrets.NETLIFY_ACCESS_TOKEN }}
+#      - name: Build site
+#        run: yarn build
+#      - name: Deploy to Netlify
+#        uses: netlify/actions/cli@master
+#        with:
+#          args: deploy --dir build/ --prod --site eb853380-c682-4829-b1b3-0794efd5d8c0 --auth ${{ secrets.NETLIFY_ACCESS_TOKEN }}
 
