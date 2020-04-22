@@ -1,0 +1,26 @@
+name: Update Submodules
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+jobs:
+  buidld:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Update submodules
+        shell: bash
+        run: git submodule update --recursive --remote
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git status
+          git add .
+          git commit -m "Update Sumbodules" || echo "Nothing to commit"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          repository: YachayData/COVID-19
+          github_token: ${{ secrets.GITHUB_TOKEN }}
