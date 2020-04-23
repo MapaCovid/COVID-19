@@ -4,3 +4,6 @@
 [submodule "datos/COVID19_Chile"]
 	path = datos/COVID19_Chile
 	url = https://github.com/ivanMSC/COVID19_Chile.git
+[submodule "fuentes/Datos-COVID19"]
+	path = fuentes/Datos-COVID19
+	url = https://github.com/MinCiencia/Datos-COVID19
