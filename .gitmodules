@@ -7,3 +7,6 @@
 [submodule "fuentes/Datos-COVID19"]
 	path = fuentes/Datos-COVID19
 	url = https://github.com/MinCiencia/Datos-COVID19
+[submodule "fuentes/MinCiencias"]
+	path = fuentes/MinCiencias
+	url = https://github.com/MinCiencia/Datos-COVID19.git
