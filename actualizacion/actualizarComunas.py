@@ -39,6 +39,9 @@ df=df.rename(columns={"Fecha": "fecha",
                       "Comuna":"nombre_comuna",
                   "Casos Confirmados": "casos_totales"})    
 
+df.fecha=pd.to_datetime(df["fecha"],format="%d-%m-%Y").dt.strftime('%Y-%m-%d')
+
+
 df['nombre_region']=df.nombre_region.replace('AP',"Arica y Parinacota")
 df['nombre_region']=df.nombre_region.replace('TA',"Tarapaca")
 df['nombre_region']=df.nombre_region.replace('AN',"Antofagasta")
@@ -91,19 +94,39 @@ df=df[['fecha',
        'casos_totales',
        'poblacion',
        'tasa']]
-df.fecha=pd.to_datetime(df["fecha"],format="%d-%m-%Y").dt.strftime('%Y-%m-%d')
 #guardamos el informe consolidado 
-df.to_csv(pathExport+nombreInformeConsolidadoComunas, index=False)
-
-exportColumns=['casos_totales',
-               'tasa']
-for columna in exportColumns:
-    pivot= df.pivot_table(index=['id_region', 'nombre_region', 'id_comuna', 'nombre_comuna'],
-         columns='fecha',
-         values=columna)
-    pivot.to_csv(pathExport+nombreInformesComunas+columna+'.CSV')
 
 
-print('Datos por Comuna consolidados!')
+### Antes de seguir revisemos si ya no tenemos lo mismo.
+df_old=pd.read_csv(pathExport+nombreInformeConsolidadoComunas)
 
-ultima_fecha df.fecha[len(df.fecha)-1]
+equals=df_old.round(3).equals(df.round(3));
+
+if not equals:
+    
+    df.to_csv(pathExport+nombreInformeConsolidadoComunas, index=False)
+    
+    exportColumns=['casos_totales',
+                   'tasa']
+    for columna in exportColumns:
+        pivot= df.pivot_table(index=['id_region', 'nombre_region', 'id_comuna', 'nombre_comuna'],
+             columns='fecha',
+             values=columna)
+        pivot.to_csv(pathExport+nombreInformesComunas+columna+'.CSV')
+    
+    
+    print('Datos por Comuna consolidados!')
+    
+    ultima_fecha = df.fecha[len(df.fecha)-1];
+    
+    from gitPullPush import gitPull, gitPush
+    
+    gitPull
+    mensajeCommit='auto-update Informes EPI '+ultima_fecha
+    gitPush(mensajeCommit)
+
+else:
+    print('Los datos ya estaban consolidados')
+    
+
+
