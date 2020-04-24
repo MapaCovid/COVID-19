@@ -2,7 +2,7 @@ name: Update Submodules
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *"
 jobs:
   buidld:
     runs-on: ubuntu-latest
