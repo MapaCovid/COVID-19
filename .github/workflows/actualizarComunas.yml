@@ -3,7 +3,8 @@ name: Actualizar Comunas # A partir de datos de submodulo de ivanMSC
 
 on:
   schedule:
-    - cron: */5 * * * *" # Corre 5 minutos después de la actualizacion de los Submodulos
+    - cron: "*/5 * * * *" 
+    # Corre 5 minutos después de la actualizacion de los Submodulos
       
 jobs:
   build:
