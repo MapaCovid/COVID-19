@@ -17,7 +17,15 @@ jobs:
         with:
           python-version: "3.7"
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requerimientos.txt
       - name: Actualiza Comunas
-        run: python actualizacion/actualizarComunas.py
+        run: |
+          cd fuentes
+          ls
+          cd ivanMSC
+          ls
+          cd ..
+          cd ..
+          cd actualizacion
+          python actualizarComunas.py
       

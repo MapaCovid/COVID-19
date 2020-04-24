@@ -1,0 +1,17 @@
+id_reg,nombre_reg,casos_nuevos,casos_totales,fallecidos_nuevos,fallecidos_totales,recuperados_nuevos,recuperados_totales
+15,Arica y Parinacota,29,239,1,3,0,0
+1,Tarapaca,6,134,0,0,0,0
+2,Antofagasta,26,366,0,2,0,0
+3,Atacama,3,21,0,0,0,0
+4,Coquimbo,2,72,0,0,0,0
+5,Valparaiso,7,436,1,8,0,0
+13,Metropolitana,327,6761,1,86,0,0
+6,OHiggins,5,81,0,1,0,0
+7,Maule,16,349,0,10,0,0
+16,Nuble,7,715,1,14,0,0
+8,Biobio,8,683,0,5,0,0
+9,Araucania,42,1184,0,26,0,0
+14,Los Rios,1,174,0,3,0,0
+10,Los Lagos,6,460,1,8,0,0
+11,Aysen,0,7,0,0,0,0
+12,Magallanes,9,624,1,8,0,0
