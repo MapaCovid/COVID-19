@@ -1,5 +1,5 @@
-
-name: Actualizar Comunas # A partir de datos de submodulo de ivanMSC
+name: Actualizar Comunas 
+# A partir de datos de submodulo de ivanMSC
 
 on:
   schedule:
