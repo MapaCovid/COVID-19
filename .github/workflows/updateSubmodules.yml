@@ -33,7 +33,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git status
           git add .
-          git commit -m "Update Sumbodules" || echo "Nothing to commit"
+          git commit -m "Actualización Automática de Submódulos" || echo "Nothing to commit"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
