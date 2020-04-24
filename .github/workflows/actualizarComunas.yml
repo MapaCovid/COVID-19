@@ -19,5 +19,7 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requerimientos.txt
       - name: Actualiza Comunas
-        run: python actualizacion/actualizarComunas.py
+        run: |
+          cd actualizacion
+          python actualizarComunas.py
       
