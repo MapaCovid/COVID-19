@@ -1,3 +1,4 @@
+![Update Submodules](https://github.com/YachayData/COVID-19/workflows/Update%20Submodules/badge.svg) ![.github/workflows/actualizarComunas.yml](https://github.com/YachayData/COVID-19/workflows/.github/workflows/actualizarComunas.yml/badge.svg)
 # El Repositorio COVID-19 Chile
 **¿Qué?:** Somos un grupo de voluntarios. Queremos ser la plataforma de mayor cantidad de datos y herramientas de análisis de datos relativas al COVID-19 en Chile.
 

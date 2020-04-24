@@ -1,3 +1,5 @@
 requests
 beautifulsoup4
 pandas
+python-git
+numpy
