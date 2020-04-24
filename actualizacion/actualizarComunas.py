@@ -5,6 +5,8 @@ Created on Thu Apr 23 23:11:09 2020
 
 @author: esteban
 """
+import os
+print(os.getcwd())
 
 import pandas as pd
 import glob
