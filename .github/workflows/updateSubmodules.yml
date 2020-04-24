@@ -15,9 +15,9 @@ jobs:
         uses: srt32/git-actions@v0.0.3
         with:
           args: git submodule update --init --recursive
-      # - name: Update submodules
-        # shell: bash
-        # run: git submodule foreach git pull origin master # git submodule update --recursive --remote
+      - name: Update submodules
+        shell: bash
+        run: git submodule foreach git pull origin master # git submodule update --recursive --remote
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
