@@ -6,6 +6,8 @@ Created on Fri Apr 24 10:56:18 2020
 @author: esteban
 """
 
+ultimaFechaCasos='2020-04-25'
+
 import pandas as pd
 ##Primero Cargamos los Datos de tests PCR del repositorio del MinCultura
 path='../../fuentes/MinCiencias/output/producto7/PCR_T.csv'
@@ -47,7 +49,7 @@ df.pobla=df.pobla.astype(int)
 
 
 
-df['tasa_testeo']=df.pcr_numero/(df.pobla/10**6)
+
 
 pcrsum=df.groupby('nombre_region').sum().reset_index()
 
@@ -78,25 +80,101 @@ pcrsum.loc[pcrsum.nombre_region=='Magallanes','id_region']=12
 path='../../COVID19_Chile_Regiones-casos_totales.CSV'
 casos=pd.read_csv(path)
 
-casos=casos[['nombre_reg','2020-04-23','id_reg']]
-casos=casos.rename(columns={'nombre_reg':'nombre_region','2020-04-23':'casos_totales','id_reg':'id_region'})
+casos=casos[['nombre_reg',ultimaFechaCasos,'id_reg']]
+casos=casos.rename(columns={'nombre_reg':'nombre_region',ultimaFechaCasos:'casos_totales','id_reg':'id_region'})
 
 
 data=pcrsum.merge(casos, on='id_region')
 
-data['tasa_casos']=data.casos_totales/(data.pobla/10**6)
+
 
 ###############################################################
 
+
+
+############################################################
+# Datos fallecidos por region
+path='../../COVID19_Chile_Regiones-fallecidos_totales.CSV'
+fallecidos=pd.read_csv(path)
+
+fallecidos=fallecidos[['nombre_reg',ultimaFechaCasos,'id_reg']]
+fallecidos=fallecidos.rename(columns={'nombre_reg':'nombre_region',ultimaFechaCasos:'fallecidos_totales','id_reg':'id_region'})
+
+
+data=data.merge(fallecidos, on='id_region')
+
+################################################################
+data=data[['id_region',
+           'nombre_region',
+           'casos_totales',
+           'fallecidos_totales',
+           'pcr_numero',
+           'pobla']]
+
+###############################################################
+data['tasa_casos']=data.casos_totales/(data.pobla/10**6)
+data['tasa_fallecidos']=data.fallecidos_totales/(data.pobla/10**6)
+data['tasa_testeo']=data.pcr_numero/(data.pobla/10**6)
+data['mortalidad']=data.fallecidos_totales/(data.casos_totales)
+
+
+datascatter=data[data.id_region!=12]
+x="tasa_testeo"
+y="tasa_casos"
+nombres='nombre_region'
+size='tasa_fallecidos'
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 fig, ax = plt.subplots()
-g =sns.scatterplot(x="tasa_testeo", y="tasa_casos",
-                   hue='nombre_region_y',
-                   size='casos_totales',
+g =sns.scatterplot(x=x, y=y,
+                   hue=nombres,
+                   size=size,
                    sizes=(100, 700),
-                   data=data[data.id_region!=12],ax=ax);
+                   data=datascatter,ax=ax);
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 #ax.set_xlim(0,0.010)
+
+#For each point, we add a text inside the bubble
+for line in datascatter.index:#range(0,datascatter.shape[0]):
+     ax.text(datascatter[x][line], datascatter[y][line], datascatter[nombres][line], horizontalalignment='center', size='medium', color='black', weight='semibold')
+
+
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+# Load libraries
+import pandas as pd
+import matplotlib.pylab as plt
+import seaborn as sns
+
+# Create example dataframe
+df = pd.DataFrame({
+'x': [1, 1.1, 1.2, 2, 5],
+'y': [5, 15, 7, 10, 2],
+'s': [10000,20000,30000,40000,50000],
+'group': ['Stamford','Yale','Harvard','MIT','Cambridge']
+})
+
+#Create figure
+plt.figure(figsize = (15,10))
+
+# Create scatterplot. alpha controls the opacity and s controls the size.
+ax = sns.scatterplot(df.x, df.y, alpha = 0.5,s = df.s)
+
+ax.set_xlim(0,6)
+ax.set_ylim(-2, 18)
+
+#For each point, we add a text inside the bubble
+for line in range(0,df.shape[0]):
+     ax.text(df.x[line], df.y[line], df.group[line], horizontalalignment='center', size='medium', color='black', weight='semibold')
