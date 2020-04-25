@@ -20,9 +20,7 @@ jobs:
         run: pip install -r requerimientos.txt
       - name: Actualiza Comunas
         run: |
-          cd fuentes
-          ls
-          cd ivanMSC
+          cd fuentes/ivanMSC
           ls
           cd ..
           cd ..
