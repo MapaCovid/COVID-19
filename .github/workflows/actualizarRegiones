@@ -1,0 +1,29 @@
+name: Actualizar Regiones 
+# A partir del sitio web del minsal
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" 
+    # Corre 5 minutos después de la actualizacion de los Submodulos
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.7"
+      - name: Checkout submodules
+        uses: textbook/git-checkout-submodule-action@2.1.1
+      - name: Install Python dependencies
+        run: pip install -r requerimientos.txt
+      - name: Actualiza Regiones
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          cd actualizacion
+          python actualizarRegiones.py
+      
