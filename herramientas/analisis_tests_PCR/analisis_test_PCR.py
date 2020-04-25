@@ -33,21 +33,9 @@ df.loc[df.nombre_region=='Los Ríos','id_region']=14
 df.loc[df.nombre_region=='Los Lagos','id_region']=10
 df.loc[df.nombre_region=='Aysén','id_region']=11
 df.loc[df.nombre_region=='Magallanes','id_region']=12
-
-
-pobla=df1[df1.index==1].reset_index(drop=True).rename(columns={'Region':'poblacion'})
-pobla=pd.melt(pobla,id_vars='poblacion',value_vars=list(pobla.columns[1:]),var_name='nombre_region', value_name='pobla')
-pobla=pobla[['nombre_region','pobla']]
-
-df=df.merge(pobla, on='nombre_region')
-
-
 df.pcr_numero=df.pcr_numero.replace('-',0)
 df=df.fillna(0)
 df.pcr_numero=df.pcr_numero.astype(int)
-df.pobla=df.pobla.astype(int)
-
-
 
 
 
@@ -90,6 +78,20 @@ data=pcrsum.merge(casos, on='id_region')
 
 ###############################################################
 
+#Pobla
+
+data=data.rename(columns={'nombre_region_x':'nombre_region'})
+
+pobla1=df1[df1.index==1].reset_index(drop=True).rename(columns={'Region':'poblacion'})
+pobla1=pd.melt(pobla1,id_vars='poblacion',value_vars=list(pobla1.columns[1:]),var_name='nombre_region', value_name='pobla')
+pobla1=pobla1[['nombre_region','pobla']]
+
+data=data.merge(pobla1, on='nombre_region')
+data.pobla=data.pobla.astype(int)
+
+
+
+
 
 
 ############################################################
@@ -102,7 +104,7 @@ fallecidos=fallecidos.rename(columns={'nombre_reg':'nombre_region',ultimaFechaCa
 
 
 data=data.merge(fallecidos, on='id_region')
-
+data=data.rename(columns={'nombre_region_x':'nombre_region'})
 ################################################################
 data=data[['id_region',
            'nombre_region',
@@ -112,9 +114,26 @@ data=data[['id_region',
            'pobla']]
 
 ###############################################################
-data['tasa_casos']=data.casos_totales/(data.pobla/10**6)
-data['tasa_fallecidos']=data.fallecidos_totales/(data.pobla/10**6)
-data['tasa_testeo']=data.pcr_numero/(data.pobla/10**6)
+casosTotalesChile=data.casos_totales.sum()
+fallecidosTotalesChile=data.fallecidos_totales.sum()
+PCRTotalesChile=data.pcr_numero.sum()
+poblaTotalesChile=data.pobla.sum()
+
+row_chile = pd.DataFrame([pd.Series([0,
+     'Chile',
+     casosTotalesChile,
+     fallecidosTotalesChile,
+     PCRTotalesChile,
+     poblaTotalesChile])], index = [15])
+
+row_chile.columns=data.columns
+
+data = pd.concat([data, row_chile])
+
+
+data['tasa_casos']=data.casos_totales/(data.pobla/10**5)
+data['tasa_fallecidos']=data.fallecidos_totales/(data.pobla/10**5)
+data['tasa_testeo']=data.pcr_numero/(data.pobla/10**5)
 data['mortalidad']=data.fallecidos_totales/(data.casos_totales)
 
 
@@ -122,7 +141,7 @@ datascatter=data[data.id_region!=12]
 x="tasa_testeo"
 y="tasa_casos"
 nombres='nombre_region'
-size='tasa_fallecidos'
+size='mortalidad'
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
