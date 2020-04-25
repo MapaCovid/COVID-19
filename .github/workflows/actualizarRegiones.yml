@@ -3,8 +3,8 @@ name: Actualizar Regiones
 
 on:
   schedule:
-    - cron: "*/2 * * * *" 
-    # Corre 5 minutos después de la actualizacion de los Submodulos
+    - cron: "7,37 * * * *" 
+    # a cada minuto 7 y 37 de cada hora
       
 jobs:
   build:
