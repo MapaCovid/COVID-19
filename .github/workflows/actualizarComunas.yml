@@ -3,7 +3,7 @@ name: Actualizar Comunas
 
 on:
   schedule:
-    - cron: "*/5 * * * *" 
+    - cron: "*/2 * * * *" 
     # Corre 5 minutos después de la actualizacion de los Submodulos
       
 jobs:
