@@ -132,36 +132,87 @@ data = pd.concat([data, row_chile])
 
 
 data['tasa_casos']=data.casos_totales/(data.pobla/10**5)
-data['tasa_fallecidos']=data.fallecidos_totales/(data.pobla/10**5)
-data['tasa_testeo']=data.pcr_numero/(data.pobla/10**5)
+data['tasa_fallecidos']=data.fallecidos_totales/(data.pobla/10**6)
+data['tasa_testeo']=data.pcr_numero/(data.pobla/10**6)
 data['mortalidad']=data.fallecidos_totales/(data.casos_totales)
 
 
+data=data.rename(columns={'tasa_fallecidos':'Tasa Fallecidos'})
 datascatter=data[data.id_region!=12]
 x="tasa_testeo"
 y="tasa_casos"
 nombres='nombre_region'
-size='mortalidad'
+size='Tasa Fallecidos'
 import matplotlib.pyplot as plt
 import seaborn as sns
-sns.set()
-fig, ax = plt.subplots()
+sns.set(font_scale=2)
+sns.set_style("white")#,)
+
+alto=9
+ancho=9
+fig = plt.figure()
+#import matplotlib.gridspec as gridspec
+#fig=plt.figure(figsize=(ancho, alto))
+#gs1 = gridspec.GridSpec(1, 1)
+#ax = fig.add_subplot(gs1[0])
+
+fig, ax = plt.subplots(figsize=(ancho, alto))
+#fig, ax = plt.subplots()
 g =sns.scatterplot(x=x, y=y,
                    hue=nombres,
                    size=size,
-                   sizes=(100, 700),
+                   sizes=(400, 1500),
                    data=datascatter,ax=ax);
-plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+#plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 #ax.set_xlim(0,0.010)
 
 #For each point, we add a text inside the bubble
 for line in datascatter.index:#range(0,datascatter.shape[0]):
-     ax.text(datascatter[x][line], datascatter[y][line], datascatter[nombres][line], horizontalalignment='center', size='medium', color='black', weight='semibold')
+    delta=0;
+    if ((datascatter[nombres][line]=='Coquimbo') or 
+    (datascatter[nombres][line]=='Atacama') or
+    (datascatter[nombres][line]=='Los Ríos') or
+    (datascatter[nombres][line]=='Antofagasta')):
+        delta=8;    
+    ax.text(datascatter[x][line],
+             datascatter[y][line]+7+delta,
+             datascatter[nombres][line],
+             horizontalalignment='center',
+             size='small',
+             color='black')
+             #weight='semibold')
 
 
+h,l = ax.get_legend_handles_labels()
+size_lgd = plt.legend(h[-5:], l[-5:], loc='lower right',#, borderpad=1.6,# prop={'size': 20},
+                     # bbox_to_anchor=(0.5,-0.45), 
+                      fancybox=True,# shadow=True,
+                      #bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+                      bbox_to_anchor=(1.3, 0),
+                      labelspacing=0.5,#,borderpad=-4, 
+            #frameon=True,
+            framealpha=0,#title="popdensity",
+            numpoints=1)#, loc=4)#, numpoints=4)
+plt.xlabel("Exámenes PCR por cada 1.000.000 de habitantes")
+plt.ylabel("Contagios por cada 100.000 habitantes")
+plt.title('Exámenes, Contagiados y Muertes por Región',pad=35)
+margen=0.03
+#gs1.tight_layout(fig, rect=[0+margen, 0, 1, 0.8])
+#plt.tight_layout(rect=[0+margen, 0+margen, 0.5, 1-margen])
+sns.despine()
 plt.show()
 
 
+
+
+
+
+#h, l = plt.gca().get_legend_handles_labels()
+#plt.legend(h[1:], l[1:], labelspacing=1.2, title="petal_width", borderpad=1, 
+#            frameon=True, framealpha=0.6, edgecolor="k", facecolor="w")
+
+ 
+# SIZE LEGEND (LAST 5 ITEMS)
 
 
 
@@ -197,3 +248,30 @@ ax.set_ylim(-2, 18)
 #For each point, we add a text inside the bubble
 for line in range(0,df.shape[0]):
      ax.text(df.x[line], df.y[line], df.group[line], horizontalalignment='center', size='medium', color='black', weight='semibold')
+
+
+
+
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+iris = sns.load_dataset("iris")
+
+plt.scatter(iris.sepal_width, iris.sepal_length, 
+            c = iris.petal_length, s=(iris.petal_width**2)*60, cmap="viridis")
+ax = plt.gca()
+
+#plt.colorbar(label="petal_length")
+plt.xlabel("sepal_width")
+plt.ylabel("sepal_length")
+
+#make a legend:
+pws = [0.5, 1, 1.5, 2., 2.5]
+for pw in pws:
+    plt.scatter([], [], s=(pw**2)*60, c="k",label=str(pw))
+
+h, l = plt.gca().get_legend_handles_labels()
+plt.legend(h[1:], l[1:], labelspacing=1.2, title="petal_width", borderpad=1, 
+            frameon=True, framealpha=0.6, edgecolor="k", facecolor="w")
+
+plt.show()
