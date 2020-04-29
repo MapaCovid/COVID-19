@@ -3,7 +3,7 @@ name: Actualizar Comunas
 
 on:
   schedule:
-    - cron: "5,35 * * * *" 
+    - cron: "6,36 * * * *" 
     # a cada minuto 5 y 35 de cada hora
       
 jobs:

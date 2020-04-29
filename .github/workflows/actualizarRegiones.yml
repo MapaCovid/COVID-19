@@ -3,7 +3,7 @@ name: Actualizar Regiones
 
 on:
   schedule:
-    - cron: "7,37 * * * *" 
+    - cron: "11,41 * * * *" 
     # a cada minuto 7 y 37 de cada hora
       
 jobs:
