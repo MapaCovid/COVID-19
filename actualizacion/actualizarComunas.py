@@ -13,9 +13,11 @@ import glob
 from variables import pathInformesComunas,\
     pathExport,\
     nombreInformeConsolidadoComunas,\
-    nombreInformesComunas,pathReportesCOVID
+    nombreInformesComunas,pathReportesCOVID,\
+    pathCasosActivos
    
 print('La consolidación de comunas se hace a partir del submodulo de ivan')
+print('En conjunto con el submódulo del MinCiencias para casos activos')
 
 pathImport=pathInformesComunas
 
@@ -96,7 +98,61 @@ df=df[['fecha',
        'casos_totales',
        'poblacion',
        'tasa']]
+
+
+
+############################################################
+#Ahora vamos a hacer merge con los casos activos
+
+acti=pd.read_csv(pathCasosActivos)
+columnas=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+fechas=list(set(acti.columns) - set(columnas))
+acti=pd.melt(acti, id_vars =['Codigo comuna'], value_vars=fechas) 
+
+acti=acti.rename(columns={'Codigo comuna':'id_comuna',
+                     'variable':'fecha',
+                     'value':'casos_activos'})
+
+acti.casos_activos=acti.casos_activos.astype(int)
+acti.id_comuna=acti.id_comuna.fillna(0)
+acti.id_comuna=acti.id_comuna.astype(int)
+
+
+df=pd.merge(df, acti, how='left', on=['fecha','id_comuna'])
+
+df['tasa_activos']=df.casos_activos/df.poblacion*100000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #guardamos el informe consolidado 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Antes de seguir revisemos si ya no tenemos lo mismo.
