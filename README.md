@@ -11,7 +11,7 @@
 - Datos a nivel **regional y nacional**:
 	- [Consolidado_COVID19_Chile_Regiones.CSV](https://github.com/YachayData/COVID-19/blob/master/Consolidado_COVID19_Chile_Regiones.CSV) - Por cada día desde el 02 de Marzo: casos nuevos y totales, fallecidos nuevos y totales. Para nivel país, recuperados nuevos y recuperados totales.
 - Datos a nivel **comunal**:
-	- [Consolidado_COVID19_Chile_Comunas.CSV](https://github.com/YachayData/COVID-19/blob/master/Consolidado_COVID19_Chile_Comunas.CSV) - Por cada día desde el 02 de Marzo: casos nuevos y totales.
+	- [Consolidado_COVID19_Chile_Comunas.CSV](https://github.com/YachayData/COVID-19/blob/master/Consolidado_COVID19_Chile_Comunas.CSV) - Por cada día desde el 02 de Marzo: casos nuevos, totales, tasa casos totales, casos activos, tasa casos activos.
 
 Además, tenemos diversos formatos útiles para distintas aplicaciones. Para más información, [sobre cómo se estructuran los datos disponibles, revisa la documentación aquí ](https://github.com/YachayData/COVID-19/blob/master/SobreLosDatos.md)
 
