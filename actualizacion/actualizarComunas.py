@@ -165,7 +165,7 @@ if not equals:
     df.to_csv(pathExport+nombreInformeConsolidadoComunas, index=False)
     
     exportColumns=['casos_totales',
-                   'tasa']
+                   'tasa','casos_activos','tasa_activos']
     for columna in exportColumns:
         pivot= df.pivot_table(index=['id_region', 'nombre_region', 'id_comuna', 'nombre_comuna'],
              columns='fecha',
