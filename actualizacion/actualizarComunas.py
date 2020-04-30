@@ -99,8 +99,35 @@ df=df[['fecha',
        'poblacion',
        'tasa']]
 
+####################### Casos Nuevos
 
+# No tenemos una columna con casos nuevos, la vamos a generar.
+fechas=df.fecha.unique()
+i=1
+df_old=df
+while i<len(fechas):
+    
+    old=df[df.fecha==fechas[i-1]][['id_comuna','casos_totales']]
+    old=old.rename(columns={'casos_totales':'casos_totales_old'})
 
+    # Si mantenemos la fecha del new, donde vamos a calcular los casos nuevos
+    new=df[df.fecha==fechas[i]][['fecha','id_comuna','casos_totales']]
+    new=new.rename(columns={'casos_totales':'casos_totales_new'})
+    old_new=pd.merge(old,new,on=['id_comuna'])
+    old_new['casos_nuevos']=old_new.casos_totales_new-old_new.casos_totales_old
+    old_new=old_new[['fecha','id_comuna','casos_nuevos']]
+    if (i==1):
+        #para el primero hacemos merge, porque la columna casos_nuevos no existe en df
+        df=pd.merge(df,old_new,how='left',on=['fecha','id_comuna'])
+    else:
+        df_aporte=pd.merge(df_old,old_new,how='left',on=['fecha','id_comuna'])
+        #para todo el resto tenemos que sobreescribir los datos
+        df[df.fecha==fechas[i]]=df_aporte[df_aporte.fecha==fechas[i]]
+        
+    i=i+1
+    
+#df.casos_nuevos=df.casos_nuevos.astype(int)
+df['tasa_nuevos']=df.casos_nuevos/df.poblacion*100000
 ############################################################
 #Ahora vamos a hacer merge con los casos activos
 
