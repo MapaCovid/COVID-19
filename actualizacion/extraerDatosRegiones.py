@@ -192,7 +192,7 @@ def extraerDatosRegiones():
         df.loc[df.nombre_region=='Antofagasta','id_region']=2
         df.loc[df.nombre_region=='Atacama','id_region']=3
         df.loc[df.nombre_region=='Coquimbo','id_region']=4
-        df.loc[df.nombre_region=='Valparaiso','id_region']=5
+        df.loc[df.nombre_region=='Valparaíso','id_region']=5
         df.loc[df.nombre_region=='Metropolitana','id_region']=13
         df.loc[df.nombre_region=='O’Higgins','id_region']=6
         df.loc[df.nombre_region=='Maule','id_region']=7

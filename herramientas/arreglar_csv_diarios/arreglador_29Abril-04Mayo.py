@@ -75,7 +75,7 @@ for fecha in rango_fechas(fecha_inicial, fecha_final+ timedelta(1)):
     informeHoy.loc[informeHoy.nombre_region=='Antofagasta','id_region']=2
     informeHoy.loc[informeHoy.nombre_region=='Atacama','id_region']=3
     informeHoy.loc[informeHoy.nombre_region=='Coquimbo','id_region']=4
-    informeHoy.loc[informeHoy.nombre_region=='Valparaiso','id_region']=5
+    informeHoy.loc[informeHoy.nombre_region=='Valparaíso','id_region']=5
     informeHoy.loc[informeHoy.nombre_region=='Metropolitana','id_region']=13
     informeHoy.loc[informeHoy.nombre_region=='O’Higgins','id_region']=6
     informeHoy.loc[informeHoy.nombre_region=='Maule','id_region']=7
