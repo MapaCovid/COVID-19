@@ -240,9 +240,13 @@ def extraerDatosRegiones():
         
         #path='../informes_minsal/informes_diarios_Region_CSV/'
         #formato_archivo='-InformeDiarioRegion-COVID19.csv'
+        
         informeAyer= pd.read_csv(path+fechaAyerString+formato_archivo)
         
-        informeHoy['fallecidos_nuevos']=informeHoy.fallecidos_totales-informeAyer.fallecidos_totales
+        informeAyer=informeAyer.rename(columns={'fallecidos_totales':'fallecidos_totales_old'})
+        informeAyer=informeAyer[['id_region','fallecidos_totales_old']]
+        informeHoy=pd.merge(informeHoy,informeAyer,on='id_region')
+        informeHoy['fallecidos_nuevos']=informeHoy.fallecidos_totales-informeHoy.fallecidos_totales_old
         
         #seleccionamos las columnas según el formato
         informeHoy['recuperados_nuevos']=0
