@@ -5,7 +5,7 @@ id_region,nombre_region,casos_totales,casos_nuevos,casos_nuevos_sintomas,casos_n
 3,Atacama,42,7,7,0,0,0,0,0
 4,Coquimbo,76,2,2,0,0,0,0,0
 5,Valparaiso,526,33,33,0,12,2,0,0
-13,Metropolitana,8639,339,339,250*,104,4,0,0
+13,Metropolitana,8639,339,339,250,104,4,0,0
 6,O’Higgins,104,7,7,0,1,0,0,0
 7,Maule,392,8,8,0,13,1,0,0
 16,Ñuble,761,14,14,0,14,0,0,0

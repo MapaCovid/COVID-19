@@ -54,7 +54,9 @@ def consolidarCSVRegiones():
         primero=False
     
     ### guardamos el archivo
-        
+    df_consolidado.loc[df_consolidado.casos_nuevos_sintomas.notna(),'casos_nuevos_sintomas']=df_consolidado.loc[df_consolidado.casos_nuevos_sintomas.notna(),'casos_nuevos_sintomas'].astype(int)
+    df_consolidado.loc[df_consolidado.casos_nuevos_nosintomas.notna(),'casos_nuevos_nosintomas']=df_consolidado.loc[df_consolidado.casos_nuevos_nosintomas.notna(),'casos_nuevos_nosintomas'].astype(int)    
+
     df_consolidado=df_consolidado[['fecha',
                                    'id_region',
                                'nombre_region',
