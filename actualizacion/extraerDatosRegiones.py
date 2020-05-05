@@ -205,7 +205,7 @@ def extraerDatosRegiones():
         df.loc[df.nombre_region=='Magallanes','id_region']=12
         
         informeHoy= df#pd.DataFrame(newData, columns=columnas)
-        informeHoy=informeHoy[['nombre_region', 'casos_totales', 'casos_nuevos',
+        informeHoy=informeHoy[['id_region', 'nombre_region', 'casos_totales', 'casos_nuevos',
        'casos_nuevos_sintomas', 'casos_nuevos_nosintoma', 'fallecidos_totales'
        ]]
         
@@ -247,7 +247,16 @@ def extraerDatosRegiones():
         #seleccionamos las columnas según el formato
         informeHoy['recuperados_nuevos']=0
         informeHoy['recuperados_totales']= 0
-        informeHoy=informeHoy[['id_reg', 'nombre_reg', 'casos_nuevos', 'casos_totales','fallecidos_nuevos', 'fallecidos_totales','recuperados_nuevos','recuperados_totales']]
+        informeHoy=informeHoy[['id_region',
+                               'nombre_region',
+                               'casos_totales',
+                               'casos_nuevos',
+                               'casos_nuevos_sintomas',
+                               'casos_nuevos_nosintoma',
+                               'fallecidos_totales',
+                               'fallecidos_nuevos',
+                               'recuperados_totales',
+                               'recuperados_nuevos']]
         
         #ya estamos listos para guardarlos.
         # usamos fechaHoyString
