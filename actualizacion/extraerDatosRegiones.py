@@ -212,7 +212,7 @@ def extraerDatosRegiones():
         informeHoy=informeHoy[informeHoy.nombre_region!='Total']
         
         #tenemos un pandas, pero la primera fila la tenemos que sacar
-        informeHoy=informeHoy[informeHoy.index>0]
+        #informeHoy=informeHoy[informeHoy.index>0]
         #pero para también usar el informe de ayer, tenemos que tener los mismos indices
         #asi que vamos a reindexar sin cambiar el orden de lo demás
         informeHoy=informeHoy.reset_index(drop=True)

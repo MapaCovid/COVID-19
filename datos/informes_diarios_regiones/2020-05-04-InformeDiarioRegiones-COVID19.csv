@@ -1,4 +1,5 @@
 id_region,nombre_region,casos_totales,casos_nuevos,casos_nuevos_sintomas,casos_nuevos_nosintoma,fallecidos_totales,fallecidos_nuevos,recuperados_totales,recuperados_nuevos
+15,Arica y Parinacota,308,0,0,0,4,0,0,0
 1,Tarapacá,295,23,16,7,1,0,0,0
 2,Antofagasta,760,20,14,6,7,0,0,0
 3,Atacama,70,3,2,1,0,0,0,0
