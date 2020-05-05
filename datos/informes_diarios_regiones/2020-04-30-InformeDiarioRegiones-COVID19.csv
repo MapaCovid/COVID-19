@@ -4,7 +4,7 @@ id_region,nombre_region,casos_totales,casos_nuevos,casos_nuevos_sintomas,casos_n
 2,Antofagasta,546,32,27,5,5,1,0,0
 3,Atacama,43,1,1,0,0,0,0,0
 4,Coquimbo,76,0,0,0,0,0,0,0
-0,Valparaíso,559,33,28,5,12,0,0,0
+5,Valparaíso,559,33,28,5,12,0,0,0
 13,Metropolitana,9625,986,650,86,110,6,0,0
 6,O’Higgins,108,4,3,1,1,0,0,0
 7,Maule,393,1,0,1,13,0,0,0
