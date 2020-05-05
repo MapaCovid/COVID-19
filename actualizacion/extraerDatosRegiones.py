@@ -67,7 +67,7 @@ def extraerDatosRegiones():
                             "casos_totales",
                             "casos_nuevos",
                             "casos_nuevos_sintomas",
-                            "casos_nuevos_nosintoma",
+                            "casos_nuevos_nosintomas",
                             "fallecidos_totales",
                             "porcentaje_total"]
         
@@ -206,7 +206,7 @@ def extraerDatosRegiones():
         
         informeHoy= df#pd.DataFrame(newData, columns=columnas)
         informeHoy=informeHoy[['id_region', 'nombre_region', 'casos_totales', 'casos_nuevos',
-       'casos_nuevos_sintomas', 'casos_nuevos_nosintoma', 'fallecidos_totales'
+       'casos_nuevos_sintomas', 'casos_nuevos_nosintomas', 'fallecidos_totales'
        ]]
         
         informeHoy=informeHoy[informeHoy.nombre_region!='Total']
@@ -256,7 +256,7 @@ def extraerDatosRegiones():
                                'casos_totales',
                                'casos_nuevos',
                                'casos_nuevos_sintomas',
-                               'casos_nuevos_nosintoma',
+                               'casos_nuevos_nosintomas',
                                'fallecidos_totales',
                                'fallecidos_nuevos',
                                'recuperados_totales',

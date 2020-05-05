@@ -104,7 +104,7 @@ for fecha in rango_fechas(fecha_inicial, fecha_final+ timedelta(1)):
     informeHoy.to_csv(path_informes+stringHoy+formato_archivo, index=False)
     
 #Arreglo formato anterior:
-fecha_inicial=pd.to_datetime('2020-03-03')
+fecha_inicial=pd.to_datetime('2020-03-02')
 fecha_final=pd.to_datetime('2020-05-04')
         
 for fecha in rango_fechas(fecha_inicial, fecha_final+ timedelta(1)):

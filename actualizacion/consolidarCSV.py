@@ -55,9 +55,16 @@ def consolidarCSVRegiones():
     
     ### guardamos el archivo
         
-    df_consolidado=df_consolidado[['fecha', 'id_reg', 'nombre_reg', 'casos_nuevos', 'casos_totales',
-       'fallecidos_nuevos', 'fallecidos_totales', 'recuperados_nuevos',
-       'recuperados_totales']]
+    df_consolidado=df_consolidado[['id_region',
+                               'nombre_region',
+                               'casos_totales',
+                               'casos_nuevos',
+                               'casos_nuevos_sintomas',
+                               'casos_nuevos_nosintomas',
+                               'fallecidos_totales',
+                               'fallecidos_nuevos',
+                               'recuperados_totales',
+                               'recuperados_nuevos']]
             
     df_consolidado.to_csv(pathExport+nombreInformeConsolidadoRegiones, index=False)
     
@@ -84,6 +91,8 @@ def consolidarCSVRegiones():
     
     
     print('Datos Regionales consolidados!')
+
+
 
 
 def consolidarCSVComunas():
