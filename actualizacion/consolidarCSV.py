@@ -55,7 +55,8 @@ def consolidarCSVRegiones():
     
     ### guardamos el archivo
         
-    df_consolidado=df_consolidado[['id_region',
+    df_consolidado=df_consolidado[['fecha',
+                                   'id_region',
                                'nombre_region',
                                'casos_totales',
                                'casos_nuevos',
@@ -82,7 +83,7 @@ def consolidarCSVRegiones():
                    'recuperados_nuevos',
                    'recuperados_totales']
     for columna in exportColumns:
-        pivot_casos_totales= df_consolidado.pivot_table(index=['id_reg','nombre_reg'],
+        pivot_casos_totales= df_consolidado.pivot_table(index=['id_region','nombre_region'],
              columns='fecha',
              values=columna)
         pivot_casos_totales.to_csv(pathExport+nombreInformesRegiones+columna+'.CSV')
