@@ -14,6 +14,12 @@ import requests
 import re
 from bs4 import BeautifulSoup
 import os.path
+import pandas as pd
+
+
+
+
+
 
 def extraerDatosRegiones():
     #Si actualiza devuelve True
@@ -41,7 +47,43 @@ def extraerDatosRegiones():
         
         
         page = requests.get(urlInformesRegionesMinsal)
-        #Funcion para crear el formato correcto. Sacar tildes y las ñ's
+        soup = BeautifulSoup(page.content, 'html.parser')
+        
+        #Esta div contiene todos los datos, ahora conseguimos la table
+        table = soup.find_all('div',class_="contenido")[0]
+        
+        currentTable = list(table.children)[1]
+        currentTbody = list(currentTable.children)[1]
+
+        #Ya con la table, y   el tbody, solo falta filtrar un poco los datos
+        
+        
+        #Con el find all encontramos todos los tr y aplicamos un bucle
+        filas_tabla_gobierno = currentTbody.find_all('tr')
+        #las dos primeras no nos sirven, porque es info del gobierno
+        filas_tabla_gobierno = filas_tabla_gobierno[2:]
+        
+        nombres_columnas = ["nombre_region",
+                            "casos_totales",
+                            "casos_nuevos",
+                            "casos_nuevos_sintomas",
+                            "casos_nuevos_nosintoma",
+                            "fallecidos_totales",
+                            "porcentaje_total"]
+        
+        #Toda la data estara creada en un esta variable
+        data = []
+        
+        for filas in filas_tabla_gobierno:
+            info_array_region = []
+            informacion_filas = filas.find_all('td')
+            for info in informacion_filas:
+                info_array_region.append(info.string)
+            data.append(info_array_region)
+                
+        df = pd.DataFrame(data, columns = nombres_columnas)
+                
+        #Función que saca tildes y las ñ's
         def normalizeText(text):
             newText = ''
             for char in text:
@@ -62,6 +104,7 @@ def extraerDatosRegiones():
                 else:
                      newText+=char
             return newText
+        
         # Dict para saber la id de las regiones
         thisRegionDic = {
             "Arica y Parinacota":15,
@@ -81,8 +124,8 @@ def extraerDatosRegiones():
             "Aysen": 11,
             "Magallanes":12
         }
-        
-        
+
+        '''
         soup = BeautifulSoup(page.content, 'html.parser')
         
         table = soup.find_all('div',class_="contenido")[0]
@@ -140,10 +183,33 @@ def extraerDatosRegiones():
                     
                     newData.append(newRegion)
             valueTest +=1
-            
-        import pandas as pd
+        '''
         
-        informeHoy= pd.DataFrame(newData, columns=columnas)
+        df['id_region']=0
+
+        df.loc[df.nombre_region=='Arica y Parinacota','id_region']=15
+        df.loc[df.nombre_region=='Tarapacá','id_region']=1
+        df.loc[df.nombre_region=='Antofagasta','id_region']=2
+        df.loc[df.nombre_region=='Atacama','id_region']=3
+        df.loc[df.nombre_region=='Coquimbo','id_region']=4
+        df.loc[df.nombre_region=='Valparaiso','id_region']=5
+        df.loc[df.nombre_region=='Metropolitana','id_region']=13
+        df.loc[df.nombre_region=='O’Higgins','id_region']=6
+        df.loc[df.nombre_region=='Maule','id_region']=7
+        df.loc[df.nombre_region=='Ñuble','id_region']=16
+        df.loc[df.nombre_region=='Biobío','id_region']=8
+        df.loc[df.nombre_region=='Araucanía','id_region']=9
+        df.loc[df.nombre_region=='Los Ríos','id_region']=14
+        df.loc[df.nombre_region=='Los Lagos','id_region']=10
+        df.loc[df.nombre_region=='Aysén','id_region']=11
+        df.loc[df.nombre_region=='Magallanes','id_region']=12
+        
+        informeHoy= df#pd.DataFrame(newData, columns=columnas)
+        informeHoy=informeHoy[['nombre_region', 'casos_totales', 'casos_nuevos',
+       'casos_nuevos_sintomas', 'casos_nuevos_nosintoma', 'fallecidos_totales'
+       ]]
+        
+        informeHoy=informeHoy[informeHoy.nombre_region!='Total']
         
         #tenemos un pandas, pero la primera fila la tenemos que sacar
         informeHoy=informeHoy[informeHoy.index>0]
@@ -153,7 +219,7 @@ def extraerDatosRegiones():
         
         #Lo que sigue con pandas es relativamente simple
         #Primero sacamos el espacio en O Higgins
-        informeHoy=informeHoy.replace('O Higgins', 'OHiggins')
+#        informeHoy=informeHoy.replace('O Higgins', 'OHiggins')
         #le sacamos los puntos
         informeHoy=informeHoy.replace('\.','',regex=True)
         #convertimos a enteros los datos que nos interesan
