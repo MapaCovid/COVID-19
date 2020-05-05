@@ -36,6 +36,10 @@ def extraerDatosRegiones():
         #Los datos no están. Vamos a sacarlos.
         print('Son datos nuevos, asi que los vamos a extraer')
         
+        #MODIFICAR A LA NUEVA VERSIÓN
+        
+        
+        
         page = requests.get(urlInformesRegionesMinsal)
         #Funcion para crear el formato correcto. Sacar tildes y las ñ's
         def normalizeText(text):
