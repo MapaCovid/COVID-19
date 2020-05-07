@@ -105,7 +105,7 @@ for fecha in rango_fechas(fecha_inicial, fecha_final+ timedelta(1)):
     
 #Arreglo formato anterior:
 fecha_inicial=pd.to_datetime('2020-03-02')
-fecha_final=pd.to_datetime('2020-05-04')
+fecha_final=pd.to_datetime('2020-05-06')
         
 for fecha in rango_fechas(fecha_inicial, fecha_final+ timedelta(1)):
     print(fecha)
@@ -121,7 +121,7 @@ for fecha in rango_fechas(fecha_inicial, fecha_final+ timedelta(1)):
     informeHoy.loc[informeHoy.id_region==2,'nombre_region']='Antofagasta'
     informeHoy.loc[informeHoy.id_region==3,'nombre_region']='Atacama'
     informeHoy.loc[informeHoy.id_region==4,'nombre_region']='Coquimbo'
-    informeHoy.loc[informeHoy.id_region==5,'nombre_region']='Valparaiso'
+    informeHoy.loc[informeHoy.id_region==5,'nombre_region']='Valparaíso'
     informeHoy.loc[informeHoy.id_region==13,'nombre_region']='Metropolitana'
     informeHoy.loc[informeHoy.id_region==6,'nombre_region']='O’Higgins'
     informeHoy.loc[informeHoy.id_region==7,'nombre_region']='Maule'
