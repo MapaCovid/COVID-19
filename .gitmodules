@@ -7,3 +7,6 @@
 [submodule "fuentes/MinCiencias"]
 	path = fuentes/MinCiencias
 	url = https://github.com/MinCiencia/Datos-COVID19.git
+[submodule "fuentes/White-Mask"]
+	path = fuentes/White-Mask
+	url = https://github.com/White-Mask/COVID-19-Chile-Coronavirus

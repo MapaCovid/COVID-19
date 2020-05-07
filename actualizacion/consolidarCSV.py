@@ -54,10 +54,20 @@ def consolidarCSVRegiones():
         primero=False
     
     ### guardamos el archivo
-        
-    df_consolidado=df_consolidado[['fecha', 'id_reg', 'nombre_reg', 'casos_nuevos', 'casos_totales',
-       'fallecidos_nuevos', 'fallecidos_totales', 'recuperados_nuevos',
-       'recuperados_totales']]
+    df_consolidado.loc[df_consolidado.casos_nuevos_sintomas.notna(),'casos_nuevos_sintomas']=df_consolidado.loc[df_consolidado.casos_nuevos_sintomas.notna(),'casos_nuevos_sintomas'].astype(int)
+    df_consolidado.loc[df_consolidado.casos_nuevos_nosintomas.notna(),'casos_nuevos_nosintomas']=df_consolidado.loc[df_consolidado.casos_nuevos_nosintomas.notna(),'casos_nuevos_nosintomas'].astype(int)    
+
+    df_consolidado=df_consolidado[['fecha',
+                                   'id_region',
+                               'nombre_region',
+                               'casos_totales',
+                               'casos_nuevos',
+                               'casos_nuevos_sintomas',
+                               'casos_nuevos_nosintomas',
+                               'fallecidos_totales',
+                               'fallecidos_nuevos',
+                               'recuperados_totales',
+                               'recuperados_nuevos']]
             
     df_consolidado.to_csv(pathExport+nombreInformeConsolidadoRegiones, index=False)
     
@@ -75,7 +85,7 @@ def consolidarCSVRegiones():
                    'recuperados_nuevos',
                    'recuperados_totales']
     for columna in exportColumns:
-        pivot_casos_totales= df_consolidado.pivot_table(index=['id_reg','nombre_reg'],
+        pivot_casos_totales= df_consolidado.pivot_table(index=['id_region','nombre_region'],
              columns='fecha',
              values=columna)
         pivot_casos_totales.to_csv(pathExport+nombreInformesRegiones+columna+'.CSV')
@@ -84,6 +94,8 @@ def consolidarCSVRegiones():
     
     
     print('Datos Regionales consolidados!')
+
+
 
 
 def consolidarCSVComunas():
