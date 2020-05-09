@@ -10,7 +10,7 @@ from mapaIndiceContagio import mapaIndiceContagio
 
 fechaAAnalizar='2020-05-04'
 lista_indices=['riesgo_activos',
-               'var%1periodo',
+               'var1periodo',
                'riesgo_activos_variacion']
 
 mapaIndiceContagio(fechaAAnalizar,
