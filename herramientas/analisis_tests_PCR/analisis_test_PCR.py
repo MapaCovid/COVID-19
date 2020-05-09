@@ -18,6 +18,8 @@ fontsizenames=30
 import pandas as pd
 import os
 from matplotlib import font_manager as fm, rcParams
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 fpath = os.path.join(rcParams["datapath"],"../Montserrat-Regular.ttf")
 prop = fm.FontProperties(size= 20,fname="../Montserrat-Regular.ttf")
@@ -164,8 +166,7 @@ for [datascatter,bbox_to_anchor_y] in datas:
     y="tasa_casos"
     nombres='nombre_region'
     size=data_size
-    import matplotlib.pyplot as plt
-    import seaborn as sns
+
     sns.set(font_scale=2)
     sns.set_style("white")#,)
     
@@ -238,6 +239,7 @@ for [datascatter,bbox_to_anchor_y] in datas:
 
 titulo='Letalidad por Región al 08 de Mayo'
 data.nombre_region=data.nombre_region.replace('Arica y Parinacota','Arica y P.')
+data.nombre_region=data.nombre_region.replace('Arica y Parinacota','Arica y P.')
 fata=data[['nombre_region',fatalidad]].sort_values(by=[fatalidad],ascending=False)
 sns.set(font_scale=2)
 sns.set_style("white")#,)  
@@ -259,8 +261,8 @@ for p in g.patches:
         fontproperties=prop,fontsize=17)
     print(fata.sort_values(by=[fatalidad],ascending=False)[fatalidad].round(1)[i])
     i+=1
-plt.xticks( ha='right', rotation=45)
-g.axhline(1.1,linewidth=4, color='black',fontproperties=prop,fontsize=fontsize)
+plt.xticks( ha='right', rotation=45,fontproperties=prop,fontsize=20)
+g.axhline(1.1,linewidth=4, color='black')
 plt.ylabel("Letalidad [%]",fontproperties=prop,fontsize=fontsize)
 plt.xlabel("",fontproperties=prop,fontsize=fontsize)
 plt.title(titulo,pad=35,fontproperties=prop,fontsize=fontsize)
