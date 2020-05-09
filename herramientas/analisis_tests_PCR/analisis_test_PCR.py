@@ -8,7 +8,7 @@ Created on Fri Apr 24 10:56:18 2020
 
 ultimaFechaCasos='2020-05-09'
 titulo='Exámenes, Contagiados y Letalidad al 09 Mayo'
-fatalidad='Letalidad [%]'
+fatalidad='Letalidad (en %)'
 data_size=fatalidad
 fontsize=24
 fontsizenames=30
@@ -162,6 +162,17 @@ data_sin_Magallanes=data[data.id_region!=12]
 datas=[[data,0],
        [data_sin_Magallanes,0]
        ]
+
+import locale
+# Set to German locale to get comma decimal separater
+locale.setlocale(locale.LC_NUMERIC, "de_DE")
+
+plt.rcdefaults()
+
+# Tell matplotlib to use the locale we set above
+plt.rcParams['axes.formatter.use_locale'] = True
+
+i = 0
 for [datascatter,bbox_to_anchor_y] in datas:
     
     
@@ -192,6 +203,12 @@ for [datascatter,bbox_to_anchor_y] in datas:
     #ax.set_xlim(0,0.010)
     
     #For each point, we add a text inside the bubble
+    
+    if i == 0:
+      more = 10
+    else: 
+      more = 0
+
     for line in datascatter.index:#range(0,datascatter.shape[0]):
         delta=0;
         if ((datascatter[nombres][line]=='Los Ríos')or
@@ -203,7 +220,7 @@ for [datascatter,bbox_to_anchor_y] in datas:
             datascatter[nombres][line]=='Arica y Parinacota'):
             delta=-18;
         ax.text(datascatter[x][line],
-                 datascatter[y][line]+7+delta,
+                 datascatter[y][line]+7+delta+more,
                  datascatter[nombres][line],
                  horizontalalignment='center',
                  size='small',
@@ -214,25 +231,35 @@ for [datascatter,bbox_to_anchor_y] in datas:
     
     
     h,l = ax.get_legend_handles_labels()
-    size_lgd = plt.legend(h[-5:-1], l[-5:-1], loc='lower right',#, borderpad=1.6,# prop={'size': 20},
+    size_lgd = plt.legend(h[-4:-1], l[-4:-1], loc='lower right',#, borderpad=1.6,# prop={'size': 20},
                          # bbox_to_anchor=(0.5,-0.45), 
+                         #markerfirst=False,
                           fancybox=True,# shadow=True,
                           #bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
-                          bbox_to_anchor=(1.3, bbox_to_anchor_y),
-                          labelspacing=0.5,#,borderpad=-4,
+                          bbox_to_anchor=(1.04, bbox_to_anchor_y),
+                          labelspacing=0.8,#,borderpad=-4,
                           prop=prop,
                 #frameon=True,
                 framealpha=0,#title="popdensity",
                 numpoints=1)._legend_box.align='center'#, loc=4)#, numpoints=4)
+    if i == 0:
+        ax.text(1320, 110, 'Letalidad (en %)', fontproperties=prop)
+    else:
+      ax.text(1320, 54.75, 'Letalidad (en %)', fontproperties=prop)
 #    leg = plt.get_legend()
 #    leg._legend_box.align = "left"
 #    tit=leg.get_title()
     #tit.set_horizontalalignment('left')#_legend_box.align='left'
     plt.xlabel("Exámenes PCR por cada 100.000 habitantes",fontproperties=prop,fontsize=fontsize)
     plt.ylabel("Contagios por cada 100.000 habitantes",fontproperties=prop,fontsize=fontsize)
+    plt.xticks([250, 500, 750, 1000,1250, 1500], ['250', '500', '750', '1.000', '1.250', '1.500'])
+
     plt.title(titulo,pad=35,fontproperties=prop,fontsize=fontsize)
     margen=0.03
     #gs1.tight_layout(fig, rect=[0+margen, 0, 1, 0.8])
     #plt.tight_layout(rect=[0+margen, 0+margen, 0.5, 1-margen])
     sns.despine()
-    plt.show()
+    #plt.savefig('%i.png' %i)
+    i += 1
+
+#plt.show(block=False)    
