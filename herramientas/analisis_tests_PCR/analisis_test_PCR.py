@@ -108,11 +108,6 @@ pobla1=pobla1[['nombre_region','pobla']]
 data=data.merge(pobla1, on='nombre_region')
 data.pobla=data.pobla.astype(int)
 
-
-
-
-
-
 ############################################################
 # Datos fallecidos por region
 path='../../COVID19_Chile_Regiones-fallecidos_totales.CSV'

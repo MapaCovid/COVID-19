@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import pandas
 import os
 from matplotlib import font_manager as fm, rcParams
+
+
 fig = plt.figure(figsize=(7,7))
 ### Post colaboración Olivia Bordeu y Nacho Oliva.
 df = pandas.read_csv("asgdpPunto.csv",sep=";",encoding= 'unicode_escape')
@@ -29,17 +31,14 @@ plt.bar(y_pos, height,color=color_blue)
 
 # Create names on the x-axis
 plt.xticks(y_pos, bars)
-
-
+plt.yticks(fontproperties=prop,fontsize=14)
 
 plt.title('This is a special font: {}'.format(fname), fontproperties=prop)
 
-plt.ylabel('Estímulo fiscal económico como (%) del PIB', fontproperties=prop, fontsize=12, labelpad= -4)
-plt.xlabel('País', fontproperties=prop, fontsize=12)
+plt.ylabel('Estímulo fiscal económico como (%) del PIB', fontproperties=prop, fontsize=14, labelpad= 2)
+plt.xlabel('País', fontproperties=prop, fontsize=14)
 
-plt.title(r"Estímulo fiscal económico COVID19 como porcentaje del PIB",fontproperties=prop, fontsize=12)
- 
-
+plt.title(r"Estímulo fiscal económico COVID-19 como porcentaje del PIB",fontproperties=prop, fontsize=12)
 
 plt.savefig("outputFiscalStimulus.png")
 # Show graphic
@@ -54,12 +53,12 @@ height= GrossDebt
 plt.bar(y_pos, height,color=color_blue)
 # Create names on the x-axis
 plt.xticks(y_pos, bars)
-
+plt.yticks(fontproperties=prop,fontsize=14)
 
 plt.title('This is a special font: {}'.format(fname), fontproperties=prop)
 
-plt.ylabel('Deuda Bruta País como (%) del PIB', fontproperties=prop, fontsize=12, labelpad= -4)
-plt.xlabel('País', fontproperties=prop, fontsize=12)
+plt.ylabel('Deuda Bruta País como (%) del PIB', fontproperties=prop, fontsize=14, labelpad= 5)
+plt.xlabel('País', fontproperties=prop, fontsize=14)
 
 plt.title(r"Deuda Bruta como porcentaje del PIB",fontproperties=prop, fontsize=12)
 
@@ -84,13 +83,13 @@ y_pos = np.arange(len(bars))
 plt.bar(y_pos, height,color=color_blue)
 # Create names on the x-axis
 plt.xticks(y_pos, bars)
-plt.xticks(fontproperties=prop,rotation=48, fontsize= 6) 
+plt.xticks(rotation=90, fontsize= 10, fontproperties=prop) 
 plt.yticks(fontproperties=prop, fontsize= 12)
-
-
+#plt.tick_params(axis='x', which='major', pad=2)
+plt.subplots_adjust(bottom=0.15)
 plt.title('This is a special font: {}'.format(fname), fontproperties=prop)
 
-plt.ylabel('Estímulo fiscal económico como (%) del PIB', fontproperties=prop, fontsize=10, labelpad= -4)
+plt.ylabel('Estímulo fiscal económico como (%) del PIB', fontproperties=prop, fontsize=14, labelpad= 4)
 
 
 plt.title(r"Estímulo fiscal económico COVID19 como porcentaje del PIB G20",fontproperties=prop, fontsize=12)
