@@ -211,14 +211,14 @@ for [datascatter,bbox_to_anchor_y] in datas:
 
     for line in datascatter.index:#range(0,datascatter.shape[0]):
         delta=0;
-        if ((datascatter[nombres][line]=='Los Ríos')or
-        (datascatter[nombres][line]=='Araucanía')):
+        if ((datascatter[nombres][line]=='Los Ríos') or
+        (datascatter[nombres][line]=='Araucanía')or
+        (datascatter[nombres][line]=='Ñuble')):
             delta=8;
-        if (datascatter[nombres][line]=='Arica y Parinacota'):
-            delta=-18;
         if ((datascatter[nombres][line]=='Coquimbo') or
-            datascatter[nombres][line]=='Arica y Parinacota'):
-            delta=-18;
+            (datascatter[nombres][line]=='Arica y Parinacota')or
+        (datascatter[nombres][line]=='Maule')):
+            delta=-20;
         ax.text(datascatter[x][line],
                  datascatter[y][line]+7+delta+more,
                  datascatter[nombres][line],
@@ -259,7 +259,7 @@ for [datascatter,bbox_to_anchor_y] in datas:
     #gs1.tight_layout(fig, rect=[0+margen, 0, 1, 0.8])
     #plt.tight_layout(rect=[0+margen, 0+margen, 0.5, 1-margen])
     sns.despine()
-    #plt.savefig('%i.png' %i)
+    plt.savefig(ultimaFechaCasos+' - Scatter Plot - '+'%i.png' %i)
     i += 1
 
 #plt.show(block=False)    
