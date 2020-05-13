@@ -1,0 +1,17 @@
+id_region,nombre_region,casos_totales,casos_nuevos,casos_nuevos_sintomas,casos_nuevos_nosintomas,fallecidos_totales,fallecidos_nuevos,recuperados_totales,recuperados_nuevos
+15,Arica y Parinacota,359,8,7,1,7,0,0,0
+1,Tarapacá,615,37,31,6,1,0,0,0
+2,Antofagasta,1216,107,91,16,11,1,0,0
+3,Atacama,139,5,5,0,0,0,0,0
+4,Coquimbo,153,5,0,5,1,0,0,0
+5,Valparaíso,1123,94,79,15,24,1,0,0
+13,Metropolitana,24965,2256,1826,430,184,6,0,0
+6,O’Higgins,248,24,18,6,4,0,0,0
+7,Maule,485,19,17,2,14,0,0,0
+16,Ñuble,839,13,11,2,19,0,0,0
+8,Biobío,975,33,27,6,9,0,0,0
+9,Araucanía,1495,13,9,4,39,0,0,0
+14,Los Ríos,212,1,1,0,6,1,0,0
+10,Los Lagos,628,34,21,13,11,0,0,0
+11,Aysén,8,0,0,0,0,0,0,0
+12,Magallanes,921,11,9,2,16,2,0,0
