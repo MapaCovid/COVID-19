@@ -8,7 +8,7 @@ Created on Thu May  7 08:13:28 2020
 
 from mapaIndiceContagio import mapaIndiceContagio
 
-fechaAAnalizar='2020-05-04'
+fechaAAnalizar='2020-05-11'
 lista_indices=['riesgo_activos',
                'var1periodo',
                'riesgo_activos_variacion']
