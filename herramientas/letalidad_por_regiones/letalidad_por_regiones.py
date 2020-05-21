@@ -7,8 +7,8 @@ Created on Sat May  9 16:23:57 2020
 """
 
 
-ultimaFechaCasos='2020-05-08'
-titulo='Letalidad por Región al 08 de Mayo'
+ultimaFechaCasos='2020-05-20'
+titulo='Letalidad por Región al 20 de Mayo'
 fatalidad='Letalidad [%]'
 
 

@@ -68,7 +68,14 @@ def consolidarCSVRegiones():
                                'fallecidos_nuevos',
                                'recuperados_totales',
                                'recuperados_nuevos']]
-            
+    
+    #vamos a ordenar por fecha:
+    df_consolidado.fecha=pd.to_datetime(df_consolidado.fecha);
+    df_consolidado=df_consolidado.sort_values(by='fecha');
+    #de vuelta a strings:
+    df_consolidado.fecha=df_consolidado.fecha.dt.strftime('%Y-%m-%d')
+    
+    
     df_consolidado.to_csv(pathExport+nombreInformeConsolidadoRegiones, index=False)
     
     ##########

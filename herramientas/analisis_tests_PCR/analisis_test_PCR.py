@@ -6,8 +6,11 @@ Created on Fri Apr 24 10:56:18 2020
 @author: esteban
 """
 
-ultimaFechaCasos='2020-05-09'
-titulo='Exámenes, Contagiados y Letalidad al 09 Mayo'
+ultimaFechaCasos='2020-05-20'
+titulo='Exámenes, Contagiados y Letalidad al 20 Mayo'
+
+
+
 fatalidad='Letalidad (en %)'
 data_size=fatalidad
 fontsize=24
