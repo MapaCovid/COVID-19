@@ -78,7 +78,7 @@ fig, ax = plt.subplots(figsize=(ancho, alto))
 g =sns.scatterplot(x=x, y=y,
                        hue=nombres,
                        size="tasa_letalidad",
-                       sizes=(10, 800),
+                       sizes=(15, 800),
                        data=df1,ax=ax);
 
 for line in df1.index:#range(0,datascatter.shape[0]):
