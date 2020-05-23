@@ -1,14 +1,25 @@
+import pandas as pd
+import os
+from matplotlib import font_manager as fm, rcParams
+import matplotlib.pyplot as plt
+import seaborn as sns
+import locale
+# Set to German locale to get comma decimal separater
+import numpy as np
+
+
+locale.setlocale(locale.LC_NUMERIC, "es_ES")
+plt.rcdefaults()
+# Tell matplotlib to use the locale we set above
+plt.rcParams['axes.formatter.use_locale'] = True
+
 
 titulo='Exámenes, Contagiados y Letalidad al 22 Mayo'
 
 fontsize=24
 fontsizenames=30
 
-import pandas as pd
-import os
-from matplotlib import font_manager as fm, rcParams
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 fpath = os.path.join(rcParams["datapath"],"../Montserrat-Regular.ttf")
 prop = fm.FontProperties(size= 20,fname="../Montserrat-Regular.ttf")
@@ -19,6 +30,9 @@ fname = os.path.split(fpath)[1]
 path='test.csv'
 
 df1=pd.read_csv(path,sep=",")
+
+pais = np.array(['USA', 'Brasil', 'Rusia',r'España', 'UK','Italia', 'Francia', 'Alemania', r'Turquía', r'Irán', 'India', r'Perú', 'China', r'Canadá', 'A. Saudita', r'México', 'Chile', r'Bélgica', r'Pakistán', r'Países Bajos','Qatar', 'Ecuador', 'Bielorrusia', 'Suecia', 'Suiza', 'Singapur', r'Bangladés', 'Portugal', 'UAE', 'Irlanda'])
+df1['Pais'] = pais
 
 #print(df1.head())
 #print(df1.iloc[:,2])
@@ -74,7 +88,7 @@ for line in df1.index:#range(0,datascatter.shape[0]):
           deltaderecha=199
         ax.text(df1[x][line]+deltaderecha,
                  df1[y][line]+19,
-                 df1['Country'][line],
+                 df1['Pais'][line],
                  horizontalalignment='center',
                  color='black',
                  fontsize=3,
@@ -100,7 +114,11 @@ ax.text(5000, 140, 'Letalidad (en %)', fontproperties=prop,fontsize=18)
 plt.xlabel("Exámenes PCR por cada 100.000 habitantes",fontproperties=prop,fontsize=18)
 plt.ylabel("Contagios por cada 100.000 habitantes",fontproperties=prop,fontsize=18)
 plt.title(titulo,pad=10,fontproperties=prop,fontsize=fontsize)
-#plt.xticks([250, 500, 750, 1000,1250, 1500], ['250', '500', '750', '1.000', '1.250', '1.500'])
+
+
+
+plt.xticks(fontproperties = prop, fontsize= 12)
+plt.yticks(fontproperties = prop, fontsize = 12)
 plt.savefig("PostPCRMundo.png")
 plt.show()
 
