@@ -48,7 +48,7 @@ def getDay():
     table = soup.find_all('div', class_="contenido")[0]
     currentDayPage = list(table.children)[4]
     currentDate = currentDayPage.get_text().split(
-        'Informe corresponde al ')[1].split('. El corte')[0]
+        'Informe corresponde al ')[1].split('. ')[0]
     #re.search(r'^\*[A-Za-z\s]*(\d+)\s*\w*\s(\w*)\s*\w*\s*(\d*)',currentDayPage.get_text())
     currentMonth = monthTextToNumber(
         currentDate.split(' de ')[1])  #monthTextToNumber(currentDate.group(2))
