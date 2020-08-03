@@ -19,7 +19,9 @@ jobs:
       - name: Checkout submodules
         uses: textbook/git-checkout-submodule-action@2.1.1
       - name: Install Python dependencies
-        run: pip3 install -r requerimientos.txt;pip install lxml;pip install lxml
+        run: pip3 install -r requerimientos.txt
+             pip install lxml
+             pip3 install lxml
       - name: Actualiza Regiones
         run: |
           git config --local user.email "action@github.com"
